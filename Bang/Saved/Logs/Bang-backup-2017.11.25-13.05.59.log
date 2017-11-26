@@ -1,0 +1,1049 @@
+﻿Log file open, 11/25/17 10:22:35
+LogInit:Display: Running engine for game: Bang
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-795205046) SRandInit(-795205046).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.101728
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.15-CL-3450819
+LogInit: Engine Version: 4.15.3-3450819+++UE4+Release-4.15
+LogInit: Compatible Engine Version: 4.15.0-3299760+++UE4+Release-4.15
+LogInit: Net CL: 3299760
+LogDevObjectVersion: Number of dev versions registered: 14
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 8
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 14
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 22
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 12
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 3
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogInit: Compiled (64-bit): May 21 2017 11:02:34
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.15
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.15/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.25-10.22.36:911][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.25-10.22.36:911][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.25-10.22.37:254][  0]LogInit: Computer: MARCUSPC
+[2017.11.25-10.22.37:254][  0]LogInit: User: Marcus
+[2017.11.25-10.22.37:254][  0]LogInit: CPU Page size=65536, Cores=4
+[2017.11.25-10.22.37:254][  0]LogInit: High frequency timer resolution =2.929688 MHz
+[2017.11.25-10.22.37:255][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.11.25-10.22.37:255][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.25-10.22.37:255][  0]LogMemory: Process Physical Memory: 262.91 MB used, 262.91 MB peak
+[2017.11.25-10.22.37:255][  0]LogMemory: Process Virtual Memory: 262.12 MB used, 262.12 MB peak
+[2017.11.25-10.22.37:255][  0]LogMemory: Physical Memory: 4127.42 MB used,  12209.01 MB free, 16336.43 MB total
+[2017.11.25-10.22.37:255][  0]LogMemory: Virtual Memory: 649.03 MB used,  12209.01 MB free, 134217728.00 MB total
+[2017.11.25-10.22.37:657][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2017.11.25-10.22.38:558][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.25-10.22.38:892][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2017.11.25-10.22.38:892][  0]LogD3D11RHI:       1987/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.11.25-10.22.38:894][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.25-10.22.38:894][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.25-10.22.38:894][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.25-10.22.38:899][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.25-10.22.38:899][  0]LogD3D11RHI:     GPU DeviceId: 0x1c81 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.25-10.22.38:899][  0]LogWindows: EnumDisplayDevices:
+[2017.11.25-10.22.38:899][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050' (P:1 D:1)
+[2017.11.25-10.22.38:899][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050' (P:0 D:1)
+[2017.11.25-10.22.38:900][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2017.11.25-10.22.38:900][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2017.11.25-10.22.38:900][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.11.25-10.22.38:900][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2017.11.25-10.22.38:900][  0]LogD3D11RHI:   Driver Version: 388.31 (internal:23.21.13.8831, unified:388.31)
+[2017.11.25-10.22.38:900][  0]LogD3D11RHI:      Driver Date: 11-14-2017
+[2017.11.25-10.22.38:900][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.25-10.22.38:926][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.25-10.22.40:968][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.25-10.22.40:972][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (../../../../../../Users/Marcus/Desktop/TestCode/Bang/Intermediate/Shaders/WorkingDirectory/9372/).
+[2017.11.25-10.22.40:972][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Marcus/AppData/Local/Temp/UnrealShaderWorkingDir/4E97A1B24575FF2B92B99185702C9E29/'.
+[2017.11.25-10.22.40:972][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.11.25-10.22.42:720][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.25-10.22.42:875][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.11.25-10.22.43:029][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.25-10.22.43:186][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.11.25-10.22.43:371][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.11.25-10.22.43:571][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.25-10.22.44:388][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.25-10.22.44:611][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.25-10.22.44:841][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.11.25-10.22.44:998][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.11.25-10.22.45:159][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.25-10.22.45:313][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.25-10.22.45:464][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.25-10.22.45:615][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.25-10.22.45:768][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.25-10.22.46:068][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.25-10.22.46:068][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.25-10.22.46:210][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.11.25-10.22.46:480][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.11.25-10.22.46:577][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.11.25-10.22.46:729][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.25-10.22.46:880][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.25-10.22.47:035][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.25-10.22.47:190][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.11.25-10.22.47:190][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.11.25-10.22.48:785][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.11.25-10.22.48:831][  0]LogDerivedDataCache: Loaded boot cache 0.05s 50MB C:/Users/Marcus/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.11.25-10.22.48:831][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Marcus/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc
+[2017.11.25-10.22.48:831][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Marcus/Desktop/TestCode/Bang/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.25-10.22.48:831][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.25-10.22.48:831][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Marcus/Desktop/TestCode/Bang/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.25-10.22.48:831][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.25-10.22.48:847][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.25-10.22.48:859][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Marcus/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.25-10.22.48:867][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.25-10.22.48:868][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.25-10.22.48:868][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.25-10.22.49:182][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.25-10.22.49:184][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.25-10.22.49:666][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.25-10.22.49:826][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.25-10.22.49:987][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.25-10.22.49:987][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.11.25-10.22.49:987][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.11.25-10.22.51:084][  0]LogNetVersion: GetLocalNetworkVersion: CL: 3299760, ProjectName: bang, ProjectVersion: , EngineNetworkVersion: 2, GameNetworkVersion: 0, NetworkChecksum: 3018941388
+[2017.11.25-10.22.51:197][  0]LogAssetRegistry: FAssetRegistry took 0.0219 seconds to start up
+[2017.11.25-10.22.51:562][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.140485 seconds
+[2017.11.25-10.22.51:573][  0]LogUObjectArray: 32493 objects as part of root set at end of initial load.
+[2017.11.25-10.22.51:573][  0]LogUObjectAllocator: 7077024 out of 0 bytes used by permanent object pool.
+[2017.11.25-10.22.51:573][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.25-10.22.51:877][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.25-10.22.56:819][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.25-10.22.56:929][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.25-10.22.58:704][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.25-10.22.59:843][  0]SourceControl: Info Source control is disabled
+[2017.11.25-10.22.59:845][  0]SourceControl: Info Source control is disabled
+[2017.11.25-10.23.00:006][  0]SourceControl: Info Source control is disabled
+[2017.11.25-10.23.00:161][  0]SourceControl: Info Source control is disabled
+[2017.11.25-10.23.04:411][  0]LogEngine: Initializing Engine...
+[2017.11.25-10.23.04:412][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.25-10.23.04:638][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.25-10.23.04:638][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.25-10.23.05:088][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.25-10.23.05:094][  0]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.25-10.23.05:111][  0]LogInit: FAudioDevice initialized.
+[2017.11.25-10.23.05:143][  0]LogDerivedDataCache: Saved boot cache 0.03s 50MB C:/Users/Marcus/AppData/Local/UnrealEngine/4.15/DerivedDataCache/Boot.ddc.
+[2017.11.25-10.23.05:147][  0]LogInit: Texture streaming: Enabled
+[2017.11.25-10.23.05:501][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.25-10.23.05:946][  0]LogInit: Transaction tracking system initialized
+[2017.11.25-10.23.07:198][  0]BlueprintLog: New page: Editor Load
+[2017.11.25-10.23.10:340][  0]LocalizationService: Info Localization service is disabled
+[2017.11.25-10.23.12:713][  0]LogConsoleResponse:Display: 
+[2017.11.25-10.23.13:090][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.25-10.23.13:090][  0]LogCook:Display: Mobile HDR setting 1
+[2017.11.25-10.23.13:621][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcus/Desktop/TestCode/Bang/Content/' took 0.04s
+[2017.11.25-10.23.17:118][  0]SourceControl: Info Source control is disabled
+[2017.11.25-10.23.17:118][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.25-10.23.17:208][  0]LightingResults: New page: Lighting Build
+[2017.11.25-10.23.17:369][  0]MapCheck: New page: Map Check
+[2017.11.25-10.23.17:369][  0]LightingResults: New page: Lighting Build
+[2017.11.25-10.23.19:949][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.11.25-10.23.20:030][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.25-10.23.20:078][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.25-10.23.20:188][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 109.909ms to complete.
+[2017.11.25-10.23.20:188][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 3.069
+[2017.11.25-10.23.21:713][  0]LogCollectionManager: Loaded 0 collections in 0.002839 seconds
+[2017.11.25-10.23.22:072][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcus/Desktop/TestCode/Bang/Saved/Collections/' took 0.01s
+[2017.11.25-10.23.22:072][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcus/Desktop/TestCode/Bang/Content/Developers/Marcus/Collections/' took 0.01s
+[2017.11.25-10.23.22:072][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcus/Desktop/TestCode/Bang/Content/Collections/' took 0.01s
+[2017.11.25-10.23.22:072][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.11.25-10.23.22:096][  0]LogContentBrowser: Native class hierarchy populated in 0.0227 seconds. Added 2247 classes and 455 folders.
+[2017.11.25-10.23.22:401][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0030 seconds. Added 0 classes and 0 folders.
+[2017.11.25-10.23.26:055][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0026 seconds. Added 0 classes and 0 folders.
+[2017.11.25-10.23.26:491][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0031 seconds. Added 1 classes and 2 folders.
+[2017.11.25-10.23.28:732][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.11.25-10.23.35:148][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.11.25-10.23.36:093][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.25-10.23.36:325][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0027 seconds. Added 1 classes and 2 folders.
+[2017.11.25-10.23.36:325][  0]LogLoad: (Engine Initialization) Total time: 67.59 seconds
+[2017.11.25-10.23.36:325][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.15 seconds
+[2017.11.25-10.23.36:325][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.25-10.23.36:325][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.25-10.23.36:664][  0]LogTemp:Display: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Bang
+
+[2017.11.25-10.23.36:664][  0]LogTemp:Display: CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.11.25-10.23.36:664][  0]LogTemp:Display: Initial Dir: C:\Program Files\Epic Games\UE_4.15
+
+[2017.11.25-10.23.36:664][  0]LogTemp:Display: Env CWD: C:\Program Files\Epic Games\UE_4.15\Engine\Binaries\DotNET\IOS
+
+[2017.11.25-10.23.36:664][  0]LogTemp:Display: BranchPath = MARCUSPC/C/Program Files/Epic Games/UE_4.15/Engine/Binaries --- GameBranchPath = MARCUSPC/C/Program Files/Epic Games/UE_4.15/Engine/Binaries
+
+[2017.11.25-10.23.36:664][  0]LogOcInput: OculusInput pre-init called
+[2017.11.25-10.23.37:049][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.25-10.23.37:050][  0]LogSlate: Took 0.000291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.25-10.23.37:054][  0]LogSlate: Took 0.000258 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.25-10.23.37:314][  0]LogSlate: Took 0.082823 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.25-10.23.38:915][  0]LogRenderer: Reallocating scene render targets to support 1208x580 NumSamples 1 (Frame:2).
+[2017.11.25-10.23.39:111][  0]LogTemp:Display: IPP ERROR: Application exception: System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Users\Marcus\AppData\Local\Apple Computer\MobileDevice\Provisioning Profiles'.
+
+[2017.11.25-10.23.39:111][  0]LogTemp:Display:    at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+
+[2017.11.25-10.23.39:111][  0]LogTemp:Display:    at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+
+[2017.11.25-10.23.39:111][  0]LogTemp:Display:    at System.IO.Directory.EnumerateFiles(String path, String searchPattern)
+
+[2017.11.25-10.23.39:111][  0]LogTemp:Display:    at iPhonePackager.CodeSignatureBuilder.FindProvisions(String CFBundleIdentifier)
+
+[2017.11.25-10.23.39:111][  0]LogTemp:Display:    at iPhonePackager.Program.Main(String[] args)
+
+[2017.11.25-10.23.42:672][  1]LogSlate: Took 0.060018 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.25-10.23.43:117][  3]LogAssetRegistry: Asset discovery search completed in 51.9418 seconds
+[2017.11.25-10.23.43:117][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000009 seconds (found 0 objects)
+[2017.11.25-10.23.43:117][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000072 seconds (updated 0 objects)
+[2017.11.25-10.36.08:848][853]LogSlate: Took 0.022446 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.25-10.36.08:967][853]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Marcus\Pictures\Leona.png)
+[2017.11.25-10.36.09:621][853]LogTexture:Display: Building textures: Leona (BC5, 800X6060) - 212 MB total VRAM
+[2017.11.25-10.36.10:250][853]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.25-10.36.14:964][867]LogTexture:Display: Building textures: Leona (AutoDXT, 800X6060) - 212 MB total VRAM
+[2017.11.25-10.36.48:090][699]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap' took 0.202
+[2017.11.25-10.36.48:354][699]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Bang/Leona] ([1] browsable assets)...
+[2017.11.25-10.36.48:408][699]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Bang/Leona.Leona]
+[2017.11.25-10.36.48:408][699]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bang/Leona]
+[2017.11.25-10.36.48:408][699]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Leona" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/Autosaves/Game/Bang/Leona_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.11.25-10.36.49:074][699]LogSlate: Took 0.028333 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.25-10.36.49:116][699]LogSavePackage: Save=651.77ms
+[2017.11.25-10.36.49:116][699]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/Leona_Auto1809815DC4700ED2F9CEF76A44A8F4B0E.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/Autosaves/Game/Bang/Leona_Auto1.uasset'
+[2017.11.25-10.36.49:118][699]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/Autosaves/Game/Bang/Leona_Auto1.uasset
+[2017.11.25-10.36.49:118][699]LogFileHelpers: Auto-saving content packages took 1.025
+[2017.11.25-10.43.15:092][619]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Marcus\Pictures\LeonaTransparent.png)
+[2017.11.25-10.43.15:284][619]LogTexture:Display: Building textures: LeonaTransparent (AutoDXT, 800X6060) - 214 MB total VRAM
+[2017.11.25-10.43.26:128][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Leona" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Leona.uasset" SILENT=true
+[2017.11.25-10.43.26:353][715]LogSavePackage: Save=217.92ms
+[2017.11.25-10.43.26:353][715]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaD5A211D043E0E5CFFE259DB7EC4AB8B7.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Leona.uasset'
+[2017.11.25-10.43.26:357][715]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Leona.uasset
+[2017.11.25-10.43.29:036][987]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/LeonaTransparent" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/LeonaTransparent.uasset" SILENT=true
+[2017.11.25-10.43.29:243][987]LogSavePackage: Save=180.79ms
+[2017.11.25-10.43.29:243][987]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaTransparent436763994DA65707550BE79304895A1C.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/LeonaTransparent.uasset'
+[2017.11.25-10.43.29:248][987]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/LeonaTransparent.uasset
+[2017.11.25-10.43.45:435][737]LogSlate: Took 0.113267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.25-10.43.46:450][737]LogRenderer: Reallocating scene render targets to support 1528x960 NumSamples 1 (Frame:6266).
+[2017.11.25-10.47.26:923][704]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap' took 0.348
+[2017.11.25-10.47.27:153][704]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Bang/LeonaTransparent_Sprite] ([1] browsable assets)...
+[2017.11.25-10.47.27:175][704]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Bang/LeonaTransparent_Sprite.LeonaTransparent_Sprite]
+[2017.11.25-10.47.27:175][704]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bang/LeonaTransparent_Sprite]
+[2017.11.25-10.47.27:197][704]LogSavePackage: Save=15.54ms
+[2017.11.25-10.47.27:198][704]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaTransparent_Sprite_Auto2F28B0FBF493AFD1AB6F00F914C842208.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/Autosaves/Game/Bang/LeonaTransparent_Sprite_Auto2.uasset'
+[2017.11.25-10.47.27:204][704]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/Autosaves/Game/Bang/LeonaTransparent_Sprite_Auto2.uasset
+[2017.11.25-10.47.27:204][704]LogFileHelpers: Auto-saving content packages took 0.280
+[2017.11.25-11.37.52:183][838]LogAssetTools:Warning: Failed to import 'C:\Users\Marcus\Pictures\RedEyeWalkingPistol.kra'. Unknown extension 'kra'.
+[2017.11.25-11.42.55:413][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/LeonaTransparent_Sprite" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/LeonaTransparent_Sprite.uasset" SILENT=true
+[2017.11.25-11.42.55:429][728]LogSavePackage: Save=10.18ms
+[2017.11.25-11.42.55:429][728]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaTransparent_Sprite6A40B8224A149D751C0FE5A94E96C907.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/LeonaTransparent_Sprite.uasset'
+[2017.11.25-11.42.55:565][728]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/LeonaTransparent_Sprite.uasset
+[2017.11.25-11.42.58:286][957]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Marcus\Pictures\RedEyeMeleCoruch.png)
+[2017.11.25-11.42.58:290][957]LogTexture:Display: Building textures: RedEyeMeleCoruch (BGRA8, 85X19) - 219 MB total VRAM
+[2017.11.25-11.42.58:301][957]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Marcus\Pictures\RedEyeStrikeTorso.png)
+[2017.11.25-11.42.58:304][957]LogTexture:Display: Building textures: RedEyeStrikeTorso (BGRA8, 83X21) - 219 MB total VRAM
+[2017.11.25-11.42.58:315][957]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Marcus\Pictures\RedEyeJumpLegs.png)
+[2017.11.25-11.42.58:317][957]LogTexture:Display: Building textures: RedEyeJumpLegs (BGRA8, 66X23) - 219 MB total VRAM
+[2017.11.25-11.42.58:327][957]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Marcus\Pictures\RedEyeJumpPistol.png)
+[2017.11.25-11.42.58:330][957]LogTexture:Display: Building textures: RedEyeJumpPistol (BGRA8, 72X23) - 219 MB total VRAM
+[2017.11.25-11.42.58:339][957]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Marcus\Pictures\RedEyeFallPistol.png)
+[2017.11.25-11.42.58:341][957]LogTexture:Display: Building textures: RedEyeFallPistol (BGRA8, 37X34) - 219 MB total VRAM
+[2017.11.25-11.42.58:351][957]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Marcus\Pictures\RedEyeFallLegs.png)
+[2017.11.25-11.42.58:353][957]LogTexture:Display: Building textures: RedEyeFallLegs (BGRA8, 21X31) - 219 MB total VRAM
+[2017.11.25-11.42.58:365][957]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Marcus\Pictures\RedEyeCrouchMoveLegs.png)
+[2017.11.25-11.42.58:367][957]LogTexture:Display: Building textures: RedEyeCrouchMoveLegs (BGRA8, 53X19) - 219 MB total VRAM
+[2017.11.25-11.42.58:379][957]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Marcus\Pictures\RedEyeCrouchMovePistol.png)
+[2017.11.25-11.42.58:382][957]LogTexture:Display: Building textures: RedEyeCrouchMovePistol (BGRA8, 93X21) - 219 MB total VRAM
+[2017.11.25-11.42.58:393][957]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Marcus\Pictures\RedEyeCrouchPistol.png)
+[2017.11.25-11.42.58:396][957]LogTexture:Display: Building textures: RedEyeCrouchPistol (BGRA8, 44X21) - 219 MB total VRAM
+[2017.11.25-11.42.58:407][957]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Marcus\Pictures\RedEyeCrouchLegs.png)
+[2017.11.25-11.42.58:410][957]LogTexture:Display: Building textures: RedEyeCrouchLegs (BGRA8, 12X17) - 219 MB total VRAM
+[2017.11.25-11.42.58:421][957]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Marcus\Pictures\RedEyePistolFireCrouch.png)
+[2017.11.25-11.42.58:424][957]LogTexture:Display: Building textures: RedEyePistolFireCrouch (BGRA8, 73X22) - 219 MB total VRAM
+[2017.11.25-11.42.58:436][957]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Marcus\Pictures\RedEyePistolFireDown.png)
+[2017.11.25-11.42.58:439][957]LogTexture:Display: Building textures: RedEyePistolFireDown (AutoDXT, 48X28) - 219 MB total VRAM
+[2017.11.25-11.42.58:452][957]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Marcus\Pictures\RedEyePistolFireUp.png)
+[2017.11.25-11.42.58:454][957]LogTexture:Display: Building textures: RedEyePistolFireUp (BGRA8, 55X26) - 219 MB total VRAM
+[2017.11.25-11.42.58:467][957]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Marcus\Pictures\RedEyePistolFireHorizontal.png)
+[2017.11.25-11.42.58:470][957]LogTexture:Display: Building textures: RedEyePistolFireHorizontal (BGRA8, 72X19) - 219 MB total VRAM
+[2017.11.25-11.42.58:482][957]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Marcus\Pictures\RedEyeStandingPistol.png)
+[2017.11.25-11.42.58:485][957]LogTexture:Display: Building textures: RedEyeStandingPistol (BGRA8, 41X22) - 219 MB total VRAM
+[2017.11.25-11.42.58:497][957]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Marcus\Pictures\RedEyeStandingLegs.png)
+[2017.11.25-11.42.58:510][957]LogTexture:Display: Building textures: RedEyeStandingLegs (BGRA8, 30X10) - 219 MB total VRAM
+[2017.11.25-11.42.58:519][957]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Marcus\Pictures\RedEyeWalkingPistol.png)
+[2017.11.25-11.42.58:521][957]LogTexture:Display: Building textures: RedEyeWalkingPistol (BGRA8, 272X25) - 219 MB total VRAM
+[2017.11.25-11.42.58:536][957]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Marcus\Pictures\RedEyeWalkingLegs.png)
+[2017.11.25-11.42.58:549][957]LogTexture:Display: Building textures: RedEyeWalkingLegs (BGRA8, 124X10) - 219 MB total VRAM
+[2017.11.25-11.42.58:556][957]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Marcus\Pictures\RedEyeMeleStand.png)
+[2017.11.25-11.42.58:559][957]LogTexture:Display: Building textures: RedEyeMeleStand (BGRA8, 84X23) - 219 MB total VRAM
+[2017.11.25-11.42.58:571][957]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Marcus\Pictures\RedEyeMeleJump.png)
+[2017.11.25-11.42.58:575][957]LogTexture:Display: Building textures: RedEyeMeleJump (BGRA8, 71X25) - 219 MB total VRAM
+[2017.11.25-11.43.02:026][141]LogTexture:Display: Building textures: RedEyeStandingLegs (BGRA8, 30X10) - 219 MB total VRAM
+[2017.11.25-11.43.02:790][181]LogTexture:Display: Building textures: RedEyeWalkingLegs (BGRA8, 124X10) - 219 MB total VRAM
+[2017.11.25-11.43.05:823][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/RedEyeCrouchLegs" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeCrouchLegs.uasset" SILENT=true
+[2017.11.25-11.43.05:836][420]LogSavePackage: Save=6.77ms
+[2017.11.25-11.43.05:836][420]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/RedEyeCrouchLegs41E54E9141CB5E3CB1D5C6B9384D1D39.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeCrouchLegs.uasset'
+[2017.11.25-11.43.05:845][420]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeCrouchLegs.uasset
+[2017.11.25-11.43.05:847][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/RedEyeCrouchMoveLegs" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeCrouchMoveLegs.uasset" SILENT=true
+[2017.11.25-11.43.05:859][420]LogSavePackage: Save=6.49ms
+[2017.11.25-11.43.05:859][420]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/RedEyeCrouchMoveLegsFBD6E10B4F8B1138A03E3088B90776A0.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeCrouchMoveLegs.uasset'
+[2017.11.25-11.43.05:866][420]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeCrouchMoveLegs.uasset
+[2017.11.25-11.43.05:869][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/RedEyeCrouchMovePistol" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeCrouchMovePistol.uasset" SILENT=true
+[2017.11.25-11.43.05:881][420]LogSavePackage: Save=6.59ms
+[2017.11.25-11.43.05:881][420]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/RedEyeCrouchMovePistolCFE9A5044E3B96CAA3082AB84D5DD095.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeCrouchMovePistol.uasset'
+[2017.11.25-11.43.05:886][420]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeCrouchMovePistol.uasset
+[2017.11.25-11.43.05:889][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/RedEyeCrouchPistol" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeCrouchPistol.uasset" SILENT=true
+[2017.11.25-11.43.05:917][420]LogSavePackage: Save=22.58ms
+[2017.11.25-11.43.05:917][420]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/RedEyeCrouchPistolA324BED34E423C3DA85F828E8A21FD01.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeCrouchPistol.uasset'
+[2017.11.25-11.43.05:923][420]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeCrouchPistol.uasset
+[2017.11.25-11.43.05:926][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/RedEyeFallLegs" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeFallLegs.uasset" SILENT=true
+[2017.11.25-11.43.05:938][420]LogSavePackage: Save=6.10ms
+[2017.11.25-11.43.05:938][420]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/RedEyeFallLegs827A3F1045DBC871C3213483FB335931.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeFallLegs.uasset'
+[2017.11.25-11.43.05:944][420]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeFallLegs.uasset
+[2017.11.25-11.43.05:948][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/RedEyeFallPistol" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeFallPistol.uasset" SILENT=true
+[2017.11.25-11.43.05:959][420]LogSavePackage: Save=6.33ms
+[2017.11.25-11.43.05:959][420]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/RedEyeFallPistolF8FFB11545C3F0387355DB890CB058B0.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeFallPistol.uasset'
+[2017.11.25-11.43.05:966][420]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeFallPistol.uasset
+[2017.11.25-11.43.05:969][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/RedEyeJumpLegs" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeJumpLegs.uasset" SILENT=true
+[2017.11.25-11.43.05:980][420]LogSavePackage: Save=6.21ms
+[2017.11.25-11.43.05:980][420]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/RedEyeJumpLegs50B4AA4B451BA414191FC586E42087D0.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeJumpLegs.uasset'
+[2017.11.25-11.43.05:987][420]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeJumpLegs.uasset
+[2017.11.25-11.43.05:990][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/RedEyeJumpPistol" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeJumpPistol.uasset" SILENT=true
+[2017.11.25-11.43.06:001][420]LogSavePackage: Save=6.24ms
+[2017.11.25-11.43.06:001][420]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/RedEyeJumpPistolD07D08DA456F603D76DE1B888447542C.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeJumpPistol.uasset'
+[2017.11.25-11.43.06:008][420]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeJumpPistol.uasset
+[2017.11.25-11.43.06:010][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/RedEyeMeleCoruch" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeMeleCoruch.uasset" SILENT=true
+[2017.11.25-11.43.06:025][420]LogSavePackage: Save=8.97ms
+[2017.11.25-11.43.06:025][420]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/RedEyeMeleCoruchCC2155DA4A4D983474CD1E920C253755.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeMeleCoruch.uasset'
+[2017.11.25-11.43.06:029][420]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeMeleCoruch.uasset
+[2017.11.25-11.43.06:032][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/RedEyeMeleJump" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeMeleJump.uasset" SILENT=true
+[2017.11.25-11.43.06:044][420]LogSavePackage: Save=6.67ms
+[2017.11.25-11.43.06:044][420]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/RedEyeMeleJump9B4BE9C84EBC257A563480B9EA2E2AC1.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeMeleJump.uasset'
+[2017.11.25-11.43.06:050][420]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeMeleJump.uasset
+[2017.11.25-11.43.06:053][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/RedEyeMeleStand" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeMeleStand.uasset" SILENT=true
+[2017.11.25-11.43.06:065][420]LogSavePackage: Save=6.33ms
+[2017.11.25-11.43.06:065][420]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/RedEyeMeleStand59674D944EE1E4A6B822D290C9B73795.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeMeleStand.uasset'
+[2017.11.25-11.43.06:071][420]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeMeleStand.uasset
+[2017.11.25-11.43.06:075][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/RedEyePistolFireCrouch" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyePistolFireCrouch.uasset" SILENT=true
+[2017.11.25-11.43.06:086][420]LogSavePackage: Save=6.45ms
+[2017.11.25-11.43.06:086][420]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/RedEyePistolFireCrouch69A494DB460256D721B34FA0FC48B144.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyePistolFireCrouch.uasset'
+[2017.11.25-11.43.06:091][420]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyePistolFireCrouch.uasset
+[2017.11.25-11.43.06:095][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/RedEyePistolFireDown" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyePistolFireDown.uasset" SILENT=true
+[2017.11.25-11.43.06:106][420]LogSavePackage: Save=6.36ms
+[2017.11.25-11.43.06:106][420]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/RedEyePistolFireDown3F939FE445405D18C15CC99BB58DB527.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyePistolFireDown.uasset'
+[2017.11.25-11.43.06:113][420]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyePistolFireDown.uasset
+[2017.11.25-11.43.06:131][420]LogSavePackage: Save=6.73ms
+[2017.11.25-11.43.06:131][420]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/RedEyePistolFireHorizontalAA09AB194FD680ED3E80B6A7EDA8ABAC.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyePistolFireHorizontal.uasset'
+[2017.11.25-11.43.06:138][420]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyePistolFireHorizontal.uasset
+[2017.11.25-11.43.06:141][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/RedEyePistolFireUp" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyePistolFireUp.uasset" SILENT=true
+[2017.11.25-11.43.06:153][420]LogSavePackage: Save=6.45ms
+[2017.11.25-11.43.06:153][420]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/RedEyePistolFireUpDAE7A2204DA2058CC1F83CA9FC6BFA44.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyePistolFireUp.uasset'
+[2017.11.25-11.43.06:160][420]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyePistolFireUp.uasset
+[2017.11.25-11.43.06:163][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/RedEyeStandingLegs" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeStandingLegs.uasset" SILENT=true
+[2017.11.25-11.43.06:175][420]LogSavePackage: Save=6.19ms
+[2017.11.25-11.43.06:175][420]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/RedEyeStandingLegs0ED44F0D49F0D59BA75BC7B59AE5DD53.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeStandingLegs.uasset'
+[2017.11.25-11.43.06:181][420]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeStandingLegs.uasset
+[2017.11.25-11.43.06:184][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/RedEyeStandingPistol" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeStandingPistol.uasset" SILENT=true
+[2017.11.25-11.43.06:196][420]LogSavePackage: Save=5.99ms
+[2017.11.25-11.43.06:196][420]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/RedEyeStandingPistol46DBF145479C2A3067AFA896C0671DEF.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeStandingPistol.uasset'
+[2017.11.25-11.43.06:200][420]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeStandingPistol.uasset
+[2017.11.25-11.43.06:203][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/RedEyeStrikeTorso" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeStrikeTorso.uasset" SILENT=true
+[2017.11.25-11.43.06:215][420]LogSavePackage: Save=6.22ms
+[2017.11.25-11.43.06:215][420]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/RedEyeStrikeTorsoE973E9614D0FECD949F3D98225D2F793.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeStrikeTorso.uasset'
+[2017.11.25-11.43.06:219][420]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeStrikeTorso.uasset
+[2017.11.25-11.43.06:223][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/RedEyeWalkingLegs" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeWalkingLegs.uasset" SILENT=true
+[2017.11.25-11.43.06:234][420]LogSavePackage: Save=5.91ms
+[2017.11.25-11.43.06:234][420]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/RedEyeWalkingLegsFEEA45124DBACAFA0F03EFA3344EFFB4.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeWalkingLegs.uasset'
+[2017.11.25-11.43.06:239][420]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeWalkingLegs.uasset
+[2017.11.25-11.43.06:242][420]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/RedEyeWalkingPistol" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeWalkingPistol.uasset" SILENT=true
+[2017.11.25-11.43.06:254][420]LogSavePackage: Save=6.90ms
+[2017.11.25-11.43.06:254][420]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/RedEyeWalkingPistolF971EACF44F11171614E39A726E422DB.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeWalkingPistol.uasset'
+[2017.11.25-11.43.06:259][420]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeWalkingPistol.uasset
+[2017.11.25-11.43.15:540][941]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0086 seconds. Added 1 classes and 2 folders.
+[2017.11.25-11.43.53:931][174]LogSavePackage: Save=12.08ms
+[2017.11.25-11.43.53:931][174]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/RedEyeStandingLegs_Sprite_17DB9E47E433DC4370CDBD8A4A61A338A.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeStandingLegs_Sprite_1.uasset'
+[2017.11.25-11.43.53:936][174]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeStandingLegs_Sprite_1.uasset
+[2017.11.25-11.43.55:368][275]LogSavePackage: Save=11.30ms
+[2017.11.25-11.43.55:368][275]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/RedEyeStandingLegs_Sprite_0F7190F944E4332C6A68D8796EC9D7D8D.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeStandingLegs_Sprite_0.uasset'
+[2017.11.25-11.43.55:373][275]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeStandingLegs_Sprite_0.uasset
+[2017.11.25-11.44.04:763][760]LogSavePackage: Save=11.98ms
+[2017.11.25-11.44.04:763][760]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/RedEyeStandingPistol_Sprite_00DC3E8ED4845AB481988A8BF2CAB5988.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeStandingPistol_Sprite_0.uasset'
+[2017.11.25-11.44.04:768][760]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeStandingPistol_Sprite_0.uasset
+[2017.11.25-11.44.04:795][760]LogSavePackage: Save=11.52ms
+[2017.11.25-11.44.04:795][760]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/RedEyeStandingPistol_Sprite_1A210EEE24E454E74EBC99A8C0C4E3FF1.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeStandingPistol_Sprite_1.uasset'
+[2017.11.25-11.44.04:800][760]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeStandingPistol_Sprite_1.uasset
+[2017.11.25-11.44.25:141][177]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/RedEyeStand" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeStand.uasset" SILENT=true
+[2017.11.25-11.44.25:167][177]LogSavePackage: Save=11.97ms
+[2017.11.25-11.44.25:167][177]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/RedEyeStandFCC10682483C88B99F5E14B00B8837A7.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeStand.uasset'
+[2017.11.25-11.44.25:172][177]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeStand.uasset
+[2017.11.25-11.45.09:860][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/RedEyeStand" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeStand.uasset" SILENT=true
+[2017.11.25-11.45.09:948][993]LogSavePackage: Save=10.79ms
+[2017.11.25-11.45.09:948][993]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/RedEyeStand91346AAE4D5F40ECC48905A6589F7ADB.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeStand.uasset'
+[2017.11.25-11.45.09:953][993]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeStand.uasset
+[2017.11.25-11.45.36:540][256]LogEditorFactories: Performing atomic reimport of [C:/Users/Marcus/Pictures/RedEyeMeleStand.png]
+[2017.11.25-11.45.36:541][256]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Marcus/Pictures/RedEyeMeleStand.png)
+[2017.11.25-11.45.36:570][256]LogTexture:Display: Building textures: RedEyeMeleStand (BGRA8, 84X23) - 229 MB total VRAM
+[2017.11.25-11.45.36:573][256]LogEditorFactories: -- imported successfully
+[2017.11.25-11.45.41:029][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/RedEyeMeleStand" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeMeleStand.uasset" SILENT=true
+[2017.11.25-11.45.41:082][455]LogSavePackage: Save=12.67ms
+[2017.11.25-11.45.41:082][455]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/RedEyeMeleStand9F86D1984034EAD657ECA2B7B46738F0.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeMeleStand.uasset'
+[2017.11.25-11.45.41:093][455]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeMeleStand.uasset
+[2017.11.25-11.46.26:903][740]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/RedEyeStand" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeStand.uasset" SILENT=true
+[2017.11.25-11.46.26:916][740]LogSavePackage: Save=6.02ms
+[2017.11.25-11.46.26:916][740]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/RedEyeStandB71DB3AF4E6BE3204716D0B0F76F6A54.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeStand.uasset'
+[2017.11.25-11.46.26:921][740]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeStand.uasset
+[2017.11.25-11.47.00:419][354]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap' took 0.015
+[2017.11.25-11.47.00:434][354]LogSavePackage: Save=6.04ms
+[2017.11.25-11.47.00:434][354]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/NewPaperFlipbook_Auto3E3C189E2464ACC95BF524BB14C3E85CD.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/Autosaves/Game/Bang/Animations/NewPaperFlipbook_Auto3.uasset'
+[2017.11.25-11.47.00:437][354]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/Autosaves/Game/Bang/Animations/NewPaperFlipbook_Auto3.uasset
+[2017.11.25-11.47.00:437][354]LogFileHelpers: Auto-saving content packages took 0.017
+[2017.11.25-11.56.43:674][104]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Marcus\Pictures\PistolStand.png)
+[2017.11.25-11.56.43:679][104]LogTexture:Display: Building textures: PistolStand (BGRA8, 95X42) - 219 MB total VRAM
+[2017.11.25-11.57.52:683][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/NewPaperFlipbook" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/NewPaperFlipbook.uasset" SILENT=true
+[2017.11.25-11.57.52:695][352]LogSavePackage: Save=5.45ms
+[2017.11.25-11.57.52:695][352]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/NewPaperFlipbook014EF7EF462B5AE0FA1C8586A0BF8712.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/NewPaperFlipbook.uasset'
+[2017.11.25-11.57.52:714][352]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/NewPaperFlipbook.uasset
+[2017.11.25-11.57.52:718][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/PistolStand" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/PistolStand.uasset" SILENT=true
+[2017.11.25-11.57.52:730][352]LogSavePackage: Save=6.80ms
+[2017.11.25-11.57.52:730][352]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/PistolStandCF10D623433E0C008A395396B8F0912F.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/PistolStand.uasset'
+[2017.11.25-11.57.52:735][352]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/PistolStand.uasset
+[2017.11.25-11.57.52:745][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/PistolStand_Sprite_0" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/PistolStand_Sprite_0.uasset" SILENT=true
+[2017.11.25-11.57.52:762][352]LogSavePackage: Save=11.50ms
+[2017.11.25-11.57.52:762][352]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/PistolStand_Sprite_0D03C69E04B6D615C8EE7719524663468.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/PistolStand_Sprite_0.uasset'
+[2017.11.25-11.57.52:769][352]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/PistolStand_Sprite_0.uasset
+[2017.11.25-11.57.52:779][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/PistolStand_Sprite_1" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/PistolStand_Sprite_1.uasset" SILENT=true
+[2017.11.25-11.57.52:797][352]LogSavePackage: Save=11.95ms
+[2017.11.25-11.57.52:797][352]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/PistolStand_Sprite_162B89EA544A812120AA2BCAD1D5C320A.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/PistolStand_Sprite_1.uasset'
+[2017.11.25-11.57.52:803][352]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/PistolStand_Sprite_1.uasset
+[2017.11.25-11.57.52:814][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/PistolStand_Sprite_2" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/PistolStand_Sprite_2.uasset" SILENT=true
+[2017.11.25-11.57.52:831][352]LogSavePackage: Save=11.83ms
+[2017.11.25-11.57.52:831][352]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/PistolStand_Sprite_2D41DE3AD4B76C025DBE0C0B35094F29E.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/PistolStand_Sprite_2.uasset'
+[2017.11.25-11.57.52:835][352]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/PistolStand_Sprite_2.uasset
+[2017.11.25-11.57.52:846][352]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/PistolStand_Sprite_3" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/PistolStand_Sprite_3.uasset" SILENT=true
+[2017.11.25-11.57.52:863][352]LogSavePackage: Save=11.45ms
+[2017.11.25-11.57.52:863][352]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/PistolStand_Sprite_3920F4F9949DCF9DC0FAA5A8C18367EA6.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/PistolStand_Sprite_3.uasset'
+[2017.11.25-11.57.52:870][352]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/PistolStand_Sprite_3.uasset
+[2017.11.25-11.59.25:426][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/RedEyeStand" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeStand.uasset" SILENT=true
+[2017.11.25-11.59.25:455][356]LogSavePackage: Save=12.25ms
+[2017.11.25-11.59.25:455][356]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/RedEyeStand936B989D495C5BC61B3BAFA927516869.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeStand.uasset'
+[2017.11.25-11.59.25:460][356]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/RedEyeStand.uasset
+[2017.11.25-12.01.02:081][ 21]LogEditorFactories: Performing atomic reimport of [C:/Users/Marcus/Pictures/PistolStand.png]
+[2017.11.25-12.01.02:081][ 21]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Marcus/Pictures/PistolStand.png)
+[2017.11.25-12.01.02:084][ 21]LogTexture:Display: Building textures: PistolStand (BGRA8, 95X42) - 219 MB total VRAM
+[2017.11.25-12.01.02:086][ 21]LogEditorFactories: -- imported successfully
+[2017.11.25-12.01.40:707][796]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap' took 0.007
+[2017.11.25-12.01.40:709][796]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Bang/Animations/RedEyeStand] ([1] browsable assets)...
+[2017.11.25-12.01.40:717][796]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/Bang/Animations/RedEyeStand.RedEyeStand]
+[2017.11.25-12.01.40:717][796]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bang/Animations/RedEyeStand]
+[2017.11.25-12.01.40:733][796]LogSavePackage: Save=8.27ms
+[2017.11.25-12.01.40:733][796]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/RedEyeStand_Auto4DC12122B48691103B9615FADAFE84093.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/Autosaves/Game/Bang/Animations/RedEyeStand_Auto4.uasset'
+[2017.11.25-12.01.40:736][796]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/Autosaves/Game/Bang/Animations/RedEyeStand_Auto4.uasset
+[2017.11.25-12.01.40:737][796]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Bang/Animations/PistolStand] ([1] browsable assets)...
+[2017.11.25-12.01.40:738][796]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Bang/Animations/PistolStand.PistolStand]
+[2017.11.25-12.01.40:738][796]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bang/Animations/PistolStand]
+[2017.11.25-12.01.40:780][796]LogSavePackage: Save=6.70ms
+[2017.11.25-12.01.40:780][796]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/PistolStand_Auto4B65A6D95496E5E35A877909B2FC1AEDB.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/Autosaves/Game/Bang/Animations/PistolStand_Auto4.uasset'
+[2017.11.25-12.01.40:791][796]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/Autosaves/Game/Bang/Animations/PistolStand_Auto4.uasset
+[2017.11.25-12.01.40:793][796]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Bang/Animations/PistolStand_Sprite_0] ([1] browsable assets)...
+[2017.11.25-12.01.40:801][796]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Bang/Animations/PistolStand_Sprite_0.PistolStand_Sprite_0]
+[2017.11.25-12.01.40:801][796]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bang/Animations/PistolStand_Sprite_0]
+[2017.11.25-12.01.40:820][796]LogSavePackage: Save=12.69ms
+[2017.11.25-12.01.40:820][796]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/PistolStand_Sprite_0_Auto46A6811BF4E8247AC4D4477AECEEA1B3A.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/Autosaves/Game/Bang/Animations/PistolStand_Sprite_0_Auto4.uasset'
+[2017.11.25-12.01.40:822][796]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/Autosaves/Game/Bang/Animations/PistolStand_Sprite_0_Auto4.uasset
+[2017.11.25-12.01.40:824][796]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Bang/Animations/PistolStand_Sprite_1] ([1] browsable assets)...
+[2017.11.25-12.01.40:832][796]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Bang/Animations/PistolStand_Sprite_1.PistolStand_Sprite_1]
+[2017.11.25-12.01.40:832][796]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bang/Animations/PistolStand_Sprite_1]
+[2017.11.25-12.01.40:849][796]LogSavePackage: Save=11.90ms
+[2017.11.25-12.01.40:849][796]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/PistolStand_Sprite_1_Auto4D983935A47392929BE2F7384FF18C91C.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/Autosaves/Game/Bang/Animations/PistolStand_Sprite_1_Auto4.uasset'
+[2017.11.25-12.01.40:852][796]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/Autosaves/Game/Bang/Animations/PistolStand_Sprite_1_Auto4.uasset
+[2017.11.25-12.01.40:853][796]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Bang/Animations/PistolStand_Sprite_2] ([1] browsable assets)...
+[2017.11.25-12.01.40:861][796]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Bang/Animations/PistolStand_Sprite_2.PistolStand_Sprite_2]
+[2017.11.25-12.01.40:861][796]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bang/Animations/PistolStand_Sprite_2]
+[2017.11.25-12.01.40:879][796]LogSavePackage: Save=12.26ms
+[2017.11.25-12.01.40:879][796]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/PistolStand_Sprite_2_Auto404F2C61B4617A7CEEE1E0598341EAE82.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/Autosaves/Game/Bang/Animations/PistolStand_Sprite_2_Auto4.uasset'
+[2017.11.25-12.01.40:882][796]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/Autosaves/Game/Bang/Animations/PistolStand_Sprite_2_Auto4.uasset
+[2017.11.25-12.01.40:883][796]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Bang/Animations/PistolStand_Sprite_3] ([1] browsable assets)...
+[2017.11.25-12.01.40:891][796]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Bang/Animations/PistolStand_Sprite_3.PistolStand_Sprite_3]
+[2017.11.25-12.01.40:891][796]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bang/Animations/PistolStand_Sprite_3]
+[2017.11.25-12.01.40:910][796]LogSavePackage: Save=12.47ms
+[2017.11.25-12.01.40:911][796]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/PistolStand_Sprite_3_Auto4BA3B2CA54ADA56CAF2D9FEB59155C930.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/Autosaves/Game/Bang/Animations/PistolStand_Sprite_3_Auto4.uasset'
+[2017.11.25-12.01.40:914][796]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/Autosaves/Game/Bang/Animations/PistolStand_Sprite_3_Auto4.uasset
+[2017.11.25-12.01.40:914][796]LogFileHelpers: Auto-saving content packages took 0.207
+[2017.11.25-12.02.16:687][458]LogSlate: Took 0.021278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.11.25-12.02.49:985][810]LogSavePackage: Save=537.04ms
+[2017.11.25-12.02.49:985][810]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/2DSideScrollerExampleMap7ACCCA6044B9408B2A3F12B6C3EDB82F.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap'
+[2017.11.25-12.02.49:989][810]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap
+[2017.11.25-12.02.50:129][810]LogSavePackage: Save=6.43ms
+[2017.11.25-12.02.50:129][810]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/2DSideScrollerExampleMap_BuiltDataFA2E2B724F81CD57275430AA08039DF1.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.uasset'
+[2017.11.25-12.02.50:133][810]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.uasset
+[2017.11.25-12.12.47:812][410]LogMaterial: Missing cached shader map for material LeonaTransparent_Mat, compiling. 
+[2017.11.25-12.12.47:840][410]LogTemp:Display: Added material ShaderMap 0x000001DE02460B80 with Material 0x000001DDF1C2FB80 to ShaderMapsBeingCompiled
+[2017.11.25-12.12.47:972][410]LogTemp:Display: Kicking off shader compilation for LeonaTransparent_Mat, GameThreadShaderMap 0x000001DE02460B80
+[2017.11.25-12.12.53:319][891]LogTemp:Display: Finished compile of shader map 0x000001DE02460B80
+[2017.11.25-12.12.53:319][891]LogTemp:Display: Shader map LeonaTransparent_Mat complete, GameThreadShaderMap 0x000001DE02460B80, marking material LeonaTransparent_Mat as finished
+[2017.11.25-12.12.53:319][891]LogTemp:Display: Marking material as finished 0x000001DDF1C2FB80
+[2017.11.25-12.13.23:000][530]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap' took 0.007
+[2017.11.25-12.13.23:006][530]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Bang/Animations/RedEyeStand] ([1] browsable assets)...
+[2017.11.25-12.13.23:006][530]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bang/Animations/RedEyeStand]
+[2017.11.25-12.13.23:030][530]LogSavePackage: Save=6.47ms
+[2017.11.25-12.13.23:030][530]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/RedEyeStand_Auto58CE70CD848D9C0AC364516936DA23D93.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/Autosaves/Game/Bang/Animations/RedEyeStand_Auto5.uasset'
+[2017.11.25-12.13.23:033][530]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/Autosaves/Game/Bang/Animations/RedEyeStand_Auto5.uasset
+[2017.11.25-12.13.23:033][530]LogFileHelpers: Auto-saving content packages took 0.028
+[2017.11.25-12.15.21:893][769]LogEditorFactories: Performing atomic reimport of [C:/Users/Marcus/Pictures/PistolStand.png]
+[2017.11.25-12.15.21:894][769]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Marcus/Pictures/PistolStand.png)
+[2017.11.25-12.15.21:896][769]LogTexture:Display: Building textures: PistolStand (BGRA8, 95X42) - 225 MB total VRAM
+[2017.11.25-12.15.21:898][769]LogEditorFactories: -- imported successfully
+[2017.11.25-12.15.40:014][ 82]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'PaperSprite_1' or package '/Engine/Transient'.
+[2017.11.25-12.15.40:182][ 82]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'PaperSpriteComponent_2' or package '/Engine/Transient'.
+[2017.11.25-12.18.57:301][588]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Marcus\Pictures\New folder\LeonaStandingPistol.png)
+[2017.11.25-12.18.57:305][588]LogTexture:Display: Building textures: LeonaStandingPistol (BGRA8, 132X35) - 219 MB total VRAM
+[2017.11.25-12.19.02:579][858]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Pistol/LeonaStandingPistol" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Pistol/LeonaStandingPistol.uasset" SILENT=true
+[2017.11.25-12.19.02:591][858]LogSavePackage: Save=6.95ms
+[2017.11.25-12.19.02:591][858]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaStandingPistolFB7C5B944B174AA38D1877928CAD4161.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Pistol/LeonaStandingPistol.uasset'
+[2017.11.25-12.19.02:611][858]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Pistol/LeonaStandingPistol.uasset
+[2017.11.25-12.19.14:219][191]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Marcus\Pictures\New folder\LeonaStandingLegs.png)
+[2017.11.25-12.19.14:223][191]LogTexture:Display: Building textures: LeonaStandingLegs (BGRA8, 32X35) - 219 MB total VRAM
+[2017.11.25-12.21.42:670][796]LogMaterial: Missing cached shader map for material Sprite, compiling. 
+[2017.11.25-12.21.42:670][796]LogTemp:Display: Added material ShaderMap 0x000001DD91D8AE80 with Material 0x000001DD89FFAE80 to ShaderMapsBeingCompiled
+[2017.11.25-12.21.42:682][796]LogTemp:Display: Kicking off shader compilation for Sprite, GameThreadShaderMap 0x000001DD91D8AE80
+[2017.11.25-12.21.44:477][796]LogMaterial: Missing cached shader map for material Sprite, compiling. 
+[2017.11.25-12.21.44:478][796]LogTemp:Display: Added material ShaderMap 0x000001DE1D862B00 with Material 0x000001DD89FFAE80 to ShaderMapsBeingCompiled
+[2017.11.25-12.21.44:489][796]LogTemp:Display: Kicking off shader compilation for Sprite, GameThreadShaderMap 0x000001DE1D862B00
+[2017.11.25-12.21.44:494][796]LogMaterial: 0.00 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2017.11.25-12.21.44:537][796]LogTemp:Display: Finished compile of shader map 0x000001DD91D8AE80
+[2017.11.25-12.21.44:537][796]LogTemp:Display: Shader map Sprite complete, GameThreadShaderMap 0x000001DD91D8AE80, marking material Sprite as finished
+[2017.11.25-12.21.44:538][796]LogTemp:Display: Marking material as finished 0x000001DD89FFAE80
+[2017.11.25-12.21.45:305][802]LogTemp:Display: Finished compile of shader map 0x000001DE1D862B00
+[2017.11.25-12.21.45:306][802]LogTemp:Display: Shader map Sprite complete, GameThreadShaderMap 0x000001DE1D862B00, marking material Sprite as finished
+[2017.11.25-12.21.45:306][802]LogTemp:Display: Marking material as finished 0x000001DD89FFAE80
+[2017.11.25-12.21.45:330][803]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 80 instructions
+[2017.11.25-12.21.45:330][803]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.25-12.21.45:330][803]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.25-12.22.52:124][ 15]LogMaterial: Missing cached shader map for material LeonaStandingPistol_Mat, compiling. 
+[2017.11.25-12.22.52:125][ 15]LogTemp:Display: Added material ShaderMap 0x000001DE1D74D980 with Material 0x000001DE15A3CA00 to ShaderMapsBeingCompiled
+[2017.11.25-12.22.52:135][ 15]LogTemp:Display: Kicking off shader compilation for LeonaStandingPistol_Mat, GameThreadShaderMap 0x000001DE1D74D980
+[2017.11.25-12.22.54:812][160]LogTemp:Display: Removed shader map 0x000001DE1D74D980 from material 0x000001DE15A3CA00
+[2017.11.25-12.22.54:817][160]LogTemp:Display: Finished compile of shader map 0x000001DE1D74D980
+[2017.11.25-12.23.14:383][321]LogSavePackage: Save=6.85ms
+[2017.11.25-12.23.14:383][321]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaStandingPistol_Sprite_3A6BD339B425ABCD9326B8388B04330C0.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Pistol/LeonaStandingPistol_Sprite_3.uasset'
+[2017.11.25-12.23.14:389][321]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Pistol/LeonaStandingPistol_Sprite_3.uasset
+[2017.11.25-12.23.14:409][321]LogSavePackage: Save=6.15ms
+[2017.11.25-12.23.14:409][321]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaStandingPistol_Sprite_2A95D71724C9176852BEB478BA5D3A3D8.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Pistol/LeonaStandingPistol_Sprite_2.uasset'
+[2017.11.25-12.23.14:415][321]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Pistol/LeonaStandingPistol_Sprite_2.uasset
+[2017.11.25-12.23.14:435][321]LogSavePackage: Save=6.27ms
+[2017.11.25-12.23.14:436][321]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaStandingPistol_Sprite_185EB9AFF4A4DDF8CE7DA1DA450246AAE.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Pistol/LeonaStandingPistol_Sprite_1.uasset'
+[2017.11.25-12.23.14:507][321]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Pistol/LeonaStandingPistol_Sprite_1.uasset
+[2017.11.25-12.23.14:548][321]LogSavePackage: Save=8.43ms
+[2017.11.25-12.23.14:548][321]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaStandingPistol_Sprite_093EE22D8408F4245B51B66A392684FFF.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Pistol/LeonaStandingPistol_Sprite_0.uasset'
+[2017.11.25-12.23.14:556][321]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Pistol/LeonaStandingPistol_Sprite_0.uasset
+[2017.11.25-12.23.14:561][321]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Pistol/LeonaStandingPistol" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Pistol/LeonaStandingPistol.uasset" SILENT=true
+[2017.11.25-12.23.15:183][321]LogSavePackage: Save=614.13ms
+[2017.11.25-12.23.15:183][321]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaStandingPistolCEEF88A84F63867C72CA86A872097A5C.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Pistol/LeonaStandingPistol.uasset'
+[2017.11.25-12.23.15:199][321]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Pistol/LeonaStandingPistol.uasset
+[2017.11.25-12.23.41:262][409]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap' took 0.008
+[2017.11.25-12.23.41:265][409]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Bang/Legs/LeonaStandingLegs] ([1] browsable assets)...
+[2017.11.25-12.23.41:266][409]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Bang/Legs/LeonaStandingLegs.LeonaStandingLegs]
+[2017.11.25-12.23.41:266][409]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bang/Legs/LeonaStandingLegs]
+[2017.11.25-12.23.41:272][409]LogSavePackage: Save=2.92ms
+[2017.11.25-12.23.41:272][409]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaStandingLegs_Auto6A6C290EE4324767A6CB7809199BD7231.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/Autosaves/Game/Bang/Legs/LeonaStandingLegs_Auto6.uasset'
+[2017.11.25-12.23.41:274][409]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/Autosaves/Game/Bang/Legs/LeonaStandingLegs_Auto6.uasset
+[2017.11.25-12.23.41:281][409]LogSavePackage: Save=2.14ms
+[2017.11.25-12.23.41:281][409]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaStandingPistol_Auto68CCD787E4E5D9E8AF1F4909D7E99F952.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/Autosaves/Game/Bang/LeonaStandingPistol_Auto6.uasset'
+[2017.11.25-12.23.41:284][409]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/Autosaves/Game/Bang/LeonaStandingPistol_Auto6.uasset
+[2017.11.25-12.23.41:284][409]LogFileHelpers: Auto-saving content packages took 0.021
+[2017.11.25-12.37.03:042][677]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Marcus\Pictures\New folder\LeonaStandPistol.png)
+[2017.11.25-12.37.03:057][677]LogTexture:Display: Building textures: LeonaStandPistol (BGRA8, 133X42) - 219 MB total VRAM
+[2017.11.25-12.37.15:122][788]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap' took 0.007
+[2017.11.25-12.37.15:124][788]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Bang/Animations/LeonaStandPistol] ([1] browsable assets)...
+[2017.11.25-12.37.15:125][788]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Bang/Animations/LeonaStandPistol.LeonaStandPistol]
+[2017.11.25-12.37.15:125][788]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bang/Animations/LeonaStandPistol]
+[2017.11.25-12.37.15:131][788]LogSavePackage: Save=3.29ms
+[2017.11.25-12.37.15:131][788]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaStandPistol_Auto7D3DDE7284AEDF739F33DBC955830394D.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/Autosaves/Game/Bang/Animations/LeonaStandPistol_Auto7.uasset'
+[2017.11.25-12.37.15:134][788]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/Autosaves/Game/Bang/Animations/LeonaStandPistol_Auto7.uasset
+[2017.11.25-12.37.15:134][788]LogFileHelpers: Auto-saving content packages took 0.011
+[2017.11.25-12.37.38:819][161]LogSavePackage: Save=6.80ms
+[2017.11.25-12.37.38:819][161]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaStandPistol_Sprite_300910FE543EAA9C77BAE3DAFF7F0969E.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaStandPistol_Sprite_3.uasset'
+[2017.11.25-12.37.39:001][161]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaStandPistol_Sprite_3.uasset
+[2017.11.25-12.37.39:033][161]LogSavePackage: Save=7.21ms
+[2017.11.25-12.37.39:033][161]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaStandPistol_Sprite_23F72D40141D2C4CD07A4619B357D9E7B.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaStandPistol_Sprite_2.uasset'
+[2017.11.25-12.37.39:039][161]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaStandPistol_Sprite_2.uasset
+[2017.11.25-12.37.39:058][161]LogSavePackage: Save=5.82ms
+[2017.11.25-12.37.39:058][161]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaStandPistol_Sprite_1BB6084B24609B5ADA1C4899003C9254C.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaStandPistol_Sprite_1.uasset'
+[2017.11.25-12.37.39:063][161]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaStandPistol_Sprite_1.uasset
+[2017.11.25-12.37.39:083][161]LogSavePackage: Save=6.75ms
+[2017.11.25-12.37.39:083][161]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaStandPistol_Sprite_02B6BD5E04184B1836FCD99965AD69DE3.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaStandPistol_Sprite_0.uasset'
+[2017.11.25-12.37.39:089][161]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaStandPistol_Sprite_0.uasset
+[2017.11.25-12.37.39:093][161]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/LeonaStandPistol" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaStandPistol.uasset" SILENT=true
+[2017.11.25-12.37.39:100][161]LogSavePackage: Save=4.07ms
+[2017.11.25-12.37.39:100][161]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaStandPistol2CD835E44EB5CBC1B47FCC8BF3CDE9B0.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaStandPistol.uasset'
+[2017.11.25-12.37.39:105][161]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaStandPistol.uasset
+[2017.11.25-12.37.52:171][644]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/LeonaStandPistol2" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaStandPistol2.uasset" SILENT=true
+[2017.11.25-12.37.52:200][644]LogSavePackage: Save=5.54ms
+[2017.11.25-12.37.52:200][644]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaStandPistol29D3BDCEF431B8F632E508197C37AA121.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaStandPistol2.uasset'
+[2017.11.25-12.37.52:206][644]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaStandPistol2.uasset
+[2017.11.25-12.38.19:458][844]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/LeonaStandPistol2" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaStandPistol2.uasset" SILENT=true
+[2017.11.25-12.38.19:469][844]LogSavePackage: Save=4.82ms
+[2017.11.25-12.38.19:469][844]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaStandPistol2600CC36C4B34D8F99110DA884F2B69FE.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaStandPistol2.uasset'
+[2017.11.25-12.38.19:474][844]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaStandPistol2.uasset
+[2017.11.25-12.39.01:959][841]LogSlate: Took 0.127282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.25-12.39.27:716][910]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.25-12.39.27:804][910]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.25-12.39.27:929][910]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.25-12.39.28:194][910]PIE: New page: PIE session: 2DSideScrollerExampleMap (25 Nov 2017 12:39:28)
+[2017.11.25-12.39.28:300][910]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.11.25-12.39.28:692][910]LogPlayLevel: PIE: StaticDuplicateObject took: (0.391617s)
+[2017.11.25-12.39.28:693][910]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.11.25-12.39.28:694][910]LogPlayLevel: PIE: World Init took: (0.001879s)
+[2017.11.25-12.39.28:737][910]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.489465s)
+[2017.11.25-12.39.29:165][910]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.25-12.39.29:182][910]LogInit: FAudioDevice initialized.
+[2017.11.25-12.39.30:162][910]LogLoad: Game class is 'BangGameMode'
+[2017.11.25-12.39.32:767][910]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.11.25-12.39.32
+[2017.11.25-12.39.35:818][910]LogWorld: Bringing up level for play took: 3.409723
+[2017.11.25-12.39.40:962][910]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0073 seconds. Added 11 classes and 0 folders.
+[2017.11.25-12.39.41:123][910]PIE: Info Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap 12.921
+[2017.11.25-12.39.41:124][910]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.25-12.39.50:371][822]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.25-12.39.52:701][822]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.25-12.40.39:131][ 36]LogSavePackage: Save=223.22ms
+[2017.11.25-12.40.39:131][ 36]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/2DSideScrollerExampleMap606F83B14B6595CC351FC7A35E9D5BEF.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap'
+[2017.11.25-12.40.39:136][ 36]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap
+[2017.11.25-12.40.39:163][ 36]LogSavePackage: Save=1.96ms
+[2017.11.25-12.40.39:163][ 36]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/2DSideScrollerExampleMap_BuiltData1C8DC46C4125174769F811AD165B97F9.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.uasset'
+[2017.11.25-12.40.39:166][ 36]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.uasset
+[2017.11.25-12.40.43:310][248]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.25-12.40.43:331][248]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.25-12.40.43:333][248]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.25-12.40.43:333][248]PIE: New page: PIE session: 2DSideScrollerExampleMap (25 Nov 2017 12:40:43)
+[2017.11.25-12.40.43:333][248]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.11.25-12.40.43:482][248]LogPlayLevel: PIE: StaticDuplicateObject took: (0.148632s)
+[2017.11.25-12.40.43:484][248]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.11.25-12.40.43:484][248]LogPlayLevel: PIE: World Init took: (0.001810s)
+[2017.11.25-12.40.43:485][248]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.151511s)
+[2017.11.25-12.40.43:538][248]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.25-12.40.43:546][248]LogInit: FAudioDevice initialized.
+[2017.11.25-12.40.43:577][248]LogLoad: Game class is 'BangGameMode'
+[2017.11.25-12.40.43:579][248]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.11.25-12.40.43
+[2017.11.25-12.40.43:580][248]LogWorld: Bringing up level for play took: 0.001481
+[2017.11.25-12.40.43:581][248]PIE: Info Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.622
+[2017.11.25-12.40.43:581][248]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.25-12.40.53:535][441]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.25-12.40.53:701][441]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.25-12.53.37:245][653]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Marcus\Pictures\New folder\LeonaWalkingPistol.png)
+[2017.11.25-12.53.37:257][653]LogTexture:Display: Building textures: LeonaWalkingPistol (BGRA8, 401X46) - 220 MB total VRAM
+[2017.11.25-12.54.19:074][ 59]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap' took 0.008
+[2017.11.25-12.54.19:076][ 59]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Bang/Animations/LeonaWalkingPistol] ([1] browsable assets)...
+[2017.11.25-12.54.19:077][ 59]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Bang/Animations/LeonaWalkingPistol.LeonaWalkingPistol]
+[2017.11.25-12.54.19:078][ 59]OBJ SavePackage: Finished generating thumbnails for package [/Game/Bang/Animations/LeonaWalkingPistol]
+[2017.11.25-12.54.19:085][ 59]LogSavePackage: Save=3.90ms
+[2017.11.25-12.54.19:085][ 59]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaWalkingPistol_Auto8F42463E14CBC2B7C682350803F873566.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/Autosaves/Game/Bang/Animations/LeonaWalkingPistol_Auto8.uasset'
+[2017.11.25-12.54.19:087][ 59]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/Autosaves/Game/Bang/Animations/LeonaWalkingPistol_Auto8.uasset
+[2017.11.25-12.54.19:087][ 59]LogFileHelpers: Auto-saving content packages took 0.013
+[2017.11.25-12.56.16:023][666]LogEditorFactories: Performing atomic reimport of [C:/Users/Marcus/Pictures/New folder/LeonaWalkingPistol.png]
+[2017.11.25-12.56.16:024][666]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/Marcus/Pictures/New folder/LeonaWalkingPistol.png)
+[2017.11.25-12.56.16:034][666]LogTexture:Display: Building textures: LeonaWalkingPistol (BGRA8, 401X46) - 220 MB total VRAM
+[2017.11.25-12.56.16:043][666]LogEditorFactories: -- imported successfully
+[2017.11.25-12.56.46:030][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/LeonaWalkingPistol2" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol2.uasset" SILENT=true
+[2017.11.25-12.56.46:040][388]LogSavePackage: Save=6.57ms
+[2017.11.25-12.56.46:040][388]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaWalkingPistol2946D12014EAB2A41BB13B287BB69D636.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol2.uasset'
+[2017.11.25-12.56.46:047][388]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol2.uasset
+[2017.11.25-12.56.46:077][388]LogSavePackage: Save=7.62ms
+[2017.11.25-12.56.46:077][388]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaWalkingPistol_Sprite_114F7C29414B45523DA2D7C3B211E97EC2.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol_Sprite_11.uasset'
+[2017.11.25-12.56.46:083][388]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol_Sprite_11.uasset
+[2017.11.25-12.56.46:104][388]LogSavePackage: Save=6.03ms
+[2017.11.25-12.56.46:105][388]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaWalkingPistol_Sprite_10B60862D442EEC17DE13F90A77871BB95.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol_Sprite_10.uasset'
+[2017.11.25-12.56.46:112][388]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol_Sprite_10.uasset
+[2017.11.25-12.56.46:134][388]LogSavePackage: Save=6.13ms
+[2017.11.25-12.56.46:134][388]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaWalkingPistol_Sprite_91DFC1FC24B60310212E32CB4CBD2A71A.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol_Sprite_9.uasset'
+[2017.11.25-12.56.46:141][388]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol_Sprite_9.uasset
+[2017.11.25-12.56.46:163][388]LogSavePackage: Save=6.48ms
+[2017.11.25-12.56.46:163][388]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaWalkingPistol_Sprite_86F2D86E74AC7CC4D6CA9639DA3C043CB.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol_Sprite_8.uasset'
+[2017.11.25-12.56.46:168][388]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol_Sprite_8.uasset
+[2017.11.25-12.56.46:191][388]LogSavePackage: Save=6.44ms
+[2017.11.25-12.56.46:191][388]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaWalkingPistol_Sprite_785F2213145BF965804DE96BFF57BFABA.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol_Sprite_7.uasset'
+[2017.11.25-12.56.46:198][388]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol_Sprite_7.uasset
+[2017.11.25-12.56.46:219][388]LogSavePackage: Save=6.15ms
+[2017.11.25-12.56.46:219][388]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaWalkingPistol_Sprite_611B94ECA44D10AF01CEFE89D8579B5CF.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol_Sprite_6.uasset'
+[2017.11.25-12.56.46:227][388]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol_Sprite_6.uasset
+[2017.11.25-12.56.46:249][388]LogSavePackage: Save=6.74ms
+[2017.11.25-12.56.46:249][388]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaWalkingPistol_Sprite_516883D1D40A945740FFDBCA728177B48.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol_Sprite_5.uasset'
+[2017.11.25-12.56.46:256][388]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol_Sprite_5.uasset
+[2017.11.25-12.56.46:277][388]LogSavePackage: Save=6.45ms
+[2017.11.25-12.56.46:277][388]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaWalkingPistol_Sprite_4BC4F38C643CEEAF3D02EA593D794B611.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol_Sprite_4.uasset'
+[2017.11.25-12.56.46:284][388]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol_Sprite_4.uasset
+[2017.11.25-12.56.46:304][388]LogSavePackage: Save=6.20ms
+[2017.11.25-12.56.46:304][388]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaWalkingPistol_Sprite_31E9097174E62284D4ECDC8B25EAE2D60.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol_Sprite_3.uasset'
+[2017.11.25-12.56.46:311][388]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol_Sprite_3.uasset
+[2017.11.25-12.56.46:331][388]LogSavePackage: Save=6.54ms
+[2017.11.25-12.56.46:332][388]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaWalkingPistol_Sprite_2FB2CDF8849DE8D0C05358E8C6B92D7CC.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol_Sprite_2.uasset'
+[2017.11.25-12.56.46:339][388]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol_Sprite_2.uasset
+[2017.11.25-12.56.46:358][388]LogSavePackage: Save=6.38ms
+[2017.11.25-12.56.46:358][388]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaWalkingPistol_Sprite_1EBF0773E4C045404D37DCFADB128E5C5.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol_Sprite_1.uasset'
+[2017.11.25-12.56.46:365][388]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol_Sprite_1.uasset
+[2017.11.25-12.56.46:385][388]LogSavePackage: Save=6.91ms
+[2017.11.25-12.56.46:386][388]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaWalkingPistol_Sprite_02F3609A04D3B719BFAA863B1703962A8.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol_Sprite_0.uasset'
+[2017.11.25-12.56.46:392][388]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol_Sprite_0.uasset
+[2017.11.25-12.56.46:397][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/LeonaWalkingPistol" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol.uasset" SILENT=true
+[2017.11.25-12.56.46:404][388]LogSavePackage: Save=5.02ms
+[2017.11.25-12.56.46:404][388]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaWalkingPistol9908D59F4D94A1F8E92E63AD9B0365CC.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol.uasset'
+[2017.11.25-12.56.46:412][388]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol.uasset
+[2017.11.25-12.56.53:043][ 77]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/LeonaWalkingPistol2" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol2.uasset" SILENT=true
+[2017.11.25-12.56.53:053][ 77]LogSavePackage: Save=3.09ms
+[2017.11.25-12.56.53:053][ 77]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaWalkingPistol28197CCB945DE27EE115558935ED0020D.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol2.uasset'
+[2017.11.25-12.56.53:056][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol2.uasset
+[2017.11.25-12.56.54:356][212]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Animations/LeonaWalkingPistol2" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol2.uasset" SILENT=true
+[2017.11.25-12.56.54:364][212]LogSavePackage: Save=2.66ms
+[2017.11.25-12.56.54:364][212]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaWalkingPistol284051AE44729216B5A276E9A9A2A94C9.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol2.uasset'
+[2017.11.25-12.56.54:368][212]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Animations/LeonaWalkingPistol2.uasset
+[2017.11.25-12.57.01:452][915]LogSavePackage: Save=72.03ms
+[2017.11.25-12.57.01:452][915]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/2DSideScrollerExampleMap56FDB11F494F2E29F4DF5BA99445A399.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap'
+[2017.11.25-12.57.01:458][915]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap
+[2017.11.25-12.57.06:684][915]LogSavePackage: Save=2.70ms
+[2017.11.25-12.57.06:684][915]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/2DSideScrollerExampleMap_BuiltData489E5A9A4C46D7D91074BBA2E8CC55E2.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.uasset'
+[2017.11.25-12.57.06:688][915]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.uasset
+[2017.11.25-12.57.08:688][142]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.25-12.57.08:694][142]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.25-12.57.08:695][142]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.25-12.57.08:695][142]PIE: New page: PIE session: 2DSideScrollerExampleMap (25 Nov 2017 12:57:08)
+[2017.11.25-12.57.08:695][142]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.11.25-12.57.08:720][142]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024834s)
+[2017.11.25-12.57.08:721][142]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.11.25-12.57.08:721][142]LogPlayLevel: PIE: World Init took: (0.000712s)
+[2017.11.25-12.57.08:721][142]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.025938s)
+[2017.11.25-12.57.08:756][142]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.25-12.57.08:762][142]LogInit: FAudioDevice initialized.
+[2017.11.25-12.57.08:795][142]LogLoad: Game class is 'BangGameMode'
+[2017.11.25-12.57.08:797][142]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.11.25-12.57.08
+[2017.11.25-12.57.08:798][142]LogWorld: Bringing up level for play took: 0.001520
+[2017.11.25-12.57.08:799][142]PIE: Info Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.596
+[2017.11.25-12.57.08:799][142]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.25-12.57.12:784][619]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.25-12.57.12:934][619]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.25-12.57.24:224][800]LogSavePackage: Save=71.46ms
+[2017.11.25-12.57.24:224][800]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/2DSideScrollerExampleMap77BF9472440274C960D66588ABBC9E6A.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap'
+[2017.11.25-12.57.24:230][800]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap
+[2017.11.25-12.57.24:252][800]LogSavePackage: Save=1.87ms
+[2017.11.25-12.57.24:253][800]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/2DSideScrollerExampleMap_BuiltData1C2D9D1341BF52E166679C984CF0EF63.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.uasset'
+[2017.11.25-12.57.24:255][800]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap_BuiltData.uasset
+[2017.11.25-12.57.26:000][997]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.25-12.57.26:007][997]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.25-12.57.26:008][997]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.25-12.57.26:008][997]PIE: New page: PIE session: 2DSideScrollerExampleMap (25 Nov 2017 12:57:26)
+[2017.11.25-12.57.26:008][997]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.11.25-12.57.26:010][997]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002284s)
+[2017.11.25-12.57.26:011][997]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.11.25-12.57.26:011][997]LogPlayLevel: PIE: World Init took: (0.000667s)
+[2017.11.25-12.57.26:011][997]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003442s)
+[2017.11.25-12.57.26:050][997]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.25-12.57.26:056][997]LogInit: FAudioDevice initialized.
+[2017.11.25-12.57.26:084][997]LogLoad: Game class is 'BangGameMode'
+[2017.11.25-12.57.26:086][997]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.11.25-12.57.26
+[2017.11.25-12.57.26:087][997]LogWorld: Bringing up level for play took: 0.001404
+[2017.11.25-12.57.26:088][997]PIE: Info Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.115
+[2017.11.25-12.57.26:088][997]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.25-12.57.56:279][618]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.25-12.57.56:431][618]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.11.25-12.59.01:526][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/Legs/LeonaStandingLegs" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Legs/LeonaStandingLegs.uasset" SILENT=true
+[2017.11.25-12.59.01:532][942]LogSavePackage: Save=3.48ms
+[2017.11.25-12.59.01:532][942]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaStandingLegsF98719B04FBB0CE5774A18ABCD220886.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Legs/LeonaStandingLegs.uasset'
+[2017.11.25-12.59.01:537][942]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/Legs/LeonaStandingLegs.uasset
+[2017.11.25-12.59.01:540][942]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/LeonaStandingPistol" FILE="../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/LeonaStandingPistol.uasset" SILENT=true
+[2017.11.25-12.59.01:544][942]LogSavePackage: Save=1.95ms
+[2017.11.25-12.59.01:544][942]LogSavePackage: Moving '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Saved/LeonaStandingPistolF14C0BA143FA4394192838BA932C3B24.tmp' to '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/LeonaStandingPistol.uasset'
+[2017.11.25-12.59.01:549][942]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/Bang/LeonaStandingPistol.uasset
+[2017.11.25-12.59.01:997][942]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.25-12.59.02:780][943]Cmd: QUIT_EDITOR
+[2017.11.25-12.59.04:334][943]LogExit: Preparing to exit.
+[2017.11.25-12.59.06:210][943]LogDirectoryWatcher: A directory notification for 'C:/Users/Marcus/Desktop/TestCode/Bang/Content/' was aborted.
+[2017.11.25-12.59.07:041][943]LogExit: Editor shut down
+[2017.11.25-12.59.07:042][943]LogExit: Transaction tracking system shut down
+[2017.11.25-12.59.14:948][943]LogObj: Freed 0b from 0 cluster array pools.
+[2017.11.25-12.59.14:948][943]LogExit: Object subsystem successfully closed.
+[2017.11.25-12.59.15:738][943]LogD3D11RHI: Shutdown
+[2017.11.25-12.59.15:739][943]LogD3D11RHI: CleanupD3DDevice
+[2017.11.25-12.59.16:114][943]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.25-12.59.18:626][943]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (508)
+[2017.11.25-12.59.18:626][943]LogModuleManager: Shutting down and abandoning module MaterialEditor (506)
+[2017.11.25-12.59.18:626][943]LogModuleManager: Shutting down and abandoning module TextureEditor (504)
+[2017.11.25-12.59.18:626][943]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (502)
+[2017.11.25-12.59.18:659][943]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (500)
+[2017.11.25-12.59.18:659][943]LogModuleManager: Shutting down and abandoning module CrashTracker (498)
+[2017.11.25-12.59.18:660][943]LogModuleManager: Shutting down and abandoning module SceneOutliner (496)
+[2017.11.25-12.59.18:660][943]LogModuleManager: Shutting down and abandoning module AddContentDialog (494)
+[2017.11.25-12.59.18:747][943]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.15/FeaturePacks/' was aborted.
+[2017.11.25-12.59.18:780][943]LogModuleManager: Shutting down and abandoning module WidgetCarousel (493)
+[2017.11.25-12.59.18:781][943]LogModuleManager: Shutting down and abandoning module EditorWidgets (490)
+[2017.11.25-12.59.18:781][943]LogModuleManager: Shutting down and abandoning module CollectionManager (488)
+[2017.11.25-12.59.18:824][943]LogDirectoryWatcher: A directory notification for 'C:/Users/Marcus/Desktop/TestCode/Bang/Content/Collections/' was aborted.
+[2017.11.25-12.59.18:824][943]LogDirectoryWatcher: A directory notification for 'C:/Users/Marcus/Desktop/TestCode/Bang/Content/Developers/Marcus/Collections/' was aborted.
+[2017.11.25-12.59.18:824][943]LogDirectoryWatcher: A directory notification for 'C:/Users/Marcus/Desktop/TestCode/Bang/Saved/Collections/' was aborted.
+[2017.11.25-12.59.18:824][943]LogModuleManager: Shutting down and abandoning module StatsViewer (486)
+[2017.11.25-12.59.18:862][943]LogModuleManager: Shutting down and abandoning module FoliageEdit (484)
+[2017.11.25-12.59.18:862][943]LogModuleManager: Shutting down and abandoning module LandscapeEditor (482)
+[2017.11.25-12.59.18:995][943]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (480)
+[2017.11.25-12.59.18:995][943]LogModuleManager: Shutting down and abandoning module ActorPickerMode (478)
+[2017.11.25-12.59.18:995][943]LogModuleManager: Shutting down and abandoning module GeometryMode (476)
+[2017.11.25-12.59.18:995][943]LogModuleManager: Shutting down and abandoning module TextureAlignMode (474)
+[2017.11.25-12.59.18:995][943]LogModuleManager: Shutting down and abandoning module BspMode (472)
+[2017.11.25-12.59.19:026][943]LogModuleManager: Shutting down and abandoning module HardwareSurvey (470)
+[2017.11.25-12.59.19:067][943]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (468)
+[2017.11.25-12.59.19:103][943]LogModuleManager: Shutting down and abandoning module AutomationWorker (466)
+[2017.11.25-12.59.19:149][943]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (464)
+[2017.11.25-12.59.19:162][943]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (462)
+[2017.11.25-12.59.19:230][943]LogModuleManager: Shutting down and abandoning module PlacementMode (461)
+[2017.11.25-12.59.19:230][943]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (458)
+[2017.11.25-12.59.19:230][943]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (456)
+[2017.11.25-12.59.19:230][943]LogModuleManager: Shutting down and abandoning module MfMediaFactory (454)
+[2017.11.25-12.59.19:230][943]LogModuleManager: Shutting down and abandoning module MfMediaEditor (452)
+[2017.11.25-12.59.19:230][943]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (450)
+[2017.11.25-12.59.19:230][943]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (448)
+[2017.11.25-12.59.19:230][943]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (446)
+[2017.11.25-12.59.19:230][943]LogModuleManager: Shutting down and abandoning module Media (445)
+[2017.11.25-12.59.19:230][943]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (442)
+[2017.11.25-12.59.19:230][943]LogModuleManager: Shutting down and abandoning module CharacterAI (440)
+[2017.11.25-12.59.19:230][943]LogModuleManager: Shutting down and abandoning module AudioCapture (438)
+[2017.11.25-12.59.19:247][943]LogModuleManager: Shutting down and abandoning module SequenceRecorder (437)
+[2017.11.25-12.59.19:346][943]LogModuleManager: Shutting down and abandoning module SmartSnapping (434)
+[2017.11.25-12.59.19:346][943]LogModuleManager: Shutting down and abandoning module SessionServices (432)
+[2017.11.25-12.59.19:346][943]LogModuleManager: Shutting down and abandoning module ViewportSnapping (430)
+[2017.11.25-12.59.19:346][943]LogModuleManager: Shutting down and abandoning module ViewportInteraction (428)
+[2017.11.25-12.59.19:346][943]LogModuleManager: Shutting down and abandoning module LogVisualizer (426)
+[2017.11.25-12.59.19:416][943]LogModuleManager: Shutting down and abandoning module IntroTutorials (424)
+[2017.11.25-12.59.19:437][943]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (423)
+[2017.11.25-12.59.19:494][943]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (420)
+[2017.11.25-12.59.19:494][943]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (418)
+[2017.11.25-12.59.19:494][943]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (416)
+[2017.11.25-12.59.19:494][943]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (414)
+[2017.11.25-12.59.19:494][943]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (413)
+[2017.11.25-12.59.20:463][943]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (410)
+[2017.11.25-12.59.20:463][943]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (408)
+[2017.11.25-12.59.20:463][943]LogModuleManager: Shutting down and abandoning module InputBindingEditor (406)
+[2017.11.25-12.59.20:463][943]LogModuleManager: Shutting down and abandoning module NiagaraEditor (404)
+[2017.11.25-12.59.20:874][943]LogModuleManager: Shutting down and abandoning module MergeActors (402)
+[2017.11.25-12.59.20:915][943]LogModuleManager: Shutting down and abandoning module SizeMap (400)
+[2017.11.25-12.59.20:941][943]LogModuleManager: Shutting down and abandoning module TreeMap (398)
+[2017.11.25-12.59.21:110][943]LogModuleManager: Shutting down and abandoning module ReferenceViewer (396)
+[2017.11.25-12.59.21:110][943]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (394)
+[2017.11.25-12.59.21:185][943]LogModuleManager: Shutting down and abandoning module LocalizationService (393)
+[2017.11.25-12.59.21:338][943]LogModuleManager: Shutting down and abandoning module HardwareTargeting (390)
+[2017.11.25-12.59.21:338][943]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (388)
+[2017.11.25-12.59.21:379][943]LogModuleManager: Shutting down and abandoning module UndoHistory (386)
+[2017.11.25-12.59.21:427][943]LogModuleManager: Shutting down and abandoning module UserFeedback (384)
+[2017.11.25-12.59.21:427][943]LogModuleManager: Shutting down and abandoning module XmlParser (382)
+[2017.11.25-12.59.21:462][943]LogModuleManager: Shutting down and abandoning module Blutility (380)
+[2017.11.25-12.59.21:495][943]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (378)
+[2017.11.25-12.59.21:495][943]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (377)
+[2017.11.25-12.59.21:495][943]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (374)
+[2017.11.25-12.59.21:495][943]LogModuleManager: Shutting down and abandoning module SettingsEditor (372)
+[2017.11.25-12.59.21:495][943]LogModuleManager: Shutting down and abandoning module ProjectLauncher (370)
+[2017.11.25-12.59.21:846][943]LogModuleManager: Shutting down and abandoning module SessionFrontend (368)
+[2017.11.25-12.59.22:048][943]LogModuleManager: Shutting down and abandoning module ProfilerClient (366)
+[2017.11.25-12.59.22:140][943]LogModuleManager: Shutting down and abandoning module DeviceManager (364)
+[2017.11.25-12.59.22:399][943]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (363)
+[2017.11.25-12.59.22:442][943]LogModuleManager: Shutting down and abandoning module AutomationController (360)
+[2017.11.25-12.59.22:620][943]LogModuleManager: Shutting down and abandoning module AutomationWindow (358)
+[2017.11.25-12.59.22:712][943]LogModuleManager: Shutting down and abandoning module Layers (356)
+[2017.11.25-12.59.22:959][943]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (354)
+[2017.11.25-12.59.22:959][943]LogModuleManager: Shutting down and abandoning module DetailCustomizations (352)
+[2017.11.25-12.59.23:083][943]LogModuleManager: Shutting down and abandoning module PackagesDialog (350)
+[2017.11.25-12.59.23:084][943]LogModuleManager: Shutting down and abandoning module Persona (348)
+[2017.11.25-12.59.23:379][943]LogModuleManager: Shutting down and abandoning module AnimGraph (347)
+[2017.11.25-12.59.23:379][943]LogModuleManager: Shutting down and abandoning module Kismet (344)
+[2017.11.25-12.59.23:566][943]LogModuleManager: Shutting down and abandoning module GraphEditor (342)
+[2017.11.25-12.59.23:566][943]LogModuleManager: Shutting down and abandoning module ClassViewer (340)
+[2017.11.25-12.59.23:566][943]LogModuleManager: Shutting down and abandoning module Toolbox (338)
+[2017.11.25-12.59.23:609][943]LogModuleManager: Shutting down and abandoning module ModuleUI (336)
+[2017.11.25-12.59.23:637][943]LogModuleManager: Shutting down and abandoning module MovieSceneTools (334)
+[2017.11.25-12.59.23:706][943]LogModuleManager: Shutting down and abandoning module OutputLog (332)
+[2017.11.25-12.59.23:706][943]LogModuleManager: Shutting down and abandoning module GammaUI (330)
+[2017.11.25-12.59.23:769][943]LogModuleManager: Shutting down and abandoning module Documentation (328)
+[2017.11.25-12.59.23:769][943]LogModuleManager: Shutting down and abandoning module Niagara (326)
+[2017.11.25-12.59.23:769][943]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (324)
+[2017.11.25-12.59.23:769][943]LogModuleManager: Shutting down and abandoning module AnalyticsET (322)
+[2017.11.25-12.59.23:769][943]LogModuleManager: Shutting down and abandoning module PortalServices (320)
+[2017.11.25-12.59.23:769][943]LogModuleManager: Shutting down and abandoning module PortalRpc (318)
+[2017.11.25-12.59.23:769][943]LogModuleManager: Shutting down and abandoning module MessagingRpc (316)
+[2017.11.25-12.59.23:769][943]LogModuleManager: Shutting down and abandoning module AIModule (314)
+[2017.11.25-12.59.23:796][943]LogModuleManager: Shutting down and abandoning module GameplayDebugger (313)
+[2017.11.25-12.59.23:797][943]LogModuleManager: Shutting down and abandoning module AITestSuite (311)
+[2017.11.25-12.59.23:797][943]LogModuleManager: Shutting down and abandoning module ProfilerService (308)
+[2017.11.25-12.59.23:859][943]LogModuleManager: Shutting down and abandoning module TaskGraph (306)
+[2017.11.25-12.59.24:122][943]LogModuleManager: Shutting down and abandoning module SteamVRController (304)
+[2017.11.25-12.59.24:122][943]LogModuleManager: Shutting down and abandoning module SteamVR (302)
+[2017.11.25-12.59.24:122][943]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (300)
+[2017.11.25-12.59.24:122][943]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (298)
+[2017.11.25-12.59.24:375][943]LogModuleManager: Shutting down and abandoning module OculusLibrary (296)
+[2017.11.25-12.59.24:375][943]LogModuleManager: Shutting down and abandoning module OculusInput (294)
+[2017.11.25-12.59.24:375][943]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (292)
+[2017.11.25-12.59.24:375][943]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (290)
+[2017.11.25-12.59.24:375][943]LogModuleManager: Shutting down and abandoning module CableComponent (288)
+[2017.11.25-12.59.24:626][943]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (286)
+[2017.11.25-12.59.24:626][943]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (282)
+[2017.11.25-12.59.24:890][943]LogModuleManager: Shutting down and abandoning module HTML5Networking (280)
+[2017.11.25-12.59.24:890][943]LogModuleManager: Shutting down and abandoning module AlembicImporter (278)
+[2017.11.25-12.59.25:098][943]LogModuleManager: Shutting down and abandoning module AlembicLibrary (277)
+[2017.11.25-12.59.25:098][943]LogModuleManager: Shutting down and abandoning module GeometryCache (276)
+[2017.11.25-12.59.25:255][943]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (275)
+[2017.11.25-12.59.25:255][943]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (270)
+[2017.11.25-12.59.25:255][943]LogModuleManager: Shutting down and abandoning module SuperSearch (269)
+[2017.11.25-12.59.25:255][943]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (266)
+[2017.11.25-12.59.25:255][943]LogModuleManager: Shutting down and abandoning module PluginBrowser (264)
+[2017.11.25-12.59.25:474][943]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (262)
+[2017.11.25-12.59.25:696][943]LogModuleManager: Shutting down and abandoning module EpicSurvey (260)
+[2017.11.25-12.59.25:696][943]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (258)
+[2017.11.25-12.59.25:696][943]LogModuleManager: Shutting down and abandoning module DesktopPlatform (257)
+[2017.11.25-12.59.25:851][943]LogModuleManager: Shutting down and abandoning module UObjectPlugin (254)
+[2017.11.25-12.59.25:851][943]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (252)
+[2017.11.25-12.59.26:011][943]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (250)
+[2017.11.25-12.59.26:129][943]LogModuleManager: Shutting down and abandoning module GitSourceControl (248)
+[2017.11.25-12.59.26:207][943]LogModuleManager: Shutting down and abandoning module SourceControl (247)
+[2017.11.25-12.59.26:224][943]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (244)
+[2017.11.25-12.59.26:224][943]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (242)
+[2017.11.25-12.59.26:224][943]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (240)
+[2017.11.25-12.59.26:224][943]LogModuleManager: Shutting down and abandoning module Paper2DEditor (238)
+[2017.11.25-12.59.26:224][943]LogModuleManager: Shutting down and abandoning module MeshPaint (237)
+[2017.11.25-12.59.26:251][943]LogModuleManager: Shutting down and abandoning module LevelEditor (235)
+[2017.11.25-12.59.26:335][943]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (234)
+[2017.11.25-12.59.26:800][943]LogModuleManager: Shutting down and abandoning module MainFrame (232)
+[2017.11.25-12.59.26:801][943]LogModuleManager: Shutting down and abandoning module HotReload (231)
+[2017.11.25-12.59.26:869][943]LogDirectoryWatcher: A directory notification for 'C:/Users/Marcus/Desktop/TestCode/Bang/Binaries/Win64' was aborted.
+[2017.11.25-12.59.26:902][943]LogModuleManager: Shutting down and abandoning module ContentBrowser (227)
+[2017.11.25-12.59.26:904][943]LogModuleManager: Shutting down and abandoning module Bang (224)
+[2017.11.25-12.59.26:904][943]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (222)
+[2017.11.25-12.59.27:089][943]LogModuleManager: Shutting down and abandoning module PhysXVehicles (220)
+[2017.11.25-12.59.27:089][943]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (218)
+[2017.11.25-12.59.27:089][943]LogModuleManager: Shutting down and abandoning module UdpMessaging (216)
+[2017.11.25-12.59.27:190][943]LogModuleManager: Shutting down and abandoning module TcpMessaging (214)
+[2017.11.25-12.59.27:337][943]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (212)
+[2017.11.25-12.59.27:337][943]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (210)
+[2017.11.25-12.59.27:359][943]LogModuleManager: Shutting down and abandoning module FacialAnimation (208)
+[2017.11.25-12.59.27:359][943]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (206)
+[2017.11.25-12.59.27:359][943]LogModuleManager: Shutting down and abandoning module Paper2D (204)
+[2017.11.25-12.59.27:473][943]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (202)
+[2017.11.25-12.59.27:532][943]LogModuleManager: Shutting down and abandoning module WmfMedia (200)
+[2017.11.25-12.59.27:578][943]LogModuleManager: Shutting down and abandoning module MfMedia (198)
+[2017.11.25-12.59.27:578][943]LogModuleManager: Shutting down and abandoning module MediaAssets (196)
+[2017.11.25-12.59.27:578][943]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (194)
+[2017.11.25-12.59.27:625][943]LogModuleManager: Shutting down and abandoning module VREditor (192)
+[2017.11.25-12.59.27:625][943]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (190)
+[2017.11.25-12.59.27:625][943]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (188)
+[2017.11.25-12.59.27:823][943]LogModuleManager: Shutting down and abandoning module FunctionalTesting (186)
+[2017.11.25-12.59.27:893][943]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (184)
+[2017.11.25-12.59.27:970][943]LogModuleManager: Shutting down and abandoning module UMG (182)
+[2017.11.25-12.59.28:085][943]LogModuleManager: Shutting down and abandoning module UMGEditor (181)
+[2017.11.25-12.59.28:279][943]LogModuleManager: Shutting down and abandoning module Sequencer (180)
+[2017.11.25-12.59.28:422][943]LogModuleManager: Shutting down and abandoning module AssetTools (178)
+[2017.11.25-12.59.28:536][943]LogModuleManager: Shutting down and abandoning module MessageLog (177)
+[2017.11.25-12.59.28:536][943]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (176)
+[2017.11.25-12.59.28:536][943]LogModuleManager: Shutting down and abandoning module SlateReflector (170)
+[2017.11.25-12.59.28:764][943]LogModuleManager: Shutting down and abandoning module Slate (168)
+[2017.11.25-12.59.28:764][943]LogModuleManager: Shutting down and abandoning module EditorStyle (166)
+[2017.11.25-12.59.28:858][943]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (164)
+[2017.11.25-12.59.28:889][943]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (162)
+[2017.11.25-12.59.28:889][943]LogModuleManager: Shutting down and abandoning module XAudio2 (160)
+[2017.11.25-12.59.28:889][943]LogModuleManager: Shutting down and abandoning module Networking (158)
+[2017.11.25-12.59.28:889][943]LogModuleManager: Shutting down and abandoning module Core (154)
+[2017.11.25-12.59.28:889][943]LogModuleManager: Shutting down and abandoning module AssetRegistry (152)
+[2017.11.25-12.59.29:185][943]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.25-12.59.29:185][943]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Marcus/Desktop/TestCode/Bang/Content/' was aborted.
+[2017.11.25-12.59.29:185][943]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.25-12.59.29:214][943]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (151)
+[2017.11.25-12.59.29:218][943]LogModuleManager: Shutting down and abandoning module KismetCompiler (148)
+[2017.11.25-12.59.29:218][943]LogModuleManager: Shutting down and abandoning module PhysXFormats (146)
+[2017.11.25-12.59.29:218][943]LogModuleManager: Shutting down and abandoning module MeshUtilities (144)
+[2017.11.25-12.59.29:248][943]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (143)
+[2017.11.25-12.59.29:277][943]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (141)
+[2017.11.25-12.59.29:277][943]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (139)
+[2017.11.25-12.59.29:329][943]LogModuleManager: Shutting down and abandoning module PropertyEditor (137)
+[2017.11.25-12.59.29:329][943]LogModuleManager: Shutting down and abandoning module DerivedDataCache (134)
+[2017.11.25-12.59.29:401][943]LogDerivedDataCache: Shutdown
+[2017.11.25-12.59.29:401][943]LogModuleManager: Shutting down and abandoning module TargetPlatform (132)
+[2017.11.25-12.59.29:401][943]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (131)
+[2017.11.25-12.59.29:442][943]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (129)
+[2017.11.25-12.59.29:554][943]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (127)
+[2017.11.25-12.59.29:615][943]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (125)
+[2017.11.25-12.59.29:644][943]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (123)
+[2017.11.25-12.59.29:644][943]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (121)
+[2017.11.25-12.59.29:644][943]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (119)
+[2017.11.25-12.59.29:644][943]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (117)
+[2017.11.25-12.59.29:703][943]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (115)
+[2017.11.25-12.59.29:703][943]LogModuleManager: Shutting down and abandoning module ImageWrapper (114)
+[2017.11.25-12.59.29:703][943]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (111)
+[2017.11.25-12.59.29:703][943]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (109)
+[2017.11.25-12.59.29:730][943]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (107)
+[2017.11.25-12.59.29:730][943]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (105)
+[2017.11.25-12.59.29:730][943]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (103)
+[2017.11.25-12.59.29:730][943]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (101)
+[2017.11.25-12.59.29:730][943]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (99)
+[2017.11.25-12.59.29:731][943]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (97)
+[2017.11.25-12.59.29:731][943]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (95)
+[2017.11.25-12.59.29:731][943]LogModuleManager: Shutting down and abandoning module Messaging (93)
+[2017.11.25-12.59.29:731][943]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (91)
+[2017.11.25-12.59.29:731][943]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (89)
+[2017.11.25-12.59.29:731][943]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (87)
+[2017.11.25-12.59.29:731][943]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (85)
+[2017.11.25-12.59.29:731][943]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (83)
+[2017.11.25-12.59.29:731][943]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (81)
+[2017.11.25-12.59.29:731][943]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (79)
+[2017.11.25-12.59.29:731][943]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (77)
+[2017.11.25-12.59.29:731][943]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (75)
+[2017.11.25-12.59.29:731][943]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (73)
+[2017.11.25-12.59.29:731][943]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (71)
+[2017.11.25-12.59.29:731][943]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (69)
+[2017.11.25-12.59.29:731][943]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (67)
+[2017.11.25-12.59.29:731][943]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (65)
+[2017.11.25-12.59.29:731][943]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (63)
+[2017.11.25-12.59.29:731][943]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (61)
+[2017.11.25-12.59.29:731][943]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (59)
+[2017.11.25-12.59.29:731][943]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (57)
+[2017.11.25-12.59.29:731][943]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (55)
+[2017.11.25-12.59.29:731][943]LogModuleManager: Shutting down and abandoning module InputCore (52)
+[2017.11.25-12.59.29:731][943]LogModuleManager: Shutting down and abandoning module Settings (50)
+[2017.11.25-12.59.29:731][943]LogModuleManager: Shutting down and abandoning module OculusRift (48)
+[2017.11.25-12.59.29:772][943]LogModuleManager: Shutting down and abandoning module GearVR (46)
+[2017.11.25-12.59.29:772][943]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (44)
+[2017.11.25-12.59.29:772][943]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (42)
+[2017.11.25-12.59.29:772][943]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (38)
+[2017.11.25-12.59.29:772][943]LogOnline:Display: Unloading online subsystem: NULL
+[2017.11.25-12.59.29:891][943]LogModuleManager: Shutting down and abandoning module XMPP (37)
+[2017.11.25-12.59.30:235][943]LogModuleManager: Shutting down and abandoning module HTTP (35)
+[2017.11.25-12.59.30:305][943]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.25-12.59.30:305][943]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B87580ADC-4C8D-06C7-75C1-E6B6B0B73003%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.15.3-3450819%2B%2B%2BUE4%2BRelease-4.15&UserID=97d3f40d403ff4a258d6f980a741b4dc%7C969837ba78db4a5a8b4180254925176e%7C81706c51-5e4d-4c53-8181-bc8c50ced6a7&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.25-12.59.30:326][943]LogModuleManager: Shutting down and abandoning module SSL (34)
+[2017.11.25-12.59.30:417][943]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.11.25-12.59.30:484][943]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.11.25-12.59.30:484][943]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.11.25-12.59.30:484][943]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.11.25-12.59.30:484][943]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.11.25-12.59.30:522][943]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.11.25-12.59.30:606][943]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.11.25-12.59.30:607][943]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.11.25-12.59.30:654][943]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.11.25-12.59.30:654][943]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.11.25-12.59.30:654][943]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.11.25-12.59.30:654][943]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.11.25-12.59.30:696][943]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.25-12.59.30:719][943]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.25-12.59.30:719][943]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.25-12.59.30:821][943]LogExit: Exiting.
+[2017.11.25-12.59.37:591][943]Log file closed, 11/25/17 12:59:37
