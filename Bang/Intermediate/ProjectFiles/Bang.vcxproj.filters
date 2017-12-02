@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\Bang.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{E22E173D-8B51-419D-8ECF-704CED687CB7}</UniqueIdentifier>
+			<UniqueIdentifier>{C407DA02-B582-4D58-92B1-591A5E25D533}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Bang.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{43993BBD-86EE-4DB4-BF6B-97D31D9773AA}</UniqueIdentifier>
+			<UniqueIdentifier>{8C10C682-33C0-4CDC-BA76-005F3FD0F59B}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\Bang">
-			<UniqueIdentifier>{DE5D7D05-6CAD-4276-9CB7-A5AE3155C58D}</UniqueIdentifier>
+			<UniqueIdentifier>{48E46447-F690-41F0-8FCD-7CB6A4336C01}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Bang\Bang.Build.cs">
 			<Filter>Source\Bang</Filter>

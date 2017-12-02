@@ -1,3 +1,3 @@
-C:\Users\Marcus\Desktop\TestCode\Bang\Source\Bang\Bang.Build.cs
-C:\Users\Marcus\Desktop\TestCode\Bang\Source\Bang.Target.cs
-C:\Users\Marcus\Desktop\TestCode\Bang\Source\BangEditor.Target.cs
+C:\Users\Marcus\Documents\GitHub\BANG\Bang\Source\Bang\Bang.Build.cs
+C:\Users\Marcus\Documents\GitHub\BANG\Bang\Source\Bang.Target.cs
+C:\Users\Marcus\Documents\GitHub\BANG\Bang\Source\BangEditor.Target.cs
