@@ -46,8 +46,10 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
 	class UPaperFlipbook* IdleAnimationLegs;
 
-	// The animation to play while idle (standing still)
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Component)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
+	class UPaperFlipbookComponent* m_torsoFlipbook;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations1)
 	class UPaperFlipbookComponent* m_legsFlipbook;
 
 	/** Called to choose the correct animation to play based on the character's movement state */

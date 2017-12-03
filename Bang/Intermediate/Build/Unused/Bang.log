@@ -1,14 +1,7 @@
-﻿  Compiling game modules for hot reload
-  Parsing headers for BangEditor
-    Running UnrealHeaderTool "C:\Users\Marcus\Documents\GitHub\BANG\Bang\Bang.uproject" "C:\Users\Marcus\Documents\GitHub\BANG\Bang\Intermediate\Build\Win64\BangEditor\Development\BangEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BangEditor in 5.7229237 seconds
-  Performing 5 actions (4 in parallel)
-  Bang.generated.cpp
+﻿  Performing 2 actions (4 in parallel)
   BangCharacter.cpp
-  BangGameMode.cpp
-  [4/5] Link UE4Editor-Bang-204.dll
-  [5/5] Link UE4Editor-Bang-204.lib
-     Creating library C:\Users\Marcus\Documents\GitHub\BANG\Bang\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-204.lib and object C:\Users\Marcus\Documents\GitHub\BANG\Bang\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-204.exp
-     Creating library C:\Users\Marcus\Documents\GitHub\BANG\Bang\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-204.suppressed.lib and object C:\Users\Marcus\Documents\GitHub\BANG\Bang\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-204.suppressed.exp
-  Deploying BangEditor Win64 Development...
-  Total build time: 17.46 seconds (Local executor: 2.69 seconds)
+  [2/2] Link Bang-Win64-DebugGame.exe
+     Creating library C:\Users\Marcus\Documents\GitHub\BANG\Bang\Binaries\Win64\Bang-Win64-DebugGame.lib and object C:\Users\Marcus\Documents\GitHub\BANG\Bang\Binaries\Win64\Bang-Win64-DebugGame.exp
+  Deploying Bang Win64 DebugGame...
+  Prepping UE4 for deployment to Win64
+  Total build time: 18.86 seconds (Local executor: 17.21 seconds)

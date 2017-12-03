@@ -73,14 +73,12 @@ ABangCharacter::ABangCharacter()
 	GetSprite()->SetIsReplicated(true);
 	bReplicates = true;
 
-	for (TObjectIterator<UPaperFlipbookComponent> Itr; Itr; ++Itr)
-	{
-		// Access the subclass instance with the * or -> operators.
-		UPaperFlipbookComponent *Component = *Itr;
-		if (Component->GetName() == "LegsAnim") {
-			m_legsFlipbook = Component;
-		}
-	}
+	m_torsoFlipbook = GetSprite();
+
+	m_legsFlipbook = this->CreateDefaultSubobject<UPaperFlipbookComponent>("LegsFlipbook");
+	m_legsFlipbook->SetupAttachment(RootComponent);
+	m_legsFlipbook->SetRelativeScale3D(FVector(5.0f, 5.0f, 5.0f));
+	m_legsFlipbook->SetRelativeLocationAndRotation(FVector::ZeroVector, FQuat::Identity);
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -93,9 +91,9 @@ void ABangCharacter::UpdateAnimation()
 
 	// Are we moving or standing still?
 	UPaperFlipbook* DesiredAnimation = (PlayerSpeedSqr > 0.0f) ? RunningAnimation : IdleAnimation;
-	if( GetSprite()->GetFlipbook() != DesiredAnimation 	)
+	if(m_torsoFlipbook->GetFlipbook() != DesiredAnimation 	)
 	{
-		GetSprite()->SetFlipbook(DesiredAnimation);
+		m_torsoFlipbook->SetFlipbook(DesiredAnimation);
 	}
 
 	UPaperFlipbook* DesiredAnimationLegs = (PlayerSpeedSqr > 0.0f) ? RunningAnimationLegs : IdleAnimationLegs;

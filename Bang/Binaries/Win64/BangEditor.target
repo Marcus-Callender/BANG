@@ -2,7 +2,7 @@
 	"TargetName" : "BangEditor",
 	"Platform" : "Win64",
 	"Configuration" : "Development",
-	"BuildId" : "662523a6-a269-4be8-8304-167a978ea4fb",
+	"BuildId" : "eb19b897-c2bc-45ce-879d-306927917b6b",
 	"Version" : 
 	{
 		"MajorVersion" : 4,
@@ -17,15 +17,15 @@
 	"BuildProducts" :
 	[
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-Bang-204.dll",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-Bang-3877.dll",
 			"Type" : "DynamicLibrary"
 		},
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-Bang-204.pdb",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-Bang-3877.pdb",
 			"Type" : "SymbolFile"
 		},
 		{
-			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-Bang-204.lib",
+			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-Bang-3877.lib",
 			"Type" : "ImportLibrary"
 		},
 		{

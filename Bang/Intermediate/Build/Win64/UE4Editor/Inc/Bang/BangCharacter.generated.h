@@ -70,6 +70,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABangCharacter); \
 	FORCEINLINE static uint32 __PPO__IdleAnimation() { return STRUCT_OFFSET(ABangCharacter, IdleAnimation); } \
 	FORCEINLINE static uint32 __PPO__RunningAnimationLegs() { return STRUCT_OFFSET(ABangCharacter, RunningAnimationLegs); } \
 	FORCEINLINE static uint32 __PPO__IdleAnimationLegs() { return STRUCT_OFFSET(ABangCharacter, IdleAnimationLegs); } \
+	FORCEINLINE static uint32 __PPO__m_torsoFlipbook() { return STRUCT_OFFSET(ABangCharacter, m_torsoFlipbook); } \
 	FORCEINLINE static uint32 __PPO__m_legsFlipbook() { return STRUCT_OFFSET(ABangCharacter, m_legsFlipbook); }
 
 
