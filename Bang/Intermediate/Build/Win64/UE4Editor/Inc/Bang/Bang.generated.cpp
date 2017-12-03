@@ -14,7 +14,7 @@ void EmptyLinkFunctionForGeneratedCode1Bang() {}
 	void ABangCharacter::StaticRegisterNativesABangCharacter()
 	{
 	}
-	IMPLEMENT_CLASS(ABangCharacter, 4082402875);
+	IMPLEMENT_CLASS(ABangCharacter, 2127281307);
 	void ABangGameMode::StaticRegisterNativesABangGameMode()
 	{
 	}
@@ -22,6 +22,7 @@ void EmptyLinkFunctionForGeneratedCode1Bang() {}
 #if USE_COMPILED_IN_NATIVES
 // Cross Module References
 	PAPER2D_API class UClass* Z_Construct_UClass_APaperCharacter();
+	PAPER2D_API class UClass* Z_Construct_UClass_UPaperFlipbookComponent_NoRegister();
 	PAPER2D_API class UClass* Z_Construct_UClass_UPaperFlipbook_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENGINE_API class UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
@@ -51,6 +52,9 @@ void EmptyLinkFunctionForGeneratedCode1Bang() {}
 
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+				UProperty* NewProp_m_legsFlipbook = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("m_legsFlipbook"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(m_legsFlipbook, ABangCharacter), 0x002008000008000d, Z_Construct_UClass_UPaperFlipbookComponent_NoRegister());
+				UProperty* NewProp_IdleAnimationLegs = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("IdleAnimationLegs"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(IdleAnimationLegs, ABangCharacter), 0x0020080000000005, Z_Construct_UClass_UPaperFlipbook_NoRegister());
+				UProperty* NewProp_RunningAnimationLegs = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("RunningAnimationLegs"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(RunningAnimationLegs, ABangCharacter), 0x0020080000000005, Z_Construct_UClass_UPaperFlipbook_NoRegister());
 				UProperty* NewProp_IdleAnimation = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("IdleAnimation"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(IdleAnimation, ABangCharacter), 0x0020080000000005, Z_Construct_UClass_UPaperFlipbook_NoRegister());
 				UProperty* NewProp_RunningAnimation = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("RunningAnimation"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(RunningAnimation, ABangCharacter), 0x0020080000000005, Z_Construct_UClass_UPaperFlipbook_NoRegister());
 				UProperty* NewProp_CameraBoom = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("CameraBoom"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(CameraBoom, ABangCharacter), 0x00400000000a001d, Z_Construct_UClass_USpringArmComponent_NoRegister());
@@ -63,6 +67,16 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Navigation"));
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("BangCharacter.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("BangCharacter.h"));
+				MetaData->SetValue(NewProp_m_legsFlipbook, TEXT("Category"), TEXT("Component"));
+				MetaData->SetValue(NewProp_m_legsFlipbook, TEXT("EditInline"), TEXT("true"));
+				MetaData->SetValue(NewProp_m_legsFlipbook, TEXT("ModuleRelativePath"), TEXT("BangCharacter.h"));
+				MetaData->SetValue(NewProp_m_legsFlipbook, TEXT("ToolTip"), TEXT("The animation to play while idle (standing still)"));
+				MetaData->SetValue(NewProp_IdleAnimationLegs, TEXT("Category"), TEXT("Animations"));
+				MetaData->SetValue(NewProp_IdleAnimationLegs, TEXT("ModuleRelativePath"), TEXT("BangCharacter.h"));
+				MetaData->SetValue(NewProp_IdleAnimationLegs, TEXT("ToolTip"), TEXT("The animation to play while idle (standing still)"));
+				MetaData->SetValue(NewProp_RunningAnimationLegs, TEXT("Category"), TEXT("Animations"));
+				MetaData->SetValue(NewProp_RunningAnimationLegs, TEXT("ModuleRelativePath"), TEXT("BangCharacter.h"));
+				MetaData->SetValue(NewProp_RunningAnimationLegs, TEXT("ToolTip"), TEXT("The animation to play while running around"));
 				MetaData->SetValue(NewProp_IdleAnimation, TEXT("Category"), TEXT("Animations"));
 				MetaData->SetValue(NewProp_IdleAnimation, TEXT("ModuleRelativePath"), TEXT("BangCharacter.h"));
 				MetaData->SetValue(NewProp_IdleAnimation, TEXT("ToolTip"), TEXT("The animation to play while idle (standing still)"));
@@ -129,7 +143,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), NULL, FName(TEXT("/Script/Bang")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0xBBD6F121;
+			Guid.A = 0x13924541;
 			Guid.B = 0xAB676492;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;

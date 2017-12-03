@@ -72,6 +72,15 @@ ABangCharacter::ABangCharacter()
 	// Enable replication on the Sprite component so animations show up when networked
 	GetSprite()->SetIsReplicated(true);
 	bReplicates = true;
+
+	for (TObjectIterator<UPaperFlipbookComponent> Itr; Itr; ++Itr)
+	{
+		// Access the subclass instance with the * or -> operators.
+		UPaperFlipbookComponent *Component = *Itr;
+		if (Component->GetName() == "LegsAnim") {
+			m_legsFlipbook = Component;
+		}
+	}
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -87,6 +96,12 @@ void ABangCharacter::UpdateAnimation()
 	if( GetSprite()->GetFlipbook() != DesiredAnimation 	)
 	{
 		GetSprite()->SetFlipbook(DesiredAnimation);
+	}
+
+	UPaperFlipbook* DesiredAnimationLegs = (PlayerSpeedSqr > 0.0f) ? RunningAnimationLegs : IdleAnimationLegs;
+	if (m_legsFlipbook->GetFlipbook() != DesiredAnimationLegs)
+	{
+		m_legsFlipbook->SetFlipbook(DesiredAnimationLegs);
 	}
 }
 

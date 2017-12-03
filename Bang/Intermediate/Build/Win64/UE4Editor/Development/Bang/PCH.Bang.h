@@ -1,4 +1,4 @@
-// PCH for C:\Users\Marcus\Desktop\TestCode\Bang\Source\Bang\Bang.h
+// PCH for C:\Users\Marcus\Documents\GitHub\BANG\Bang\Source\Bang\Bang.h
 #define UE_EDITOR 1
 #define IS_PROGRAM 0
 #define WITH_DEV_AUTOMATION_TESTS 1
@@ -118,4 +118,4 @@
 #define NETWORKREPLAYSTREAMING_API 
 #define WITH_BOX2D 1
 #define PAPER2D_API DLLIMPORT
-#include "C:\Users\Marcus\Desktop\TestCode\Bang\Source\Bang\Bang.h"
+#include "C:\Users\Marcus\Documents\GitHub\BANG\Bang\Source\Bang\Bang.h"

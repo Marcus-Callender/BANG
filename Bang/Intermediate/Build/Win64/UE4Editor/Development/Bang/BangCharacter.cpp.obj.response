@@ -23,9 +23,9 @@
 /wd4838
 /w44668
 /I "C:\Program Files\Epic Games\UE_4.15\Engine\Source"
-/I C:\Users\Marcus\Desktop\TestCode\Bang\Source
-/I C:\Users\Marcus\Desktop\TestCode\Bang\Intermediate\Build\Win64\UE4Editor\Inc\Bang
-/I C:\Users\Marcus\Desktop\TestCode\Bang\Source\Bang
+/I C:\Users\Marcus\Documents\GitHub\BANG\Bang\Source
+/I C:\Users\Marcus\Documents\GitHub\BANG\Bang\Intermediate\Build\Win64\UE4Editor\Inc\Bang
+/I C:\Users\Marcus\Documents\GitHub\BANG\Bang\Source\Bang
 /I "C:\Program Files\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Public"
 /I "C:\Program Files\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Public\Internationalization"
 /I "C:\Program Files\Epic Games\UE_4.15\Engine\Source\Runtime\Core\Public\Async"
@@ -307,11 +307,11 @@
 /I "C:\Program Files\Epic Games\UE_4.15\Engine\Plugins\2D\Paper2D\Source\Paper2D\Public"
 /I "C:\Program Files\Epic Games\UE_4.15\Engine\Plugins\2D\Paper2D\Intermediate\Build\Win64\UE4Editor\Inc\Paper2D"
 /I "C:\Program Files\Epic Games\UE_4.15\Engine\Plugins\2D\Paper2D\Source\Paper2D"
-/FI"C:\Users\Marcus\Desktop\TestCode\Bang\Source\Bang\Bang.h"
-/Yu"C:\Users\Marcus\Desktop\TestCode\Bang\Source\Bang\Bang.h"
-/Fp"C:\Users\Marcus\Desktop\TestCode\Bang\Intermediate\Build\Win64\UE4Editor\Development\Bang\PCH.Bang.h.pch"
-"C:\Users\Marcus\Desktop\TestCode\Bang\Source\Bang\BangCharacter.cpp"
-/Fo"C:\Users\Marcus\Desktop\TestCode\Bang\Intermediate\Build\Win64\UE4Editor\Development\Bang\BangCharacter.cpp.obj"
+/FI"C:\Users\Marcus\Documents\GitHub\BANG\Bang\Source\Bang\Bang.h"
+/Yu"C:\Users\Marcus\Documents\GitHub\BANG\Bang\Source\Bang\Bang.h"
+/Fp"C:\Users\Marcus\Documents\GitHub\BANG\Bang\Intermediate\Build\Win64\UE4Editor\Development\Bang\PCH.Bang.h.pch"
+"C:\Users\Marcus\Documents\GitHub\BANG\Bang\Source\Bang\BangCharacter.cpp"
+/Fo"C:\Users\Marcus\Documents\GitHub\BANG\Bang\Intermediate\Build\Win64\UE4Editor\Development\Bang\BangCharacter.cpp.obj"
 /TP
 /GR-
 /W4
