@@ -185,10 +185,12 @@ void ABangCharacter::UpdateCharacter()
 		if (TravelDirection < 0.0f)
 		{
 			Controller->SetControlRotation(FRotator(0.0, 180.0f, 0.0f));
+			m_legsFlipbook->SetRelativeLocation(FVector(0.0f, 14.0f, 0.0f));
 		}
 		else if (TravelDirection > 0.0f)
 		{
 			Controller->SetControlRotation(FRotator(0.0f, 0.0f, 0.0f));
+			m_legsFlipbook->SetRelativeLocation(FVector(0.0f, -14.0f, 0.0f));
 		}
 	}
 }
