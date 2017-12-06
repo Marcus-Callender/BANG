@@ -19,6 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeBangCharacter() {}
 	BANG_API UClass* Z_Construct_UClass_ABangCharacter();
 	PAPER2D_API UClass* Z_Construct_UClass_APaperCharacter();
 	UPackage* Z_Construct_UPackage__Script_Bang();
+	BANG_API UClass* Z_Construct_UClass_APistolBullet_NoRegister();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	PAPER2D_API UClass* Z_Construct_UClass_UPaperFlipbookComponent_NoRegister();
 	PAPER2D_API UClass* Z_Construct_UClass_UPaperFlipbook_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
@@ -46,6 +48,7 @@ void EmptyLinkFunctionForGeneratedCodeBangCharacter() {}
 
 
 				UProperty* NewProp_m_animationLockTime = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("m_animationLockTime"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(m_animationLockTime, ABangCharacter), 0x0040000000000000);
+				UProperty* NewProp_m_projectile = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("m_projectile"), RF_Public|RF_Transient|RF_MarkAsNative) UClassProperty(CPP_PROPERTY_BASE(m_projectile, ABangCharacter), 0x0024080000000005, Z_Construct_UClass_APistolBullet_NoRegister(), Z_Construct_UClass_UClass());
 				UProperty* NewProp_m_legsFlipbook = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("m_legsFlipbook"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(m_legsFlipbook, ABangCharacter), 0x002008000008000d, Z_Construct_UClass_UPaperFlipbookComponent_NoRegister());
 				UProperty* NewProp_m_torsoFlipbook = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("m_torsoFlipbook"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(m_torsoFlipbook, ABangCharacter), 0x002008000008000d, Z_Construct_UClass_UPaperFlipbookComponent_NoRegister());
 				UProperty* NewProp_IdleAnimationLegs = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("IdleAnimationLegs"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(IdleAnimationLegs, ABangCharacter), 0x0020080000000005, Z_Construct_UClass_UPaperFlipbook_NoRegister());
@@ -66,6 +69,8 @@ void EmptyLinkFunctionForGeneratedCodeBangCharacter() {}
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("BangCharacter.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("BangCharacter.h"));
 				MetaData->SetValue(NewProp_m_animationLockTime, TEXT("ModuleRelativePath"), TEXT("BangCharacter.h"));
+				MetaData->SetValue(NewProp_m_projectile, TEXT("Category"), TEXT("Spawning"));
+				MetaData->SetValue(NewProp_m_projectile, TEXT("ModuleRelativePath"), TEXT("BangCharacter.h"));
 				MetaData->SetValue(NewProp_m_legsFlipbook, TEXT("Category"), TEXT("Animations1"));
 				MetaData->SetValue(NewProp_m_legsFlipbook, TEXT("EditInline"), TEXT("true"));
 				MetaData->SetValue(NewProp_m_legsFlipbook, TEXT("ModuleRelativePath"), TEXT("BangCharacter.h"));
@@ -106,7 +111,7 @@ void EmptyLinkFunctionForGeneratedCodeBangCharacter() {}
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABangCharacter, 2056857148);
+	IMPLEMENT_CLASS(ABangCharacter, 944736638);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABangCharacter(Z_Construct_UClass_ABangCharacter, &ABangCharacter::StaticClass, TEXT("/Script/Bang"), TEXT("ABangCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABangCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

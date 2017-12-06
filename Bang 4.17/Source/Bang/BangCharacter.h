@@ -60,6 +60,9 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations1)
 	class UPaperFlipbookComponent* m_legsFlipbook;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Spawning)
+	TSubclassOf<class APistolBullet> m_projectile;
+
 	/** Called to choose the correct animation to play based on the character's movement state */
 	void UpdateAnimation();
 
@@ -93,4 +96,5 @@ private:
 	UPROPERTY()
 	float m_animationLockTime = 0.0f;
 
+	void FireProjectile();
 };

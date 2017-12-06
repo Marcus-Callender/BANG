@@ -6,6 +6,8 @@
 #include "Components/TextRenderComponent.h"
 #include "PaperFlipbook.h"
 
+#include "PistolBullet.h"
+
 
 DEFINE_LOG_CATEGORY_STATIC(SideScrollerCharacter, Log, All);
 //////////////////////////////////////////////////////////////////////////
@@ -81,6 +83,27 @@ ABangCharacter::ABangCharacter()
 	m_legsFlipbook->SetRelativeLocationAndRotation(FVector::ZeroVector, FQuat::Identity);
 }
 
+void ABangCharacter::FireProjectile()
+{
+	if (m_projectile != NULL)
+	{
+		UWorld* const world = GetWorld();
+
+		if (world)
+		{
+			FActorSpawnParameters params;
+			params.Owner = this;
+			params.Instigator = Instigator;
+
+			FVector SpawnVector = GetActorLocation();
+
+			FRotator SpawnRotation = FRotator::ZeroRotator;
+
+			APistolBullet* const newPickup = world->SpawnActor<APistolBullet>(m_projectile, SpawnVector, SpawnRotation, params);
+		}
+	}
+}
+
 //////////////////////////////////////////////////////////////////////////
 // Animation
 
@@ -138,6 +161,7 @@ void ABangCharacter::RangedAttack()
 {
 	if (m_animationLockTime <= 0.0f)
 	{
+		FireProjectile();
 		m_torsoFlipbook->SetFlipbook(RangedAttackAnim);
 		m_animationLockTime = RangedAttackAnim->GetTotalDuration();
 	}

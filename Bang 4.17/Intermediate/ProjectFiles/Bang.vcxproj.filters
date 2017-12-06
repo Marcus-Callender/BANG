@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\Bang.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{4EFD9D67-A92C-4FD7-8244-E3505BCB6973}</UniqueIdentifier>
+			<UniqueIdentifier>{94870231-E6EB-4D49-A703-3C7FDDA47258}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Bang.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{F5011ABB-4ECC-4E31-A0F8-623F8E6040BB}</UniqueIdentifier>
+			<UniqueIdentifier>{0CED6AB1-99DD-4E14-B7D5-B09E80C36D8C}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\Bang">
-			<UniqueIdentifier>{E7AC9582-5E6D-425E-986E-379C4BBCDB67}</UniqueIdentifier>
+			<UniqueIdentifier>{932F530C-430A-40B7-A8E9-F6E3F7E00196}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Bang\Bang.Build.cs">
 			<Filter>Source\Bang</Filter>
@@ -52,6 +52,12 @@
 			<Filter>Source\Bang</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\Bang\BangGameMode.h">
+			<Filter>Source\Bang</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Bang\PistolBullet.cpp">
+			<Filter>Source\Bang</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Bang\PistolBullet.h">
 			<Filter>Source\Bang</Filter>
 		</ClInclude >
 	</ItemGroup>
