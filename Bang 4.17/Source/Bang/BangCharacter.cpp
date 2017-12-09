@@ -97,7 +97,7 @@ void ABangCharacter::FireProjectile()
 
 			FVector SpawnVector = GetActorLocation();
 
-			FRotator SpawnRotation = FRotator::ZeroRotator;
+			FRotator SpawnRotation = GetActorRotation();
 
 			APistolBullet* const newPickup = world->SpawnActor<APistolBullet>(m_projectile, SpawnVector, SpawnRotation, params);
 		}

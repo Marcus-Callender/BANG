@@ -4,12 +4,12 @@ C:\Users\MCall\Documents\GitHub\BANG\Bang 4.17\Source\BangEditor.Target.cs : war
   Compiling game modules for hot reload
   Parsing headers for BangEditor
     Running UnrealHeaderTool "C:\Users\MCall\Documents\GitHub\BANG\Bang 4.17\Bang.uproject" "C:\Users\MCall\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\BangEditor\Development\BangEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BangEditor in 15.3843147 seconds
+  Reflection code generated for BangEditor in 22.9639308 seconds
   Performing 3 actions (4 in parallel)
-  BangCharacter.cpp
-  [2/3] Link UE4Editor-Bang-3018.dll
-  [3/3] Link UE4Editor-Bang-3018.lib
-     Creating library C:\Users\MCall\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-3018.lib and object C:\Users\MCall\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-3018.exp
-     Creating library C:\Users\MCall\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-3018.suppressed.lib and object C:\Users\MCall\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-3018.suppressed.exp
+  PistolBullet.cpp
+  [2/3] Link UE4Editor-Bang-7024.dll
+  [3/3] Link UE4Editor-Bang-7024.lib
+     Creating library C:\Users\MCall\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-7024.lib and object C:\Users\MCall\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-7024.exp
+     Creating library C:\Users\MCall\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-7024.suppressed.lib and object C:\Users\MCall\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-7024.suppressed.exp
   Deploying BangEditor Win64 Development...
-  Total build time: 29.77 seconds (Local executor: 3.17 seconds)
+  Total build time: 39.60 seconds (Local executor: 4.59 seconds)

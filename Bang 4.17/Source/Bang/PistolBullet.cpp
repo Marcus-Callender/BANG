@@ -14,6 +14,8 @@ APistolBullet::APistolBullet()
 	m_bulletMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("BatteryMesh"));
 	this->RootComponent = m_bulletMesh;
 
+	m_bulletMesh->SetSimulatePhysics(true);
+
 	// makes the bullet travel in the direction it is faceing
 	m_bulletMesh->SetPhysicsLinearVelocity(GetActorForwardVector() * 5.0f);
 
@@ -26,13 +28,15 @@ APistolBullet::APistolBullet()
 void APistolBullet::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	m_bulletMesh->SetPhysicsLinearVelocity(GetActorForwardVector() * 5.0f);
+	m_bulletMesh->AddImpulse(GetActorForwardVector() * 5.0f);
 }
 
 // Called every frame
 void APistolBullet::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	m_bulletMesh->SetPhysicsLinearVelocity(GetActorForwardVector() * 5.0f);
 
 }
 
