@@ -29,6 +29,7 @@ class ABangCharacter : public APaperCharacter
 
 	UTextRenderComponent* TextComponent;
 	virtual void Tick(float DeltaSeconds) override;
+
 protected:
 	// The animation to play while running around
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Animations)
@@ -57,11 +58,11 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
 	class UPaperFlipbookComponent* m_torsoFlipbook;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations1)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
 	class UPaperFlipbookComponent* m_legsFlipbook;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Spawning")
-	TSubclassOf<class APistolBullet> m_projectile;
+	TSubclassOf<class APistolBulletActor> m_projectile;
 
 	/** Called to choose the correct animation to play based on the character's movement state */
 	void UpdateAnimation();

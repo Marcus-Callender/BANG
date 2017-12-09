@@ -6,7 +6,7 @@
 #include "Components/TextRenderComponent.h"
 #include "PaperFlipbook.h"
 
-#include "PistolBullet.h"
+#include "PistolBulletActor.h"
 
 
 DEFINE_LOG_CATEGORY_STATIC(SideScrollerCharacter, Log, All);
@@ -29,7 +29,7 @@ ABangCharacter::ABangCharacter()
 	// Create a camera boom attached to the root (capsule)
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
 	CameraBoom->SetupAttachment(RootComponent);
-	CameraBoom->TargetArmLength = 500.0f;
+	CameraBoom->TargetArmLength = 600.0f;
 	CameraBoom->SocketOffset = FVector(0.0f, 0.0f, 75.0f);
 	CameraBoom->bAbsoluteRotation = true;
 	CameraBoom->bDoCollisionTest = false;
@@ -89,17 +89,27 @@ void ABangCharacter::FireProjectile()
 	{
 		UWorld* const world = GetWorld();
 
-		if (world)
+		if (world != NULL)
 		{
+
+
 			FActorSpawnParameters params;
 			params.Owner = this;
 			params.Instigator = Instigator;
+			params.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
 
 			FVector SpawnVector = GetActorLocation();
 
 			FRotator SpawnRotation = GetActorRotation();
 
-			APistolBullet* const newPickup = world->SpawnActor<APistolBullet>(m_projectile, SpawnVector, SpawnRotation, params);
+			/*APistolBullet* const bullet =*/ world->SpawnActor<APistolBulletActor>(m_projectile, SpawnVector, SpawnRotation, params);
+
+			//if (bullet)
+			//{
+			//	// find launch direction
+			//	FVector LaunchDir = SpawnRotation.Vector() * 1000.0f;
+			//	bullet->Fire(&LaunchDir);
+			//}
 		}
 	}
 }
