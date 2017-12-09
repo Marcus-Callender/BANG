@@ -1,7 +1,0 @@
-﻿  Performing 2 actions (4 in parallel)
-  BangCharacter.cpp
-  [2/2] Link Bang-Win64-DebugGame.exe
-     Creating library C:\Users\Marcus\Documents\GitHub\BANG\Bang\Binaries\Win64\Bang-Win64-DebugGame.lib and object C:\Users\Marcus\Documents\GitHub\BANG\Bang\Binaries\Win64\Bang-Win64-DebugGame.exp
-  Deploying Bang Win64 DebugGame...
-  Prepping UE4 for deployment to Win64
-  Total build time: 18.86 seconds (Local executor: 17.21 seconds)
