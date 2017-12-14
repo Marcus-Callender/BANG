@@ -51,7 +51,7 @@ ABangCharacter::ABangCharacter()
 	// Configure character movement
 	GetCharacterMovement()->GravityScale = 3.0f;
 	GetCharacterMovement()->AirControl = 0.80f;
-	GetCharacterMovement()->JumpZVelocity = 1000.f;
+	GetCharacterMovement()->JumpZVelocity = 1100.f;
 	GetCharacterMovement()->GroundFriction = 3.0f;
 	GetCharacterMovement()->MaxWalkSpeed = 600.0f;
 	GetCharacterMovement()->MaxFlySpeed = 600.0f;
@@ -71,7 +71,7 @@ ABangCharacter::ABangCharacter()
 	// 	TextComponent->SetRelativeRotation(FRotator(0.0f, 90.0f, 0.0f));
 	// 	TextComponent->SetupAttachment(RootComponent);
 
-		// Enable replication on the Sprite component so animations show up when networked
+	// Enable replication on the Sprite component so animations show up when networked
 	GetSprite()->SetIsReplicated(true);
 	bReplicates = true;
 
@@ -91,8 +91,6 @@ void ABangCharacter::FireProjectile()
 
 		if (world != NULL)
 		{
-
-
 			FActorSpawnParameters params;
 			params.Owner = this;
 			params.Instigator = Instigator;
@@ -102,14 +100,7 @@ void ABangCharacter::FireProjectile()
 
 			FRotator SpawnRotation = GetActorRotation();
 
-			/*APistolBullet* const bullet =*/ world->SpawnActor<APistolBulletActor>(m_projectile, SpawnVector, SpawnRotation, params);
-
-			//if (bullet)
-			//{
-			//	// find launch direction
-			//	FVector LaunchDir = SpawnRotation.Vector() * 1000.0f;
-			//	bullet->Fire(&LaunchDir);
-			//}
+			world->SpawnActor<APistolBulletActor>(m_projectile, SpawnVector + (FVector(m_bulletOffset, 0.0f, 0.0f) * (SpawnRotation == FRotator::ZeroRotator ? 1.0f : -1.0f)) , SpawnRotation, params);
 		}
 	}
 }

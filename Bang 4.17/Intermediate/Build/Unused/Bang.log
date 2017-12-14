@@ -1,15 +1,18 @@
-﻿C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\Bang\Bang.Build.cs : warning : Module constructors should take a ReadOnlyTargetRules argument (rather than a TargetInfo argument) and pass it to the base class constructor from 4.15 onwards. Please update the method signature.
-C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\Bang.Target.cs : warning : SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
-C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\BangEditor.Target.cs : warning : SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+﻿C:\Users\MCall\Documents\GitHub\BANG\Bang 4.17\Source\Bang\Bang.Build.cs : warning : Module constructors should take a ReadOnlyTargetRules argument (rather than a TargetInfo argument) and pass it to the base class constructor from 4.15 onwards. Please update the method signature.
+C:\Users\MCall\Documents\GitHub\BANG\Bang 4.17\Source\Bang.Target.cs : warning : SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+C:\Users\MCall\Documents\GitHub\BANG\Bang 4.17\Source\BangEditor.Target.cs : warning : SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
   Compiling game modules for hot reload
   Parsing headers for BangEditor
-    Running UnrealHeaderTool "C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Bang.uproject" "C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\BangEditor\Development\BangEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BangEditor in 8.0886726 seconds
-  Performing 3 actions (4 in parallel)
+    Running UnrealHeaderTool "C:\Users\MCall\Documents\GitHub\BANG\Bang 4.17\Bang.uproject" "C:\Users\MCall\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\BangEditor\Development\BangEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for BangEditor in 8.2779984 seconds
+  Performing 6 actions (4 in parallel)
+  Bang.init.gen.cpp
   BangCharacter.cpp
-  [2/3] Link UE4Editor-Bang-6224.dll
-  [3/3] Link UE4Editor-Bang-6224.lib
-     Creating library C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-6224.lib and object C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-6224.exp
-     Creating library C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-6224.suppressed.lib and object C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-6224.suppressed.exp
+  BangCharacter.gen.cpp
+  BangGameMode.cpp
+  [5/6] Link UE4Editor-Bang-9931.dll
+  [6/6] Link UE4Editor-Bang-9931.lib
+     Creating library C:\Users\MCall\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-9931.lib and object C:\Users\MCall\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-9931.exp
+     Creating library C:\Users\MCall\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-9931.suppressed.lib and object C:\Users\MCall\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-9931.suppressed.exp
   Deploying BangEditor Win64 Development...
-  Total build time: 27.72 seconds (Local executor: 8.90 seconds)
+  Total build time: 48.50 seconds (Local executor: 34.01 seconds)

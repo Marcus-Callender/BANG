@@ -97,5 +97,8 @@ private:
 	UPROPERTY()
 	float m_animationLockTime = 0.0f;
 
+	UPROPERTY()
+	float m_bulletOffset = 80.0f;
+
 	void FireProjectile();
 };

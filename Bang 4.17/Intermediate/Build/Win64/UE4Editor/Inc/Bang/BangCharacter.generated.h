@@ -75,7 +75,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABangCharacter); \
 	FORCEINLINE static uint32 __PPO__m_torsoFlipbook() { return STRUCT_OFFSET(ABangCharacter, m_torsoFlipbook); } \
 	FORCEINLINE static uint32 __PPO__m_legsFlipbook() { return STRUCT_OFFSET(ABangCharacter, m_legsFlipbook); } \
 	FORCEINLINE static uint32 __PPO__m_projectile() { return STRUCT_OFFSET(ABangCharacter, m_projectile); } \
-	FORCEINLINE static uint32 __PPO__m_animationLockTime() { return STRUCT_OFFSET(ABangCharacter, m_animationLockTime); }
+	FORCEINLINE static uint32 __PPO__m_animationLockTime() { return STRUCT_OFFSET(ABangCharacter, m_animationLockTime); } \
+	FORCEINLINE static uint32 __PPO__m_bulletOffset() { return STRUCT_OFFSET(ABangCharacter, m_bulletOffset); }
 
 
 #define Bang_4_17_Source_Bang_BangCharacter_h_17_PROLOG
