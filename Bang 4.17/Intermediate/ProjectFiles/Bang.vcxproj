@@ -559,7 +559,9 @@
     <NMakeOutput>..\..\Binaries\HTML5\Bang-HTML5-Shipping.exe</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\Bang\MeleeHitbox.cpp" />
     <ClCompile Include="..\..\Source\Bang\PistolBulletActor.cpp" />
+    <ClInclude Include="..\..\Source\Bang\MeleeHitbox.h" />
     <ClInclude Include="..\..\Source\Bang\PistolBulletActor.h" />
     <None Include="..\..\Bang.uproject" />
     <None Include="..\..\Source\Bang.Target.cs" />

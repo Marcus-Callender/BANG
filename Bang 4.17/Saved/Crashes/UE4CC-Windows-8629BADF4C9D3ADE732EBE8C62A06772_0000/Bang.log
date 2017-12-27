@@ -1,0 +1,794 @@
+﻿Log file open, 12/24/17 12:43:10
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Bang
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(331436655) SRandInit(331436655).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.188132
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.24-12.43.13:638][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.24-12.43.13:638][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.24-12.43.13:666][  0]LogInit: Computer: MARCUSPC
+[2017.12.24-12.43.13:666][  0]LogInit: User: Marcus
+[2017.12.24-12.43.13:666][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.24-12.43.13:666][  0]LogInit: High frequency timer resolution =2.929687 MHz
+[2017.12.24-12.43.13:666][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.12.24-12.43.13:666][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.24-12.43.13:666][  0]LogMemory: Process Physical Memory: 279.71 MB used, 279.71 MB peak
+[2017.12.24-12.43.13:666][  0]LogMemory: Process Virtual Memory: 286.14 MB used, 286.14 MB peak
+[2017.12.24-12.43.13:667][  0]LogMemory: Physical Memory: 4672.68 MB used,  11663.75 MB free, 16336.43 MB total
+[2017.12.24-12.43.13:667][  0]LogMemory: Virtual Memory: 718.33 MB used,  11663.75 MB free, 134217728.00 MB total
+[2017.12.24-12.43.14:318][  0]LogInit: Using OS detected language (en-US).
+[2017.12.24-12.43.14:318][  0]LogInit: Using OS detected locale (en-GB).
+[2017.12.24-12.43.14:323][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.12.24-12.43.15:220][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.24-12.43.15:255][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2017.12.24-12.43.15:255][  0]LogD3D11RHI:       1987/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.12.24-12.43.15:258][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.24-12.43.15:258][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.24-12.43.15:258][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.24-12.43.15:263][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.24-12.43.15:263][  0]LogD3D11RHI:     GPU DeviceId: 0x1c81 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.24-12.43.15:263][  0]LogWindows: EnumDisplayDevices:
+[2017.12.24-12.43.15:263][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050' (P:1 D:1)
+[2017.12.24-12.43.15:263][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050' (P:0 D:1)
+[2017.12.24-12.43.15:263][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2017.12.24-12.43.15:264][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2017.12.24-12.43.15:264][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.12.24-12.43.15:264][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2017.12.24-12.43.15:264][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.12.24-12.43.15:264][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.12.24-12.43.15:264][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.24-12.43.15:285][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.24-12.43.15:301][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.24-12.43.15:303][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Intermediate/Shaders/WorkingDirectory/4120/).
+[2017.12.24-12.43.15:303][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Marcus/AppData/Local/Temp/UnrealShaderWorkingDir/729615A643AFD419546E1D992F4294B3/'.
+[2017.12.24-12.43.15:303][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.24-12.43.16:489][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.24-12.43.16:649][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.24-12.43.16:810][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.24-12.43.16:972][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.24-12.43.17:139][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.24-12.43.17:303][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.24-12.43.17:463][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.24-12.43.17:624][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.24-12.43.17:779][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.24-12.43.17:938][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.24-12.43.18:098][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.24-12.43.18:257][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.24-12.43.18:423][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.24-12.43.18:586][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.24-12.43.18:750][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.24-12.43.19:079][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.24-12.43.19:079][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.24-12.43.19:232][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.24-12.43.19:507][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.24-12.43.19:602][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.24-12.43.19:767][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.24-12.43.19:931][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.24-12.43.20:094][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.24-12.43.20:258][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.24-12.43.20:258][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.24-12.43.22:131][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.24-12.43.22:202][  0]LogDerivedDataCache: Loaded boot cache 0.07s 93MB C:/Users/Marcus/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.24-12.43.22:202][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Marcus/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.12.24-12.43.22:202][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.24-12.43.22:203][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.24-12.43.22:203][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.24-12.43.22:203][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.24-12.43.22:217][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.24-12.43.22:231][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Marcus/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.24-12.43.22:240][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.24-12.43.22:240][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.24-12.43.22:241][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.24-12.43.22:241][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.24-12.43.22:784][  0]LogAssetRegistry: FAssetRegistry took 0.0271 seconds to start up
+[2017.12.24-12.43.23:006][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.24-12.43.24:034][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.24-12.43.24:192][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.24-12.43.24:192][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.24-12.43.24:192][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.24-12.43.24:192][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.24-12.43.24:192][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.24-12.43.24:221][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.24-12.43.24:747][  0]LogNetVersion: Bang , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1517552222)
+[2017.12.24-12.43.25:302][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.186881 seconds
+[2017.12.24-12.43.25:308][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.12.24-12.43.25:308][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.12.24-12.43.25:308][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.24-12.43.25:578][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.24-12.43.32:161][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.24-12.43.32:282][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.24-12.43.34:496][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.24-12.43.35:744][  0]SourceControl: Source control is disabled
+[2017.12.24-12.43.35:744][  0]SourceControl: Source control is disabled
+[2017.12.24-12.43.35:920][  0]SourceControl: Source control is disabled
+[2017.12.24-12.43.36:095][  0]SourceControl: Source control is disabled
+[2017.12.24-12.43.38:240][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.24-12.43.39:124][  0]LogOcInput: OculusInput pre-init called
+[2017.12.24-12.43.39:983][  0]LogEngine: Initializing Engine...
+[2017.12.24-12.43.39:985][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.24-12.43.40:197][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.24-12.43.40:197][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.24-12.43.40:670][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.24-12.43.40:676][  0]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.24-12.43.40:695][  0]LogInit: FAudioDevice initialized.
+[2017.12.24-12.43.40:843][  0]LogDerivedDataCache: Saved boot cache 0.15s 93MB C:/Users/Marcus/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.24-12.43.40:852][  0]LogInit: Texture streaming: Enabled
+[2017.12.24-12.43.41:336][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.24-12.43.42:134][  0]LogInit: Transaction tracking system initialized
+[2017.12.24-12.43.43:353][  0]BlueprintLog: New page: Editor Load
+[2017.12.24-12.43.46:814][  0]LocalizationService: Localization service is disabled
+[2017.12.24-12.43.49:389][  0]LogConsoleResponse: Display: 
+[2017.12.24-12.43.49:726][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.24-12.43.49:726][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.24-12.43.49:727][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.24-12.43.49:828][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/' took 0.02s
+[2017.12.24-12.43.53:648][  0]SourceControl: Source control is disabled
+[2017.12.24-12.43.53:648][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.24-12.43.53:651][  0]LightingResults: New page: Lighting Build
+[2017.12.24-12.43.53:811][  0]MapCheck: New page: Map Check
+[2017.12.24-12.43.53:811][  0]LightingResults: New page: Lighting Build
+[2017.12.24-12.43.54:823][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.12.24-12.43.54:827][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.24-12.43.54:837][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.24-12.43.54:972][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 134.582ms to complete.
+[2017.12.24-12.43.54:972][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 1.324
+[2017.12.24-12.43.55:051][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.24-12.43.55:375][  0]LogCollectionManager: Loaded 0 collections in 0.002338 seconds
+[2017.12.24-12.43.55:575][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/Collections/' took 0.01s
+[2017.12.24-12.43.55:575][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Developers/Marcus/Collections/' took 0.01s
+[2017.12.24-12.43.55:575][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Collections/' took 0.01s
+[2017.12.24-12.43.55:575][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.12.24-12.43.55:586][  0]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2390 classes and 504 folders.
+[2017.12.24-12.43.55:840][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0031 seconds. Added 0 classes and 0 folders.
+[2017.12.24-12.43.55:921][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0032 seconds. Added 0 classes and 0 folders.
+[2017.12.24-12.43.56:944][  0]LogSlate: Took 0.000641 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.24-12.43.56:952][  0]LogSlate: Took 0.000345 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.24-12.43.56:955][  0]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.24-12.43.57:073][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Bang
+[2017.12.24-12.43.57:073][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.12.24-12.43.57:073][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.12.24-12.43.57:073][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.12.24-12.43.57:073][  0]LogTemp: BranchPath = MARCUSPC/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = MARCUSPC/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.12.24-12.43.57:073][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Marcus\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.12.24-12.43.57:073][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.12.24-12.43.57:341][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0032 seconds. Added 1 classes and 2 folders.
+[2017.12.24-12.43.57:341][  0]LogLoad: (Engine Initialization) Total time: 49.23 seconds
+[2017.12.24-12.43.57:342][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.24-12.43.57:342][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.24-12.43.57:342][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.24-12.43.57:375][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.24-12.43.57:406][  0]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.24-12.43.57:473][  1]LogAssetRegistry: Asset discovery search completed in 34.7107 seconds
+[2017.12.24-12.43.57:474][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.12.24-12.43.57:475][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000073 seconds (updated 0 objects)
+[2017.12.24-12.43.58:373][105]LogSlate: Took 0.000314 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.24-12.50.17:172][520]LogSlate: Took 0.000185 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.24-12.50.17:280][520]LogSlate: Took 0.012825 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.24-12.50.17:384][521]LogRenderer: Reallocating scene render targets to support 1528x920 Format 10 NumSamples 1 (Frame:1).
+[2017.12.24-12.50.23:899][280]LogSavePackage: Save=6.52ms
+[2017.12.24-12.50.23:899][280]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/LeonaStandingLegs_Sprite_05BACD76D42388ED4A7D586AC0FF1F60D.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/Legs/LeonaStandingLegs_Sprite_0.uasset'
+[2017.12.24-12.50.23:904][280]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/Legs/LeonaStandingLegs_Sprite_0.uasset
+[2017.12.24-12.50.29:379][925]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.24-12.50.29:444][925]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-12.50.29:444][925]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.24-12.50.29:444][925]PIE: New page: PIE session: 2DSideScrollerExampleMap (24 Dec 2017 12:50:29)
+[2017.12.24-12.50.29:445][925]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.12.24-12.50.29:447][925]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002804s)
+[2017.12.24-12.50.29:448][925]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.12.24-12.50.29:448][925]LogPlayLevel: PIE: World Init took: (0.000611s)
+[2017.12.24-12.50.29:448][925]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003668s)
+[2017.12.24-12.50.29:459][925]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.24-12.50.29:465][925]LogInit: FAudioDevice initialized.
+[2017.12.24-12.50.29:508][925]LogLoad: Game class is 'BangGameMode'
+[2017.12.24-12.50.29:510][925]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.12.24-12.50.29
+[2017.12.24-12.50.29:511][925]LogWorld: Bringing up level for play took: 0.002132
+[2017.12.24-12.50.29:677][925]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0034 seconds. Added 11 classes and 0 folders.
+[2017.12.24-12.50.29:678][925]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.573
+[2017.12.24-12.50.29:679][925]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-12.50.30:587][ 28]LogTemp: Hit Detected
+[2017.12.24-12.50.31:107][ 90]LogTemp: Hit Detected
+[2017.12.24-12.50.31:491][136]LogTemp: Hit Detected
+[2017.12.24-12.50.31:833][177]LogTemp: Hit Detected
+[2017.12.24-12.50.32:208][222]LogTemp: Hit Detected
+[2017.12.24-12.50.34:033][441]LogTemp: Hit Detected
+[2017.12.24-12.50.37:475][854]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-12.50.37:506][854]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-12.57.50:180][762]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.24-12.57.50:197][762]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-12.57.50:197][762]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.24-12.57.50:198][762]PIE: New page: PIE session: 2DSideScrollerExampleMap (24 Dec 2017 12:57:50)
+[2017.12.24-12.57.50:198][762]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.12.24-12.57.50:201][762]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003015s)
+[2017.12.24-12.57.50:201][762]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.12.24-12.57.50:202][762]LogPlayLevel: PIE: World Init took: (0.000878s)
+[2017.12.24-12.57.50:202][762]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.004238s)
+[2017.12.24-12.57.50:212][762]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.24-12.57.50:220][762]LogInit: FAudioDevice initialized.
+[2017.12.24-12.57.50:252][762]LogLoad: Game class is 'BangGameMode'
+[2017.12.24-12.57.50:255][762]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.12.24-12.57.50
+[2017.12.24-12.57.50:256][762]LogWorld: Bringing up level for play took: 0.002152
+[2017.12.24-12.57.50:256][762]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.849
+[2017.12.24-12.57.50:257][762]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-12.57.55:902][438]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-12.57.55:933][438]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-12.58.08:708][791]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.24-12.58.10:346][792]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.24-12.58.14:834][793]LogVSAccessor: Warning: Couldn't goto line number '0' in 'C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Source/Bang/BangCharacter.h'
+[2017.12.24-12.58.14:989][793]LogVSAccessor: Warning: Couldn't goto line number '0' in 'C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Source/Bang/BangCharacter.cpp'
+[2017.12.24-13.04.20:642][881]Candidate modules for hot reload:
+[2017.12.24-13.04.20:643][881]  Bang
+[2017.12.24-13.04.20:643][881]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe Bang -ModuleWithSuffix Bang 3363 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Bang.uproject" ]
+[2017.12.24-13.04.20:650][881]Warning: Starting HotReload took  0.0s.
+[2017.12.24-13.06.36:470][594]CompilerResultsLog: New page: Compilation - 24 Dec 2017 13:06:36
+[2017.12.24-13.06.36:470][594]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
+[2017.12.24-13.06.36:470][594]CompilerResultsLog: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\Bang\Bang.Build.cs: warning: Module constructors should take a ReadOnlyTargetRules argument (rather than a TargetInfo argument) and pass it to the base class constructor from 4.15 onwards. Please update the method signature.
+[2017.12.24-13.06.36:470][594]CompilerResultsLog: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\Bang.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.12.24-13.06.36:470][594]CompilerResultsLog: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\BangEditor.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.12.24-13.06.36:470][594]CompilerResultsLog: Compiling game modules for hot reload
+[2017.12.24-13.06.36:470][594]CompilerResultsLog: Parsing headers for BangEditor
+[2017.12.24-13.06.36:470][594]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Bang.uproject" "C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\BangEditor\Development\BangEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.12.24-13.06.36:470][594]CompilerResultsLog: Reflection code generated for BangEditor in 14.7744936 seconds
+[2017.12.24-13.06.36:470][594]CompilerResultsLog: Performing 6 actions (4 in parallel)
+[2017.12.24-13.06.36:470][594]CompilerResultsLog: BangCharacter.cpp
+[2017.12.24-13.06.36:470][594]CompilerResultsLog: BangCharacter.gen.cpp
+[2017.12.24-13.06.36:470][594]CompilerResultsLog: PistolBulletActor.cpp
+[2017.12.24-13.06.36:470][594]CompilerResultsLog: BangGameMode.cpp
+[2017.12.24-13.06.36:470][594]CompilerResultsLog: [5/6] Link UE4Editor-Bang-3363.dll
+[2017.12.24-13.06.36:470][594]CompilerResultsLog: [6/6] Link UE4Editor-Bang-3363.lib
+[2017.12.24-13.06.36:470][594]CompilerResultsLog:    Creating library C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-3363.lib and object C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-3363.exp
+[2017.12.24-13.06.36:470][594]CompilerResultsLog:    Creating library C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-3363.suppressed.lib and object C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-3363.suppressed.exp
+[2017.12.24-13.06.36:470][594]CompilerResultsLog: Total build time: 135.47 seconds (Local executor: 104.89 seconds)
+[2017.12.24-13.06.36:470][594]LogMainFrame: MainFrame: Module compiling took 135.834 seconds
+[2017.12.24-13.06.36:655][594]LogHotReload: Re-instancing BangCharacter after hot-reload.
+[2017.12.24-13.06.36:866][594]LogContentBrowser: Native class hierarchy updated for 'Bang' in 0.0033 seconds. Added 3 classes and 2 folders.
+[2017.12.24-13.06.36:867][594]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2017.12.24-13.06.36:930][594]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2391 classes and 506 folders.
+[2017.12.24-13.06.36:930][594]Display: HotReload took 136.3s.
+[2017.12.24-13.07.04:496][880]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.24-13.07.04:514][880]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-13.07.04:514][880]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.24-13.07.04:515][880]PIE: New page: PIE session: 2DSideScrollerExampleMap (24 Dec 2017 13:07:04)
+[2017.12.24-13.07.04:515][880]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.12.24-13.07.04:517][880]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002729s)
+[2017.12.24-13.07.04:518][880]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.12.24-13.07.04:518][880]LogPlayLevel: PIE: World Init took: (0.000845s)
+[2017.12.24-13.07.04:519][880]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003935s)
+[2017.12.24-13.07.04:531][880]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.24-13.07.04:538][880]LogInit: FAudioDevice initialized.
+[2017.12.24-13.07.04:571][880]LogLoad: Game class is 'BangGameMode'
+[2017.12.24-13.07.04:573][880]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.12.24-13.07.04
+[2017.12.24-13.07.04:573][880]LogWorld: Bringing up level for play took: 0.001860
+[2017.12.24-13.07.04:574][880]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.531
+[2017.12.24-13.07.04:575][880]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-13.07.05:820][ 26]LogTemp: Hit Detected
+[2017.12.24-13.07.05:820][ 26]LogTemp: Hit another charicter
+[2017.12.24-13.07.08:326][327]LogTemp: Hit Detected
+[2017.12.24-13.07.08:326][327]LogTemp: Hit another charicter
+[2017.12.24-13.07.08:860][391]LogTemp: Hit Detected
+[2017.12.24-13.07.08:860][391]LogTemp: Hit another charicter
+[2017.12.24-13.07.10:693][611]LogTemp: Hit Detected
+[2017.12.24-13.07.10:693][611]LogTemp: Hit another charicter
+[2017.12.24-13.07.11:103][660]LogTemp: Hit Detected
+[2017.12.24-13.07.11:103][660]LogTemp: Hit another charicter
+[2017.12.24-13.07.14:109][ 21]LogTemp: Hit Detected
+[2017.12.24-13.07.14:784][102]LogTemp: Hit Detected
+[2017.12.24-13.07.14:936][120]LogTemp: Hit Detected
+[2017.12.24-13.07.14:936][120]LogTemp: Hit another charicter
+[2017.12.24-13.07.15:243][157]LogTemp: Hit Detected
+[2017.12.24-13.07.15:411][177]LogTemp: Hit Detected
+[2017.12.24-13.07.15:411][177]LogTemp: Hit another charicter
+[2017.12.24-13.07.16:369][292]LogTemp: Hit Detected
+[2017.12.24-13.07.16:369][292]LogTemp: Hit another charicter
+[2017.12.24-13.07.17:294][403]LogTemp: Hit Detected
+[2017.12.24-13.07.17:294][403]LogTemp: Hit another charicter
+[2017.12.24-13.07.17:669][448]LogTemp: Hit Detected
+[2017.12.24-13.07.17:669][448]LogTemp: Hit another charicter
+[2017.12.24-13.07.18:020][490]LogTemp: Hit Detected
+[2017.12.24-13.07.18:020][490]LogTemp: Hit another charicter
+[2017.12.24-13.07.18:386][534]LogTemp: Hit Detected
+[2017.12.24-13.07.18:386][534]LogTemp: Hit another charicter
+[2017.12.24-13.07.19:011][609]LogTemp: Hit Detected
+[2017.12.24-13.07.19:011][609]LogTemp: Hit another charicter
+[2017.12.24-13.07.20:252][758]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-13.07.20:285][758]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-13.07.21:398][889]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.24-13.07.21:415][889]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-13.07.21:415][889]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.24-13.07.21:416][889]PIE: New page: PIE session: 2DSideScrollerExampleMap (24 Dec 2017 13:07:21)
+[2017.12.24-13.07.21:416][889]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.12.24-13.07.21:418][889]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002489s)
+[2017.12.24-13.07.21:419][889]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.12.24-13.07.21:419][889]LogPlayLevel: PIE: World Init took: (0.000622s)
+[2017.12.24-13.07.21:419][889]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003355s)
+[2017.12.24-13.07.21:429][889]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.24-13.07.21:434][889]LogInit: FAudioDevice initialized.
+[2017.12.24-13.07.21:468][889]LogLoad: Game class is 'BangGameMode'
+[2017.12.24-13.07.21:469][889]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.12.24-13.07.21
+[2017.12.24-13.07.21:470][889]LogWorld: Bringing up level for play took: 0.001510
+[2017.12.24-13.07.21:471][889]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.365
+[2017.12.24-13.07.21:471][889]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-13.07.23:289][106]LogTemp: Hit Detected
+[2017.12.24-13.07.23:289][106]LogTemp: Hit another charicter
+[2017.12.24-13.07.24:637][268]LogTemp: Hit Detected
+[2017.12.24-13.07.25:840][412]LogTemp: Hit Detected
+[2017.12.24-13.07.25:840][412]LogTemp: Hit another charicter
+[2017.12.24-13.07.26:796][527]LogTemp: Hit Detected
+[2017.12.24-13.07.26:796][527]LogTemp: Hit another charicter
+[2017.12.24-13.07.28:438][724]LogTemp: Hit Detected
+[2017.12.24-13.07.28:438][724]LogTemp: Hit another charicter
+[2017.12.24-13.07.29:271][824]LogTemp: Hit Detected
+[2017.12.24-13.07.29:271][824]LogTemp: Hit another charicter
+[2017.12.24-13.07.31:215][ 57]LogTemp: Hit Detected
+[2017.12.24-13.07.31:215][ 57]LogTemp: Hit another charicter
+[2017.12.24-13.07.32:805][248]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-13.07.32:840][248]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-13.07.34:970][496]LogSlate: Took 0.023104 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.12.24-13.07.47:795][211]Candidate modules for hot reload:
+[2017.12.24-13.07.47:795][211]  Bang
+[2017.12.24-13.07.47:795][211]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe Bang -ModuleWithSuffix Bang 1082 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Bang.uproject" ]
+[2017.12.24-13.07.47:800][211]Warning: Starting HotReload took  0.0s.
+[2017.12.24-13.08.12:598][381]CompilerResultsLog: New page: Compilation - 24 Dec 2017 13:08:12
+[2017.12.24-13.08.12:598][381]CompilerResultsLog: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\Bang\Bang.Build.cs: warning: Module constructors should take a ReadOnlyTargetRules argument (rather than a TargetInfo argument) and pass it to the base class constructor from 4.15 onwards. Please update the method signature.
+[2017.12.24-13.08.12:598][381]CompilerResultsLog: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\Bang.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.12.24-13.08.12:598][381]CompilerResultsLog: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\BangEditor.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.12.24-13.08.12:599][381]CompilerResultsLog: Compiling game modules for hot reload
+[2017.12.24-13.08.12:599][381]CompilerResultsLog: Parsing headers for BangEditor
+[2017.12.24-13.08.12:599][381]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Bang.uproject" "C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\BangEditor\Development\BangEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.12.24-13.08.12:599][381]CompilerResultsLog: Reflection code generated for BangEditor in 9.5770725 seconds
+[2017.12.24-13.08.12:599][381]CompilerResultsLog: Performing 6 actions (4 in parallel)
+[2017.12.24-13.08.12:599][381]CompilerResultsLog: PistolBulletActor.cpp
+[2017.12.24-13.08.12:599][381]CompilerResultsLog: BangCharacter.cpp
+[2017.12.24-13.08.12:600][381]CompilerResultsLog: BangCharacter.gen.cpp
+[2017.12.24-13.08.12:600][381]CompilerResultsLog: BangGameMode.cpp
+[2017.12.24-13.08.12:600][381]CompilerResultsLog: [5/6] Link UE4Editor-Bang-1082.dll
+[2017.12.24-13.08.12:600][381]CompilerResultsLog: [6/6] Link UE4Editor-Bang-1082.lib
+[2017.12.24-13.08.12:600][381]CompilerResultsLog:    Creating library C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-1082.lib and object C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-1082.exp
+[2017.12.24-13.08.12:600][381]CompilerResultsLog:    Creating library C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-1082.suppressed.lib and object C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-1082.suppressed.exp
+[2017.12.24-13.08.12:600][381]CompilerResultsLog: Total build time: 24.50 seconds (Local executor: 3.73 seconds)
+[2017.12.24-13.08.12:600][381]LogMainFrame: MainFrame: Module compiling took 24.812 seconds
+[2017.12.24-13.08.12:803][381]LogHotReload: Re-instancing BangCharacter after hot-reload.
+[2017.12.24-13.08.12:958][381]LogContentBrowser: Native class hierarchy updated for 'Bang' in 0.0042 seconds. Added 3 classes and 2 folders.
+[2017.12.24-13.08.12:960][381]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2017.12.24-13.08.12:998][381]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 2391 classes and 506 folders.
+[2017.12.24-13.08.12:998][381]Display: HotReload took 25.2s.
+[2017.12.24-13.08.19:675][402]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.24-13.08.19:694][402]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-13.08.19:694][402]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.24-13.08.19:694][402]PIE: New page: PIE session: 2DSideScrollerExampleMap (24 Dec 2017 13:08:19)
+[2017.12.24-13.08.19:694][402]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.12.24-13.08.19:697][402]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002600s)
+[2017.12.24-13.08.19:698][402]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.12.24-13.08.19:698][402]LogPlayLevel: PIE: World Init took: (0.000852s)
+[2017.12.24-13.08.19:698][402]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003978s)
+[2017.12.24-13.08.19:710][402]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.24-13.08.19:717][402]LogInit: FAudioDevice initialized.
+[2017.12.24-13.08.19:749][402]LogLoad: Game class is 'BangGameMode'
+[2017.12.24-13.08.19:751][402]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.12.24-13.08.19
+[2017.12.24-13.08.19:751][402]LogWorld: Bringing up level for play took: 0.001891
+[2017.12.24-13.08.19:752][402]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.647
+[2017.12.24-13.08.19:753][402]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-13.08.20:772][523]LogTemp: Hit Detected
+[2017.12.24-13.08.20:772][523]LogTemp: Hit another charicter
+[2017.12.24-13.08.26:344][190]LogTemp: Hit Detected
+[2017.12.24-13.08.26:344][190]LogTemp: Hit another charicter
+[2017.12.24-13.08.27:344][310]LogTemp: Hit Detected
+[2017.12.24-13.08.27:911][378]LogTemp: Hit Detected
+[2017.12.24-13.08.28:953][503]LogTemp: Hit Detected
+[2017.12.24-13.08.28:953][503]LogTemp: Hit another charicter
+[2017.12.24-13.08.30:103][641]LogTemp: Hit Detected
+[2017.12.24-13.08.30:103][641]LogTemp: Hit another charicter
+[2017.12.24-13.08.31:161][768]LogTemp: Hit Detected
+[2017.12.24-13.08.31:828][848]LogTemp: Hit Detected
+[2017.12.24-13.08.32:253][899]LogTemp: Hit Detected
+[2017.12.24-13.08.34:120][123]LogTemp: Hit Detected
+[2017.12.24-13.08.34:413][158]LogTemp: Hit Detected
+[2017.12.24-13.08.34:413][158]LogTemp: Hit another charicter
+[2017.12.24-13.08.36:188][371]LogTemp: Hit Detected
+[2017.12.24-13.08.37:021][471]LogTemp: Hit Detected
+[2017.12.24-13.08.37:488][527]LogTemp: Hit Detected
+[2017.12.24-13.08.37:980][586]LogTemp: Hit Detected
+[2017.12.24-13.08.38:713][674]LogTemp: Hit Detected
+[2017.12.24-13.08.39:547][774]LogTemp: Hit Detected
+[2017.12.24-13.08.39:547][774]LogTemp: Hit another charicter
+[2017.12.24-13.08.39:930][820]LogTemp: Hit Detected
+[2017.12.24-13.08.39:930][820]LogTemp: Hit another charicter
+[2017.12.24-13.08.40:305][865]LogTemp: Hit Detected
+[2017.12.24-13.08.40:306][865]LogTemp: Hit another charicter
+[2017.12.24-13.08.41:322][987]LogTemp: Hit Detected
+[2017.12.24-13.08.41:322][987]LogTemp: Hit another charicter
+[2017.12.24-13.08.41:764][ 40]LogTemp: Hit Detected
+[2017.12.24-13.08.41:764][ 40]LogTemp: Hit another charicter
+[2017.12.24-13.08.42:172][ 89]LogTemp: Hit Detected
+[2017.12.24-13.08.42:172][ 89]LogTemp: Hit another charicter
+[2017.12.24-13.08.42:555][135]LogTemp: Hit Detected
+[2017.12.24-13.08.42:555][135]LogTemp: Hit another charicter
+[2017.12.24-13.08.42:989][187]LogTemp: Hit Detected
+[2017.12.24-13.08.42:989][187]LogTemp: Hit another charicter
+[2017.12.24-13.08.43:665][268]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-13.08.43:696][268]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-13.12.16:776][274]Candidate modules for hot reload:
+[2017.12.24-13.12.16:776][274]  Bang
+[2017.12.24-13.12.16:776][274]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe Bang -ModuleWithSuffix Bang 3050 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Bang.uproject" ]
+[2017.12.24-13.12.16:781][274]Warning: Starting HotReload took  0.0s.
+[2017.12.24-13.12.49:252][ 14]CompilerResultsLog: New page: Compilation - 24 Dec 2017 13:12:49
+[2017.12.24-13.12.49:252][ 14]CompilerResultsLog: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\Bang\Bang.Build.cs: warning: Module constructors should take a ReadOnlyTargetRules argument (rather than a TargetInfo argument) and pass it to the base class constructor from 4.15 onwards. Please update the method signature.
+[2017.12.24-13.12.49:252][ 14]CompilerResultsLog: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\Bang.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.12.24-13.12.49:252][ 14]CompilerResultsLog: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\BangEditor.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.12.24-13.12.49:253][ 14]CompilerResultsLog: Compiling game modules for hot reload
+[2017.12.24-13.12.49:253][ 14]CompilerResultsLog: Parsing headers for BangEditor
+[2017.12.24-13.12.49:253][ 14]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Bang.uproject" "C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\BangEditor\Development\BangEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.12.24-13.12.49:253][ 14]CompilerResultsLog: Reflection code generated for BangEditor in 11.9627117 seconds
+[2017.12.24-13.12.49:254][ 14]CompilerResultsLog: Performing 6 actions (4 in parallel)
+[2017.12.24-13.12.49:254][ 14]CompilerResultsLog: BangCharacter.gen.cpp
+[2017.12.24-13.12.49:254][ 14]CompilerResultsLog: BangGameMode.cpp
+[2017.12.24-13.12.49:254][ 14]CompilerResultsLog: BangCharacter.cpp
+[2017.12.24-13.12.49:254][ 14]CompilerResultsLog: PistolBulletActor.cpp
+[2017.12.24-13.12.49:254][ 14]CompilerResultsLog: [5/6] Link UE4Editor-Bang-3050.dll
+[2017.12.24-13.12.49:254][ 14]CompilerResultsLog: [6/6] Link UE4Editor-Bang-3050.lib
+[2017.12.24-13.12.49:254][ 14]CompilerResultsLog:    Creating library C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-3050.lib and object C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-3050.exp
+[2017.12.24-13.12.49:255][ 14]CompilerResultsLog:    Creating library C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-3050.suppressed.lib and object C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-3050.suppressed.exp
+[2017.12.24-13.12.49:255][ 14]CompilerResultsLog: Total build time: 31.92 seconds (Local executor: 7.41 seconds)
+[2017.12.24-13.12.49:255][ 14]LogMainFrame: MainFrame: Module compiling took 32.487 seconds
+[2017.12.24-13.12.49:561][ 14]LogHotReload: Re-instancing BangCharacter after hot-reload.
+[2017.12.24-13.12.50:058][ 14]LogContentBrowser: Native class hierarchy updated for 'Bang' in 0.0036 seconds. Added 3 classes and 2 folders.
+[2017.12.24-13.12.50:060][ 14]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2017.12.24-13.12.50:089][ 14]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 2391 classes and 506 folders.
+[2017.12.24-13.12.50:089][ 14]Display: HotReload took 33.3s.
+[2017.12.24-13.12.54:071][273]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.24-13.12.54:088][273]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-13.12.54:089][273]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.24-13.12.54:089][273]PIE: New page: PIE session: 2DSideScrollerExampleMap (24 Dec 2017 13:12:54)
+[2017.12.24-13.12.54:089][273]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.12.24-13.12.54:092][273]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002683s)
+[2017.12.24-13.12.54:093][273]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.12.24-13.12.54:093][273]LogPlayLevel: PIE: World Init took: (0.000846s)
+[2017.12.24-13.12.54:094][273]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.004013s)
+[2017.12.24-13.12.54:132][273]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.24-13.12.54:138][273]LogInit: FAudioDevice initialized.
+[2017.12.24-13.12.54:171][273]LogLoad: Game class is 'BangGameMode'
+[2017.12.24-13.12.54:172][273]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.12.24-13.12.54
+[2017.12.24-13.12.54:173][273]LogWorld: Bringing up level for play took: 0.001864
+[2017.12.24-13.12.54:174][273]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap 1.069
+[2017.12.24-13.12.54:174][273]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-13.12.54:851][353]LogTemp: Hit Detected
+[2017.12.24-13.12.54:851][353]LogTemp: I was hit
+[2017.12.24-13.12.55:900][479]LogTemp: Hit Detected
+[2017.12.24-13.12.55:900][479]LogTemp: I was hit
+[2017.12.24-13.12.57:775][704]LogTemp: Hit Detected
+[2017.12.24-13.12.58:451][785]LogTemp: Hit Detected
+[2017.12.24-13.12.59:442][904]LogTemp: Hit Detected
+[2017.12.24-13.12.59:443][904]LogTemp: I was hit
+[2017.12.24-13.12.59:776][944]LogTemp: Hit Detected
+[2017.12.24-13.12.59:776][944]LogTemp: I was hit
+[2017.12.24-13.13.02:034][215]LogTemp: Hit Detected
+[2017.12.24-13.13.02:335][251]LogTemp: Hit Detected
+[2017.12.24-13.13.04:693][534]LogTemp: Hit Detected
+[2017.12.24-13.13.05:635][647]LogTemp: Hit Detected
+[2017.12.24-13.13.05:910][680]LogTemp: Hit Detected
+[2017.12.24-13.13.05:910][680]LogTemp: I was hit
+[2017.12.24-13.13.06:785][785]LogTemp: Hit Detected
+[2017.12.24-13.13.07:035][815]LogTemp: Hit Detected
+[2017.12.24-13.13.07:035][815]LogTemp: I was hit
+[2017.12.24-13.13.07:560][878]LogTemp: Hit Detected
+[2017.12.24-13.13.07:560][878]LogTemp: I was hit
+[2017.12.24-13.13.08:243][960]LogTemp: Hit Detected
+[2017.12.24-13.13.08:243][960]LogTemp: I was hit
+[2017.12.24-13.13.12:245][440]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=585.000 Y=1.000 Z=778.729] for [BP_PistolBulletActor_C]
+[2017.12.24-13.13.17:203][ 35]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-13.13.17:315][ 35]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-13.13.17:531][ 49]Cmd: SELECT NONE
+[2017.12.24-13.13.23:690][780]Cmd: SELECT NONE
+[2017.12.24-13.36.59:727][542]Running C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe Bang Win64 Development -editorrecompile "C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Bang.uproject" -invalidatemakefilesonly
+[2017.12.24-13.37.00:033][542]Invalidating makefiles only in this run.
+[2017.12.24-13.37.00:147][542]Candidate modules for hot reload:
+[2017.12.24-13.37.00:147][542]  Bang
+[2017.12.24-13.37.00:147][542]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe Bang -ModuleWithSuffix Bang 6603 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Bang.uproject" ]
+[2017.12.24-13.37.00:956][542]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.24-13.37.26:472][542]CompilerResultsLog: New page: Compilation - 24 Dec 2017 13:37:26
+[2017.12.24-13.37.26:472][542]CompilerResultsLog: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\Bang\Bang.Build.cs: warning: Module constructors should take a ReadOnlyTargetRules argument (rather than a TargetInfo argument) and pass it to the base class constructor from 4.15 onwards. Please update the method signature.
+[2017.12.24-13.37.26:472][542]CompilerResultsLog: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\Bang.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.12.24-13.37.26:472][542]CompilerResultsLog: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\BangEditor.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.12.24-13.37.26:473][542]CompilerResultsLog: Compiling game modules for hot reload
+[2017.12.24-13.37.26:473][542]CompilerResultsLog: Parsing headers for BangEditor
+[2017.12.24-13.37.26:473][542]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Bang.uproject" "C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\BangEditor\Development\BangEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.12.24-13.37.26:474][542]CompilerResultsLog: Reflection code generated for BangEditor in 8.9373236 seconds
+[2017.12.24-13.37.26:474][542]CompilerResultsLog: Performing 9 actions (4 in parallel)
+[2017.12.24-13.37.26:474][542]CompilerResultsLog: BangCharacter.cpp
+[2017.12.24-13.37.26:474][542]CompilerResultsLog: PistolBulletActor.cpp
+[2017.12.24-13.37.26:474][542]CompilerResultsLog: BangGameMode.cpp
+[2017.12.24-13.37.26:474][542]CompilerResultsLog: MeleeHitbox.cpp
+[2017.12.24-13.37.26:474][542]CompilerResultsLog: Bang.init.gen.cpp
+[2017.12.24-13.37.26:474][542]CompilerResultsLog: BangCharacter.gen.cpp
+[2017.12.24-13.37.26:474][542]CompilerResultsLog: MeleeHitbox.gen.cpp
+[2017.12.24-13.37.26:474][542]CompilerResultsLog: [8/9] Link UE4Editor-Bang-6603.dll
+[2017.12.24-13.37.26:474][542]CompilerResultsLog: [9/9] Link UE4Editor-Bang-6603.lib
+[2017.12.24-13.37.26:474][542]CompilerResultsLog:    Creating library C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-6603.lib and object C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-6603.exp
+[2017.12.24-13.37.26:475][542]CompilerResultsLog:    Creating library C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-6603.suppressed.lib and object C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-6603.suppressed.exp
+[2017.12.24-13.37.26:475][542]CompilerResultsLog: Total build time: 26.13 seconds (Local executor: 6.61 seconds)
+[2017.12.24-13.37.26:476][542]LogMainFrame: MainFrame: Module compiling took 26.334 seconds
+[2017.12.24-13.37.26:671][542]LogClass: Could not find existing class MeleeHitbox in package /Script/Bang for HotReload, assuming new class
+[2017.12.24-13.37.26:674][542]LogHotReload: Re-instancing BangCharacter after hot-reload.
+[2017.12.24-13.37.27:035][542]LogContentBrowser: Native class hierarchy updated for 'Bang' in 0.0033 seconds. Added 4 classes and 2 folders.
+[2017.12.24-13.37.27:037][542]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2017.12.24-13.37.27:071][542]LogContentBrowser: Native class hierarchy populated in 0.0136 seconds. Added 2392 classes and 506 folders.
+[2017.12.24-13.37.27:071][542]Display: HotReload took 26.9s.
+[2017.12.24-13.37.27:077][542]Warning: HotReload operation took 26.9s.
+[2017.12.24-13.37.27:232][542]LogVSAccessor: Warning: Couldn't goto line number '0' in 'C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Source/Bang/MeleeHitbox.h'
+[2017.12.24-13.37.27:309][542]LogVSAccessor: Warning: Couldn't goto line number '0' in 'C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Source/Bang/MeleeHitbox.cpp'
+[2017.12.24-13.37.27:351][542]LogHotReload: New module detected: UE4Editor-Bang-6603.dll
+[2017.12.24-13.37.27:464][543]LogHotReload: Starting Hot-Reload from IDE
+[2017.12.24-13.37.27:705][543]LogContentBrowser: Native class hierarchy updated for 'Bang' in 0.0037 seconds. Added 4 classes and 2 folders.
+[2017.12.24-13.37.27:707][543]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2017.12.24-13.37.27:723][543]LogContentBrowser: Native class hierarchy populated in 0.0130 seconds. Added 2392 classes and 506 folders.
+[2017.12.24-13.37.27:729][543]Display: HotReload took  0.3s.
+[2017.12.24-13.44.27:926][606]LogHotReload: New module detected: UE4Editor-Bang-1003.dll
+[2017.12.24-13.44.28:614][609]LogHotReload: Starting Hot-Reload from IDE
+[2017.12.24-13.44.28:825][609]LogClass: Could not find existing class MeleeHitbox in package /Script/Bang for HotReload, assuming new class
+[2017.12.24-13.44.28:825][609]LogClass: Function OnHit is new.
+[2017.12.24-13.44.28:828][609]LogHotReload: Re-instancing BangCharacter after hot-reload.
+[2017.12.24-13.44.29:181][609]LogHotReload: Re-instancing MeleeHitbox after hot-reload.
+[2017.12.24-13.44.29:217][609]LogContentBrowser: Native class hierarchy updated for 'Bang' in 0.0032 seconds. Added 4 classes and 2 folders.
+[2017.12.24-13.44.29:219][609]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2017.12.24-13.44.29:249][609]LogContentBrowser: Native class hierarchy populated in 0.0116 seconds. Added 2392 classes and 506 folders.
+[2017.12.24-13.44.29:256][609]Display: HotReload took  0.6s.
+[2017.12.24-14.00.39:455][524]Candidate modules for hot reload:
+[2017.12.24-14.00.39:456][524]  Bang
+[2017.12.24-14.00.39:456][524]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe Bang -ModuleWithSuffix Bang 3850 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Bang.uproject" ]
+[2017.12.24-14.00.39:461][524]Warning: Starting HotReload took  0.0s.
+[2017.12.24-14.01.15:545][516]CompilerResultsLog: New page: Compilation - 24 Dec 2017 14:01:15
+[2017.12.24-14.01.15:545][516]CompilerResultsLog: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\Bang\Bang.Build.cs: warning: Module constructors should take a ReadOnlyTargetRules argument (rather than a TargetInfo argument) and pass it to the base class constructor from 4.15 onwards. Please update the method signature.
+[2017.12.24-14.01.15:545][516]CompilerResultsLog: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\Bang.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.12.24-14.01.15:546][516]CompilerResultsLog: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\BangEditor.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.12.24-14.01.15:546][516]CompilerResultsLog: Compiling game modules for hot reload
+[2017.12.24-14.01.15:546][516]CompilerResultsLog: Parsing headers for BangEditor
+[2017.12.24-14.01.15:546][516]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Bang.uproject" "C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\BangEditor\Development\BangEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.12.24-14.01.15:546][516]CompilerResultsLog: Reflection code generated for BangEditor in 13.1845739 seconds
+[2017.12.24-14.01.15:547][516]CompilerResultsLog: Performing 9 actions (4 in parallel)
+[2017.12.24-14.01.15:547][516]CompilerResultsLog: BangCharacter.cpp
+[2017.12.24-14.01.15:547][516]CompilerResultsLog: MeleeHitbox.cpp
+[2017.12.24-14.01.15:547][516]CompilerResultsLog: PistolBulletActor.cpp
+[2017.12.24-14.01.15:547][516]CompilerResultsLog: BangGameMode.cpp
+[2017.12.24-14.01.15:547][516]CompilerResultsLog: Bang.init.gen.cpp
+[2017.12.24-14.01.15:547][516]CompilerResultsLog: Error: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\Bang\BangCharacter.cpp(137) : warning C4996: 'AActor::GetRootPrimitiveComponent': Use GetRootComponent() and cast manually if needed Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2017.12.24-14.01.15:547][516]CompilerResultsLog: Error: C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(1645) : note: see declaration of 'AActor::GetRootPrimitiveComponent'
+[2017.12.24-14.01.15:547][516]CompilerResultsLog: MeleeHitbox.gen.cpp
+[2017.12.24-14.01.15:547][516]CompilerResultsLog: BangCharacter.gen.cpp
+[2017.12.24-14.01.15:548][516]CompilerResultsLog: [8/9] Link UE4Editor-Bang-3850.dll
+[2017.12.24-14.01.15:548][516]CompilerResultsLog: [9/9] Link UE4Editor-Bang-3850.lib
+[2017.12.24-14.01.15:548][516]CompilerResultsLog:    Creating library C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-3850.lib and object C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-3850.exp
+[2017.12.24-14.01.15:548][516]CompilerResultsLog:    Creating library C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-3850.suppressed.lib and object C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-3850.suppressed.exp
+[2017.12.24-14.01.15:548][516]CompilerResultsLog: Total build time: 35.83 seconds (Local executor: 8.22 seconds)
+[2017.12.24-14.01.15:548][516]LogMainFrame: MainFrame: Module compiling took 36.108 seconds
+[2017.12.24-14.01.15:727][516]LogClass: Could not find existing class BangCharacter in package /Script/Bang for HotReload, assuming new class
+[2017.12.24-14.01.15:728][516]LogClass: Could not find existing class MeleeHitbox in package /Script/Bang for HotReload, assuming new class
+[2017.12.24-14.01.15:728][516]LogClass: Function OnHit is new.
+[2017.12.24-14.01.15:731][516]LogHotReload: Re-instancing BangCharacter after hot-reload.
+[2017.12.24-14.01.16:082][516]LogHotReload: Re-instancing MeleeHitbox after hot-reload.
+[2017.12.24-14.01.16:121][516]LogContentBrowser: Native class hierarchy updated for 'Bang' in 0.0033 seconds. Added 4 classes and 2 folders.
+[2017.12.24-14.01.16:123][516]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2017.12.24-14.01.16:151][516]LogContentBrowser: Native class hierarchy populated in 0.0112 seconds. Added 2392 classes and 506 folders.
+[2017.12.24-14.01.16:152][516]Display: HotReload took 36.7s.
+[2017.12.24-14.01.59:063][498]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.24-14.01.59:082][498]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-14.01.59:082][498]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.24-14.01.59:082][498]PIE: New page: PIE session: 2DSideScrollerExampleMap (24 Dec 2017 14:01:59)
+[2017.12.24-14.01.59:082][498]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.12.24-14.01.59:085][498]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002766s)
+[2017.12.24-14.01.59:086][498]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.12.24-14.01.59:087][498]LogPlayLevel: PIE: World Init took: (0.001019s)
+[2017.12.24-14.01.59:087][498]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.004328s)
+[2017.12.24-14.01.59:126][498]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.24-14.01.59:133][498]LogInit: FAudioDevice initialized.
+[2017.12.24-14.01.59:166][498]LogLoad: Game class is 'BangGameMode'
+[2017.12.24-14.01.59:168][498]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.12.24-14.01.59
+[2017.12.24-14.01.59:168][498]LogWorld: Bringing up level for play took: 0.002101
+[2017.12.24-14.01.59:169][498]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.064
+[2017.12.24-14.01.59:170][498]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-14.02.09:425][727]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=585.000 Y=1.000 Z=778.729] for [BP_PistolBulletActor_C]
+[2017.12.24-14.02.10:699][880]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=585.000 Y=1.000 Z=778.729] for [BP_PistolBulletActor_C]
+[2017.12.24-14.02.16:082][526]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-14.02.16:201][526]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-14.02.19:527][902]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.24-14.02.19:547][902]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-14.02.19:547][902]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.24-14.02.19:547][902]PIE: New page: PIE session: 2DSideScrollerExampleMap (24 Dec 2017 14:02:19)
+[2017.12.24-14.02.19:547][902]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.12.24-14.02.19:550][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002757s)
+[2017.12.24-14.02.19:551][902]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.12.24-14.02.19:551][902]LogPlayLevel: PIE: World Init took: (0.000764s)
+[2017.12.24-14.02.19:551][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.004036s)
+[2017.12.24-14.02.19:592][902]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.24-14.02.19:598][902]LogInit: FAudioDevice initialized.
+[2017.12.24-14.02.19:630][902]LogLoad: Game class is 'BangGameMode'
+[2017.12.24-14.02.19:632][902]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.12.24-14.02.19
+[2017.12.24-14.02.19:633][902]LogWorld: Bringing up level for play took: 0.001971
+[2017.12.24-14.02.19:634][902]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.528
+[2017.12.24-14.02.19:634][902]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-14.02.20:235][973]LogTemp: Hit Detected
+[2017.12.24-14.02.20:236][973]LogTemp: I was hit
+[2017.12.24-14.02.20:878][ 50]LogTemp: Hit Detected
+[2017.12.24-14.02.20:878][ 50]LogTemp: I was hit
+[2017.12.24-14.02.22:577][254]LogTemp: Hit Detected
+[2017.12.24-14.02.22:578][254]LogTemp: I was hit
+[2017.12.24-14.02.23:044][310]LogTemp: Hit Detected
+[2017.12.24-14.02.23:044][310]LogTemp: I was hit
+[2017.12.24-14.02.24:187][447]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=585.000 Y=1.000 Z=778.729] for [BP_PistolBulletActor_C]
+[2017.12.24-14.02.26:244][694]LogTemp: Hit Detected
+[2017.12.24-14.02.26:244][694]LogTemp: I was hit
+[2017.12.24-14.02.26:736][753]LogTemp: Hit Detected
+[2017.12.24-14.02.26:736][753]LogTemp: I was hit
+[2017.12.24-14.02.35:479][802]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-14.02.35:596][802]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-14.05.57:844][577]Candidate modules for hot reload:
+[2017.12.24-14.05.57:844][577]  Bang
+[2017.12.24-14.05.57:844][577]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe Bang -ModuleWithSuffix Bang 3118 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Bang.uproject" ]
+[2017.12.24-14.05.57:851][577]Warning: Starting HotReload took  0.0s.
+[2017.12.24-14.06.27:575][828]CompilerResultsLog: New page: Compilation - 24 Dec 2017 14:06:27
+[2017.12.24-14.06.27:576][828]CompilerResultsLog: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\Bang\Bang.Build.cs: warning: Module constructors should take a ReadOnlyTargetRules argument (rather than a TargetInfo argument) and pass it to the base class constructor from 4.15 onwards. Please update the method signature.
+[2017.12.24-14.06.27:576][828]CompilerResultsLog: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\Bang.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.12.24-14.06.27:576][828]CompilerResultsLog: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\BangEditor.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.12.24-14.06.27:577][828]CompilerResultsLog: Compiling game modules for hot reload
+[2017.12.24-14.06.27:577][828]CompilerResultsLog: Parsing headers for BangEditor
+[2017.12.24-14.06.27:577][828]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Bang.uproject" "C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\BangEditor\Development\BangEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.12.24-14.06.27:577][828]CompilerResultsLog: Reflection code generated for BangEditor in 12.6255692 seconds
+[2017.12.24-14.06.27:577][828]CompilerResultsLog: Performing 4 actions (4 in parallel)
+[2017.12.24-14.06.27:578][828]CompilerResultsLog: MeleeHitbox.cpp
+[2017.12.24-14.06.27:578][828]CompilerResultsLog: BangCharacter.cpp
+[2017.12.24-14.06.27:578][828]CompilerResultsLog: Error: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\Bang\MeleeHitbox.cpp(22) : error C2065: 'coll': undeclared identifier
+[2017.12.24-14.06.27:578][828]CompilerResultsLog: Error: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\Bang\MeleeHitbox.cpp(22) : error C2146: syntax error: missing ';' before identifier 'CollisionComp'
+[2017.12.24-14.06.27:578][828]CompilerResultsLog: Error: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\Bang\BangCharacter.cpp(137) : warning C4996: 'AActor::GetRootPrimitiveComponent': Use GetRootComponent() and cast manually if needed Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2017.12.24-14.06.27:578][828]CompilerResultsLog: Error: C:\Program Files\Epic Games\UE_4.17\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(1645) : note: see declaration of 'AActor::GetRootPrimitiveComponent'
+[2017.12.24-14.06.27:579][828]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Binaries\Win64\UE4Editor-Bang-3118.dll
+[2017.12.24-14.06.27:579][828]CompilerResultsLog: Total build time: 29.39 seconds (Local executor: 0.00 seconds)
+[2017.12.24-14.06.27:579][828]LogMainFrame: MainFrame: Module compiling took 29.743 seconds
+[2017.12.24-14.06.27:579][828]Warning: HotReload failed, recompile failed
+[2017.12.24-14.07.21:048][ 99]Candidate modules for hot reload:
+[2017.12.24-14.07.21:048][ 99]  Bang
+[2017.12.24-14.07.21:048][ 99]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe Bang -ModuleWithSuffix Bang 3946 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Bang.uproject" ]
+[2017.12.24-14.07.21:053][ 99]Warning: Starting HotReload took  0.0s.
+[2017.12.24-14.07.50:469][319]CompilerResultsLog: New page: Compilation - 24 Dec 2017 14:07:50
+[2017.12.24-14.07.50:469][319]CompilerResultsLog: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\Bang\Bang.Build.cs: warning: Module constructors should take a ReadOnlyTargetRules argument (rather than a TargetInfo argument) and pass it to the base class constructor from 4.15 onwards. Please update the method signature.
+[2017.12.24-14.07.50:469][319]CompilerResultsLog: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\Bang.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.12.24-14.07.50:469][319]CompilerResultsLog: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\BangEditor.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.12.24-14.07.50:470][319]CompilerResultsLog: Compiling game modules for hot reload
+[2017.12.24-14.07.50:470][319]CompilerResultsLog: Parsing headers for BangEditor
+[2017.12.24-14.07.50:470][319]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Bang.uproject" "C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\BangEditor\Development\BangEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2017.12.24-14.07.50:470][319]CompilerResultsLog: Reflection code generated for BangEditor in 12.0880551 seconds
+[2017.12.24-14.07.50:470][319]CompilerResultsLog: Performing 3 actions (4 in parallel)
+[2017.12.24-14.07.50:470][319]CompilerResultsLog: MeleeHitbox.cpp
+[2017.12.24-14.07.50:470][319]CompilerResultsLog: [2/3] Link UE4Editor-Bang-3946.dll
+[2017.12.24-14.07.50:470][319]CompilerResultsLog: [3/3] Link UE4Editor-Bang-3946.lib
+[2017.12.24-14.07.50:470][319]CompilerResultsLog:    Creating library C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-3946.lib and object C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-3946.exp
+[2017.12.24-14.07.50:471][319]CompilerResultsLog:    Creating library C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-3946.suppressed.lib and object C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-3946.suppressed.exp
+[2017.12.24-14.07.50:471][319]CompilerResultsLog: Total build time: 29.13 seconds (Local executor: 3.07 seconds)
+[2017.12.24-14.07.50:471][319]LogMainFrame: MainFrame: Module compiling took 29.432 seconds
+[2017.12.24-14.07.50:643][319]LogHotReload: Re-instancing BangCharacter after hot-reload.
+[2017.12.24-14.07.50:988][319]LogHotReload: Re-instancing MeleeHitbox after hot-reload.
+[2017.12.24-14.07.51:025][319]LogContentBrowser: Native class hierarchy updated for 'Bang' in 0.0032 seconds. Added 4 classes and 2 folders.
+[2017.12.24-14.07.51:027][319]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2017.12.24-14.07.51:056][319]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2392 classes and 506 folders.
+[2017.12.24-14.07.51:056][319]Display: HotReload took 30.0s.
+[2017.12.24-14.08.45:369][729]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.24-14.08.45:389][729]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-14.08.45:389][729]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.24-14.08.45:390][729]PIE: New page: PIE session: 2DSideScrollerExampleMap (24 Dec 2017 14:08:45)
+[2017.12.24-14.08.45:390][729]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.12.24-14.08.45:392][729]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002660s)
+[2017.12.24-14.08.45:393][729]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.12.24-14.08.45:394][729]LogPlayLevel: PIE: World Init took: (0.000995s)
+[2017.12.24-14.08.45:394][729]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.004158s)
+[2017.12.24-14.08.45:434][729]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.24-14.08.45:441][729]LogInit: FAudioDevice initialized.
+[2017.12.24-14.08.45:474][729]LogLoad: Game class is 'BangGameMode'
+[2017.12.24-14.08.45:477][729]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.12.24-14.08.45
+[2017.12.24-14.08.45:477][729]LogWorld: Bringing up level for play took: 0.002179
+[2017.12.24-14.08.45:478][729]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.374
+[2017.12.24-14.08.45:479][729]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.24-14.08.45:832][770]LogSpawn: Warning: SpawnActor failed because no class was specified

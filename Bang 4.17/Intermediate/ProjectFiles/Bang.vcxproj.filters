@@ -58,9 +58,15 @@
     <ClInclude Include="..\..\Source\Bang\PistolBulletActor.h">
       <Filter>Source\Bang</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\Bang\MeleeHitbox.h">
+      <Filter>Source\Bang</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\Bang\PistolBulletActor.cpp">
+      <Filter>Source\Bang</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Bang\MeleeHitbox.cpp">
       <Filter>Source\Bang</Filter>
     </ClCompile>
   </ItemGroup>

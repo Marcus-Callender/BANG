@@ -32,7 +32,7 @@ class ABangCharacter : public APaperCharacter
 
 protected:
 	// The animation to play while running around
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category=Animations)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
 	class UPaperFlipbook* RunningAnimation;
 
 	// The animation to play while idle (standing still)
@@ -64,6 +64,9 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Spawning")
 	TSubclassOf<class APistolBulletActor> m_projectile;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Spawning")
+		TSubclassOf<class AMeleeHitbox> m_meleeHitbox;
+
 	/** Called to choose the correct animation to play based on the character's movement state */
 	void UpdateAnimation();
 
@@ -93,6 +96,9 @@ public:
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 
+	void OnProjectileHit();
+	void OnMeleeHit();
+
 private:
 	UPROPERTY()
 	float m_animationLockTime = 0.0f;
@@ -100,5 +106,9 @@ private:
 	UPROPERTY()
 	float m_bulletOffset = 80.0f;
 
+	UPROPERTY()
+	float m_meleeOffset = 120.0f;
+
 	void FireProjectile();
+	void CreateMeleeHitbox();
 };

@@ -7,7 +7,7 @@
 #include "PaperFlipbook.h"
 
 #include "PistolBulletActor.h"
-
+#include "MeleeHitbox.h"
 
 DEFINE_LOG_CATEGORY_STATIC(SideScrollerCharacter, Log, All);
 //////////////////////////////////////////////////////////////////////////
@@ -83,6 +83,16 @@ ABangCharacter::ABangCharacter()
 	m_legsFlipbook->SetRelativeLocationAndRotation(FVector::ZeroVector, FQuat::Identity);
 }
 
+void ABangCharacter::OnProjectileHit()
+{
+	UE_LOG(LogTemp, Log, TEXT("I was hit"));
+}
+
+void ABangCharacter::OnMeleeHit()
+{
+	UE_LOG(LogTemp, Log, TEXT("I was ouch"));
+}
+
 void ABangCharacter::FireProjectile()
 {
 	if (m_projectile != NULL)
@@ -94,13 +104,50 @@ void ABangCharacter::FireProjectile()
 			FActorSpawnParameters params;
 			params.Owner = this;
 			params.Instigator = Instigator;
-			params.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButDontSpawnIfColliding;
+			params.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
 
 			FVector SpawnVector = GetActorLocation();
 
 			FRotator SpawnRotation = GetActorRotation();
 
 			world->SpawnActor<APistolBulletActor>(m_projectile, SpawnVector + (FVector(m_bulletOffset, 0.0f, 0.0f) * (SpawnRotation == FRotator::ZeroRotator ? 1.0f : -1.0f)) , SpawnRotation, params);
+		}
+	}
+}
+
+void ABangCharacter::CreateMeleeHitbox()
+{
+	if (m_meleeHitbox != NULL)
+	{
+		UWorld* const world = GetWorld();
+
+		if (world != NULL)
+		{
+			FActorSpawnParameters params;
+			params.Owner = this;
+			params.Instigator = Instigator;
+			params.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+
+			FVector SpawnVector = FVector::ZeroVector;
+
+			FRotator SpawnRotation = GetActorRotation();
+
+			AMeleeHitbox* hitbox = world->SpawnActor<AMeleeHitbox>(m_meleeHitbox, SpawnVector + (FVector(m_meleeOffset, 0.0f, 0.0f) * (SpawnRotation == FRotator::ZeroRotator ? 1.0f : -1.0f)), SpawnRotation, params);
+
+			///hitbox->GetRootPrimitiveComponent()->SetupAttachment(RootComponent);
+			///hitbox->SetRootComponent(GetCapsuleComponent());
+
+			hitbox->GetCollisionComp()->AttachTo(GetCapsuleComponent(), "HiboxJoin", EAttachLocation::KeepWorldPosition);
+
+			///UActorComponent* hitboxComp = Cast<UActorComponent>(hitbox->GetRootComponent());
+			///
+			///if (hitboxComp)
+			///{
+			///	///AddOwnedComponent(hitboxComp);
+			///	hitboxComp->GetCollisionComp()->AttachTo(GetCapsuleComponent());
+			///}
+
+			hitbox->GetRootPrimitiveComponent()->SetRelativeLocation(FVector((SpawnRotation == FRotator::ZeroRotator ? m_meleeOffset : -m_meleeOffset, 0.0f, 0.0f)));
 		}
 	}
 }
@@ -172,6 +219,7 @@ void ABangCharacter::MeleeAttack()
 {
 	if (m_animationLockTime <= 0.0f)
 	{
+		CreateMeleeHitbox();
 		m_torsoFlipbook->SetFlipbook(MeleeAttackAnim);
 		m_animationLockTime = MeleeAttackAnim->GetTotalDuration();
 	}

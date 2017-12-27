@@ -4,6 +4,8 @@
 #include "PistolBulletActor.h"
 #include "GameFramework/ProjectileMovementComponent.h"
 
+#include "BangCharacter.h"
+
 APistolBulletActor::APistolBulletActor()
 {
 	// Use a sphere as a simple collision representation
@@ -41,6 +43,13 @@ void APistolBulletActor::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor,
 	if ((OtherActor != NULL) && (OtherActor != this) && (OtherComp != NULL) && OtherComp->IsSimulatingPhysics())
 	{
 		OtherComp->AddImpulseAtLocation(GetVelocity() * 100.0f, GetActorLocation());
+	}
+
+	ABangCharacter* hitChar = Cast<ABangCharacter>(OtherActor);
+
+	if (hitChar)
+	{
+		hitChar->OnProjectileHit();
 	}
 
 	Destroy();
