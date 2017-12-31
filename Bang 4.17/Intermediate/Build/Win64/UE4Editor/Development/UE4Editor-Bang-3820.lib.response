@@ -1,0 +1,22 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Bang-3820.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\Bang\PCH.Bang.h.obj"
+"C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\Bang\Bang.cpp.obj"
+"C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\Bang\BangCharacter.cpp.obj"
+"C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\Bang\BangGameMode.cpp.obj"
+"C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\Bang\MeleeHitbox.cpp.obj"
+"C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\Bang\PistolBulletActor.cpp.obj"
+"C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\Bang\Bang.init.gen.cpp.obj"
+"C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\Bang\BangCharacter.gen.cpp.obj"
+"C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\Bang\BangGameMode.gen.cpp.obj"
+"C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\Bang\MeleeHitbox.gen.cpp.obj"
+"C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\Bang\PistolBulletActor.gen.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Bang\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-3820.lib"

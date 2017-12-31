@@ -2,6 +2,7 @@
 
 #include "Bang.h"
 #include "MeleeHitbox.h"
+///#include "GameFramework/ProjectileMovementComponent.h"
 
 #include "BangCharacter.h"
 
@@ -13,13 +14,16 @@ AMeleeHitbox::AMeleeHitbox()
 	PrimaryActorTick.bCanEverTick = false;
 
 	// Use a sphere as a simple collision representation
-	CollisionComp = CreateDefaultSubobject<UBoxComponent>(TEXT("SphereComp"));
-	CollisionComp->InitBoxExtent(FVector(100.0f, 100.0f, 100.0f));
-	CollisionComp->BodyInstance.SetCollisionProfileName("Melee Hitbox");
-	CollisionComp->ShapeColor = FColor::Red;
+	///CollisionComp = CreateDefaultSubobject<UBoxComponent>(TEXT("CollBox"));
+	CollisionComp = CreateDefaultSubobject<UCapsuleComponent>(TEXT("CollBox"));
+	///CollisionComp->InitBoxExtent(FVector(100.0f, 100.0f, 100.0f));
+	CollisionComp->InitCapsuleSize(25.0f, 50.0f);
+	CollisionComp->BodyInstance.SetCollisionProfileName("Projectile");
+	//CollisionComp->ShapeColor = FColor::Red;
 
 	// set up a notification for when this component hits something blocking
 	CollisionComp->OnComponentHit.AddDynamic(this, &AMeleeHitbox::OnHit);
+	CollisionComp->OnComponentBeginOverlap.AddDynamic(this, &AMeleeHitbox::OnOverlap);
 
 	// Players can't walk on it
 	CollisionComp->SetWalkableSlopeOverride(FWalkableSlopeOverride(WalkableSlope_Unwalkable, 0.f));
@@ -37,12 +41,32 @@ AMeleeHitbox::AMeleeHitbox()
 	///ProjectileMovement->bShouldBounce = false;
 
 	// Die after 0.1 seconds by default
-	InitialLifeSpan = 3.1f;
+	InitialLifeSpan = 0.1f;
 }
 
 void AMeleeHitbox::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {
 	UE_LOG(LogTemp, Log, TEXT("Hit Detected"));
+
+	// Only add impulse and destroy projectile if we hit a physics
+	if ((OtherActor != NULL) && (OtherActor != this) && (OtherComp != NULL) && OtherComp->IsSimulatingPhysics())
+	{
+		OtherComp->AddImpulseAtLocation(GetVelocity() * 100.0f, GetActorLocation());
+	}
+
+	ABangCharacter* hitChar = Cast<ABangCharacter>(OtherActor);
+
+	if (hitChar)
+	{
+		hitChar->OnMeleeHit();
+	}
+
+	Destroy();
+}
+
+void AMeleeHitbox::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+{
+	UE_LOG(LogTemp, Log, TEXT("Overlap Detected"));
 
 	// Only add impulse and destroy projectile if we hit a physics
 	if ((OtherActor != NULL) && (OtherActor != this) && (OtherComp != NULL) && OtherComp->IsSimulatingPhysics())

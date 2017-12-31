@@ -128,16 +128,18 @@ void ABangCharacter::CreateMeleeHitbox()
 			params.Instigator = Instigator;
 			params.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
 
-			FVector SpawnVector = FVector::ZeroVector;
-
+			FVector SpawnVector = GetActorLocation();
 			FRotator SpawnRotation = GetActorRotation();
 
-			AMeleeHitbox* hitbox = world->SpawnActor<AMeleeHitbox>(m_meleeHitbox, SpawnVector + (FVector(m_meleeOffset, 0.0f, 0.0f) * (SpawnRotation == FRotator::ZeroRotator ? 1.0f : -1.0f)), SpawnRotation, params);
+			AMeleeHitbox* hitbox = world->SpawnActor<AMeleeHitbox>(m_meleeHitbox, SpawnVector + FVector(m_meleeOffset, 0.0f, 0.0f) * (SpawnRotation == FRotator::ZeroRotator ? 1.0f : -1.0f), SpawnRotation, params);
 
 			///hitbox->GetRootPrimitiveComponent()->SetupAttachment(RootComponent);
 			///hitbox->SetRootComponent(GetCapsuleComponent());
 
-			hitbox->GetCollisionComp()->AttachTo(GetCapsuleComponent(), "HiboxJoin", EAttachLocation::KeepWorldPosition);
+			if (hitbox)
+			{
+				hitbox->GetCollisionComp()->AttachToComponent(GetCapsuleComponent(), FAttachmentTransformRules::KeepWorldTransform, "HiboxJoin");
+			}
 
 			///UActorComponent* hitboxComp = Cast<UActorComponent>(hitbox->GetRootComponent());
 			///
@@ -147,7 +149,8 @@ void ABangCharacter::CreateMeleeHitbox()
 			///	hitboxComp->GetCollisionComp()->AttachTo(GetCapsuleComponent());
 			///}
 
-			hitbox->GetRootPrimitiveComponent()->SetRelativeLocation(FVector((SpawnRotation == FRotator::ZeroRotator ? m_meleeOffset : -m_meleeOffset, 0.0f, 0.0f)));
+			///hitbox->GetRootPrimitiveComponent()->SetRelativeLocation(FVector((SpawnRotation == FRotator::ZeroRotator ? m_meleeOffset : -m_meleeOffset, 0.0f, 0.0f)));
+			///hitbox->SetActorRelativeLocation((FVector(m_meleeOffset, 0.0f, 0.0f) * (SpawnRotation == FRotator::ZeroRotator ? 1.0f : -1.0f)));
 		}
 	}
 }

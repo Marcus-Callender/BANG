@@ -1,0 +1,708 @@
+﻿Log file open, 12/31/17 13:48:09
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Bang
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1247995816) SRandInit(1247995816).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.195537
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.12.31-13.48.13:022][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.31-13.48.13:022][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.12.31-13.48.13:084][  0]LogInit: Computer: MARCUSPC
+[2017.12.31-13.48.13:084][  0]LogInit: User: Marcus
+[2017.12.31-13.48.13:084][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.12.31-13.48.13:084][  0]LogInit: High frequency timer resolution =2.929687 MHz
+[2017.12.31-13.48.13:085][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.12.31-13.48.13:085][  0]LogMemory: Platform Memory Stats for Windows
+[2017.12.31-13.48.13:085][  0]LogMemory: Process Physical Memory: 278.97 MB used, 278.97 MB peak
+[2017.12.31-13.48.13:085][  0]LogMemory: Process Virtual Memory: 274.30 MB used, 274.30 MB peak
+[2017.12.31-13.48.13:085][  0]LogMemory: Physical Memory: 3982.29 MB used,  12354.14 MB free, 16336.43 MB total
+[2017.12.31-13.48.13:085][  0]LogMemory: Virtual Memory: 706.33 MB used,  12354.14 MB free, 134217728.00 MB total
+[2017.12.31-13.48.13:827][  0]LogInit: Using OS detected language (en-US).
+[2017.12.31-13.48.13:827][  0]LogInit: Using OS detected locale (en-GB).
+[2017.12.31-13.48.13:833][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.12.31-13.48.14:769][  0]LogD3D11RHI: D3D11 adapters:
+[2017.12.31-13.48.14:815][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2017.12.31-13.48.14:815][  0]LogD3D11RHI:       1987/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.12.31-13.48.14:818][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.12.31-13.48.14:818][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.12.31-13.48.14:818][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.12.31-13.48.14:823][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.12.31-13.48.14:823][  0]LogD3D11RHI:     GPU DeviceId: 0x1c81 (for the marketing name, search the web for "GPU Device Id")
+[2017.12.31-13.48.14:823][  0]LogWindows: EnumDisplayDevices:
+[2017.12.31-13.48.14:824][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050' (P:1 D:1)
+[2017.12.31-13.48.14:824][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050' (P:0 D:1)
+[2017.12.31-13.48.14:824][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2017.12.31-13.48.14:824][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2017.12.31-13.48.14:824][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.12.31-13.48.14:824][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2017.12.31-13.48.14:824][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.12.31-13.48.14:824][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.12.31-13.48.14:824][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.12.31-13.48.14:847][  0]LogD3D11RHI: Async texture creation enabled
+[2017.12.31-13.48.14:862][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.12.31-13.48.14:865][  0]LogShaderCompilers: Guid format shader working directory is -15 characters bigger than the processId version (../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Intermediate/Shaders/WorkingDirectory/5576/).
+[2017.12.31-13.48.14:865][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Marcus/AppData/Local/Temp/UnrealShaderWorkingDir/95DA78854BC46A79BA558A9A9CE53F8E/'.
+[2017.12.31-13.48.14:865][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.12.31-13.48.16:146][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.12.31-13.48.16:325][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.12.31-13.48.16:505][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.12.31-13.48.16:687][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.12.31-13.48.16:869][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.12.31-13.48.17:049][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.12.31-13.48.17:229][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.12.31-13.48.17:409][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.12.31-13.48.17:582][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.12.31-13.48.17:762][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.12.31-13.48.17:942][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.12.31-13.48.18:122][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.12.31-13.48.18:302][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.12.31-13.48.18:481][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.12.31-13.48.18:661][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.12.31-13.48.19:024][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.12.31-13.48.19:024][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.12.31-13.48.19:199][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.12.31-13.48.19:502][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.12.31-13.48.19:610][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.12.31-13.48.19:791][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.12.31-13.48.19:973][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.12.31-13.48.20:154][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.12.31-13.48.20:337][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.12.31-13.48.20:337][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.12.31-13.48.22:385][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.12.31-13.48.22:455][  0]LogDerivedDataCache: Loaded boot cache 0.07s 93MB C:/Users/Marcus/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.31-13.48.22:455][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Marcus/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.12.31-13.48.22:456][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.12.31-13.48.22:456][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.12.31-13.48.22:456][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.12.31-13.48.22:456][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.12.31-13.48.22:470][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.12.31-13.48.22:484][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Marcus/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.12.31-13.48.22:492][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.12.31-13.48.22:493][  0]LogSlate: Using Freetype 2.6.0
+[2017.12.31-13.48.22:494][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.31-13.48.22:494][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.12.31-13.48.22:949][  0]LogAssetRegistry: FAssetRegistry took 0.0262 seconds to start up
+[2017.12.31-13.48.23:209][  0]LogInit: Selected Device Profile: [Windows]
+[2017.12.31-13.48.23:535][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.12.31-13.48.24:550][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.12.31-13.48.24:724][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.12.31-13.48.24:724][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.12.31-13.48.24:724][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.12.31-13.48.24:724][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.12.31-13.48.24:724][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.12.31-13.48.25:257][  0]LogNetVersion: Bang , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1517552222)
+[2017.12.31-13.48.25:813][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.150476 seconds
+[2017.12.31-13.48.25:819][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.12.31-13.48.25:819][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.12.31-13.48.25:819][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.12.31-13.48.26:111][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.12.31-13.48.33:306][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.12.31-13.48.33:436][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.12.31-13.48.36:143][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.12.31-13.48.37:533][  0]SourceControl: Source control is disabled
+[2017.12.31-13.48.37:534][  0]SourceControl: Source control is disabled
+[2017.12.31-13.48.37:727][  0]SourceControl: Source control is disabled
+[2017.12.31-13.48.37:915][  0]SourceControl: Source control is disabled
+[2017.12.31-13.48.40:245][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.12.31-13.48.41:212][  0]LogOcInput: OculusInput pre-init called
+[2017.12.31-13.48.42:143][  0]LogEngine: Initializing Engine...
+[2017.12.31-13.48.42:145][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.12.31-13.48.42:361][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.12.31-13.48.42:361][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.12.31-13.48.42:897][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.12.31-13.48.42:902][  0]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.31-13.48.42:921][  0]LogInit: FAudioDevice initialized.
+[2017.12.31-13.48.43:135][  0]LogDerivedDataCache: Saved boot cache 0.21s 93MB C:/Users/Marcus/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.12.31-13.48.43:149][  0]LogInit: Texture streaming: Enabled
+[2017.12.31-13.48.43:718][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.12.31-13.48.44:631][  0]LogInit: Transaction tracking system initialized
+[2017.12.31-13.48.46:038][  0]BlueprintLog: New page: Editor Load
+[2017.12.31-13.48.49:977][  0]LocalizationService: Localization service is disabled
+[2017.12.31-13.48.52:806][  0]LogConsoleResponse: Display: 
+[2017.12.31-13.48.53:190][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.12.31-13.48.53:191][  0]LogCook: Display: Mobile HDR setting 1
+[2017.12.31-13.48.53:191][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.12.31-13.48.53:309][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/' took 0.02s
+[2017.12.31-13.48.57:465][  0]SourceControl: Source control is disabled
+[2017.12.31-13.48.57:465][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.12.31-13.48.57:499][  0]LightingResults: New page: Lighting Build
+[2017.12.31-13.48.57:673][  0]MapCheck: New page: Map Check
+[2017.12.31-13.48.57:673][  0]LightingResults: New page: Lighting Build
+[2017.12.31-13.49.00:041][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.12.31-13.49.00:045][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.12.31-13.49.00:063][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.12.31-13.49.00:213][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 150.06ms to complete.
+[2017.12.31-13.49.00:213][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 2.748
+[2017.12.31-13.49.00:327][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.12.31-13.49.00:850][  0]LogCollectionManager: Loaded 0 collections in 0.050270 seconds
+[2017.12.31-13.49.01:116][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/Collections/' took 0.01s
+[2017.12.31-13.49.01:116][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Developers/Marcus/Collections/' took 0.01s
+[2017.12.31-13.49.01:116][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Collections/' took 0.01s
+[2017.12.31-13.49.01:116][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.12.31-13.49.01:127][  0]LogContentBrowser: Native class hierarchy populated in 0.0104 seconds. Added 2391 classes and 504 folders.
+[2017.12.31-13.49.01:404][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0032 seconds. Added 0 classes and 0 folders.
+[2017.12.31-13.49.02:173][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0109 seconds. Added 0 classes and 0 folders.
+[2017.12.31-13.49.05:214][  0]LogSlate: Took 0.000347 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.31-13.49.05:219][  0]LogSlate: Took 0.000393 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.12.31-13.49.05:267][  0]LogSlate: Took 0.045556 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.12.31-13.49.05:279][  0]LogSlate: Took 0.011025 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.12.31-13.49.05:463][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Bang
+[2017.12.31-13.49.05:464][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.12.31-13.49.05:464][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2017.12.31-13.49.05:464][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2017.12.31-13.49.05:464][  0]LogTemp: BranchPath = MARCUSPC/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = MARCUSPC/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2017.12.31-13.49.05:464][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Marcus\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.12.31-13.49.05:464][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.12.31-13.49.05:770][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0037 seconds. Added 1 classes and 2 folders.
+[2017.12.31-13.49.05:771][  0]LogLoad: (Engine Initialization) Total time: 59.83 seconds
+[2017.12.31-13.49.05:771][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.12.31-13.49.05:771][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.12.31-13.49.05:771][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.12.31-13.49.05:804][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.12.31-13.49.05:836][  1]LogAssetRegistry: Asset discovery search completed in 42.9095 seconds
+[2017.12.31-13.49.05:838][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.12.31-13.49.05:838][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000162 seconds (updated 0 objects)
+[2017.12.31-13.50.57:605][385]LogSlate: Took 0.023534 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.31-13.51.01:937][865]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.31-13.51.20:798][115]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.51.31:583][116]LogVSAccessor: Warning: Couldn't goto line number '0' in 'C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Source/Bang/BangGameMode.h'
+[2017.12.31-13.51.31:661][116]LogVSAccessor: Warning: Couldn't goto line number '0' in 'C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Source/Bang/BangGameMode.cpp'
+[2017.12.31-13.55.01:324][749]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:493][749]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:502][750]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:510][751]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:518][752]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:527][753]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:572][754]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:578][755]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:586][756]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:686][757]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:693][758]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:701][759]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:710][760]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:718][761]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:726][762]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:734][763]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:742][764]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:751][765]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:760][766]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:767][767]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:776][768]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:784][769]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:792][770]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:801][771]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:809][772]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:818][773]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:826][774]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:834][775]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:843][776]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:851][777]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:859][778]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:868][779]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:876][780]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:884][781]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:893][782]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:901][783]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:909][784]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:918][785]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:927][786]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:935][787]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:944][788]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:952][789]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:960][790]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:968][791]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:977][792]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:985][793]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.01:994][794]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:002][795]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:011][796]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:019][797]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:028][798]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:037][799]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:045][800]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:053][801]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:062][802]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:070][803]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:078][804]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:086][805]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:095][806]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:103][807]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:112][808]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:120][809]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:128][810]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:136][811]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:149][812]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:156][813]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:165][814]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:174][815]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:181][816]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:190][817]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:198][818]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:206][819]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:215][820]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:236][821]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:243][822]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:251][823]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:259][824]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:269][825]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:276][826]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:284][827]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:293][828]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:301][829]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:310][830]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:319][831]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:326][832]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:335][833]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:343][834]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:351][835]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:360][836]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:368][837]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:377][838]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:385][839]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:394][840]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:402][841]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:411][842]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:419][843]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:428][844]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:436][845]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:446][846]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:454][847]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:463][848]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:471][849]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:479][850]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:487][851]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:496][852]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:504][853]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:513][854]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:522][855]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:531][856]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:540][857]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:547][858]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:556][859]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:565][860]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:573][861]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:581][862]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:590][863]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:598][864]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:606][865]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:615][866]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:623][867]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:631][868]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:641][869]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:648][870]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:656][871]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:665][872]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:673][873]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:681][874]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:690][875]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:698][876]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:707][877]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:714][878]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:723][879]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:731][880]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:740][881]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:748][882]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:756][883]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:765][884]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:773][885]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:782][886]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:790][887]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:810][888]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:817][889]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:825][890]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:833][891]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:842][892]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:850][893]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:858][894]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:867][895]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:875][896]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:883][897]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:892][898]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:900][899]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:908][900]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:917][901]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:925][902]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:934][903]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:943][904]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:950][905]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:959][906]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:967][907]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:975][908]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:984][909]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.02:992][910]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.03:000][911]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.03:009][912]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.03:017][913]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.03:025][914]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.03:033][915]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.03:042][916]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.03:050][917]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.03:058][918]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.03:067][919]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.03:075][920]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.03:083][921]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.03:092][922]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.03:100][923]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.03:109][924]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.03:117][925]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.03:125][926]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.03:134][927]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.03:142][928]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.03:150][929]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.03:159][930]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.03:167][931]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.03:175][932]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.03:186][933]LogVSAccessor: Warning: Visual Studio is open but could not be queried - it may be blocked by a modal operation
+[2017.12.31-13.55.03:646][934]LogVSAccessor: Warning: Couldn't goto line number '0' in 'C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Source/Bang/BangGameMode.h'
+[2017.12.31-13.55.03:729][934]LogVSAccessor: Warning: Couldn't goto line number '0' in 'C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Source/Bang/BangGameMode.cpp'
+[2017.12.31-13.57.59:271][461]LogHotReload: New module detected: UE4Editor-Bang-7798.dll
+[2017.12.31-13.58.00:631][466]LogHotReload: Starting Hot-Reload from IDE
+[2017.12.31-13.58.00:877][466]LogHotReload: Re-instancing BangCharacter after hot-reload.
+[2017.12.31-13.58.01:028][466]LogContentBrowser: Native class hierarchy updated for 'Bang' in 0.0039 seconds. Added 4 classes and 2 folders.
+[2017.12.31-13.58.01:029][466]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2017.12.31-13.58.01:093][466]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 2392 classes and 506 folders.
+[2017.12.31-13.58.01:100][466]Display: HotReload took  0.5s.
+[2017.12.31-13.58.09:881][504]Candidate modules for hot reload:
+[2017.12.31-13.58.09:881][504]  Bang
+[2017.12.31-13.58.09:881][504]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe Bang -ModuleWithSuffix Bang 9491 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Bang.uproject" ]
+[2017.12.31-13.58.09:887][504]Warning: Starting HotReload took  0.0s.
+[2017.12.31-13.58.21:998][957]CompilerResultsLog: New page: Compilation - 31 Dec 2017 13:58:21
+[2017.12.31-13.58.21:998][957]CompilerResultsLog: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\Bang\Bang.Build.cs: warning: Module constructors should take a ReadOnlyTargetRules argument (rather than a TargetInfo argument) and pass it to the base class constructor from 4.15 onwards. Please update the method signature.
+[2017.12.31-13.58.21:998][957]CompilerResultsLog: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\Bang.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.12.31-13.58.21:999][957]CompilerResultsLog: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\BangEditor.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.12.31-13.58.21:999][957]CompilerResultsLog: Compiling game modules for hot reload
+[2017.12.31-13.58.21:999][957]CompilerResultsLog: Target is up to date
+[2017.12.31-13.58.21:999][957]CompilerResultsLog: Total build time: 11.89 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2017.12.31-13.58.22:000][957]LogMainFrame: MainFrame: Module compiling took 12.125 seconds
+[2017.12.31-13.58.22:024][957]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2392 classes and 506 folders.
+[2017.12.31-13.58.22:024][957]Display: HotReload took 12.2s.
+[2017.12.31-13.58.43:683][547]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.31-13.58.43:743][547]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.31-13.58.43:743][547]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.31-13.58.43:744][547]PIE: New page: PIE session: 2DSideScrollerExampleMap (31 Dec 2017 13:58:43)
+[2017.12.31-13.58.43:744][547]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.12.31-13.58.43:746][547]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002563s)
+[2017.12.31-13.58.43:747][547]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.12.31-13.58.43:747][547]LogPlayLevel: PIE: World Init took: (0.000801s)
+[2017.12.31-13.58.43:748][547]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003861s)
+[2017.12.31-13.58.43:758][547]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.31-13.58.43:764][547]LogInit: FAudioDevice initialized.
+[2017.12.31-13.58.43:809][547]LogLoad: Game class is 'BangGameMode'
+[2017.12.31-13.58.43:812][547]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.12.31-13.58.43
+[2017.12.31-13.58.43:813][547]LogWorld: Bringing up level for play took: 0.002062
+[2017.12.31-13.58.44:009][547]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0033 seconds. Added 11 classes and 0 folders.
+[2017.12.31-13.58.44:010][547]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.458
+[2017.12.31-13.58.44:010][547]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.31-13.58.44:855][646]LogTemp: Hit Detected
+[2017.12.31-13.58.44:855][646]LogTemp: I was hit
+[2017.12.31-13.58.54:649][821]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.31-13.58.54:681][821]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.31-14.01.18:763][986]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.12.31-14.01.19:188][986]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0039 seconds. Added 113 classes and 0 folders.
+[2017.12.31-14.01.20:174][986]LogSlate: Took 0.014847 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.12.31-14.04.24:529][628]LogRenderer: Reallocating scene render targets to support 1208x940 Format 10 NumSamples 1 (Frame:1).
+[2017.12.31-14.05.19:854][124]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MeleeHitbox2" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Blueprints/BP_MeleeHitbox2.uasset" SILENT=true
+[2017.12.31-14.05.19:985][124]LogSavePackage: Save=14.64ms
+[2017.12.31-14.05.19:985][124]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/BP_MeleeHitbox2A6C4C86E45144F455D52E086825136E6.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Blueprints/BP_MeleeHitbox2.uasset'
+[2017.12.31-14.05.19:992][124]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Blueprints/BP_MeleeHitbox2.uasset
+[2017.12.31-14.05.20:428][175]BlueprintLog: New page: Compile BP_MeleeHitbox2
+[2017.12.31-14.06.02:895][100]LogSlate: Took 0.328486 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.12.31-14.06.07:863][651]Candidate modules for hot reload:
+[2017.12.31-14.06.07:863][651]  Bang
+[2017.12.31-14.06.07:863][651]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe Bang -ModuleWithSuffix Bang 3881 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Bang.uproject" ]
+[2017.12.31-14.06.07:869][651]Warning: Starting HotReload took  0.0s.
+[2017.12.31-14.06.23:074][102]CompilerResultsLog: New page: Compilation - 31 Dec 2017 14:06:23
+[2017.12.31-14.06.23:074][102]CompilerResultsLog: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\Bang\Bang.Build.cs: warning: Module constructors should take a ReadOnlyTargetRules argument (rather than a TargetInfo argument) and pass it to the base class constructor from 4.15 onwards. Please update the method signature.
+[2017.12.31-14.06.23:074][102]CompilerResultsLog: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\Bang.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.12.31-14.06.23:075][102]CompilerResultsLog: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\BangEditor.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.12.31-14.06.23:075][102]CompilerResultsLog: Compiling game modules for hot reload
+[2017.12.31-14.06.23:075][102]CompilerResultsLog: Target is up to date
+[2017.12.31-14.06.23:075][102]CompilerResultsLog: Total build time: 14.94 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2017.12.31-14.06.23:075][102]LogMainFrame: MainFrame: Module compiling took 15.219 seconds
+[2017.12.31-14.06.23:321][102]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2392 classes and 506 folders.
+[2017.12.31-14.06.23:321][102]Display: HotReload took 15.5s.
+[2017.12.31-14.06.40:711][ 64]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.31-14.06.40:738][ 64]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.31-14.06.40:738][ 64]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.31-14.06.40:739][ 64]PIE: New page: PIE session: 2DSideScrollerExampleMap (31 Dec 2017 14:06:40)
+[2017.12.31-14.06.40:739][ 64]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.12.31-14.06.40:742][ 64]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002608s)
+[2017.12.31-14.06.40:742][ 64]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.12.31-14.06.40:743][ 64]LogPlayLevel: PIE: World Init took: (0.000940s)
+[2017.12.31-14.06.40:743][ 64]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.004070s)
+[2017.12.31-14.06.40:778][ 64]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.31-14.06.40:785][ 64]LogInit: FAudioDevice initialized.
+[2017.12.31-14.06.40:818][ 64]LogLoad: Game class is 'BangGameMode'
+[2017.12.31-14.06.40:820][ 64]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.12.31-14.06.40
+[2017.12.31-14.06.40:820][ 64]LogWorld: Bringing up level for play took: 0.002085
+[2017.12.31-14.06.40:821][ 64]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.731
+[2017.12.31-14.06.40:822][ 64]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.31-14.06.52:875][470]LogTemp: Hit Detected
+[2017.12.31-14.06.52:875][470]LogTemp: I was hit
+[2017.12.31-14.06.53:586][555]LogTemp: Hit Detected
+[2017.12.31-14.06.53:587][555]LogTemp: I was hit
+[2017.12.31-14.07.16:750][274]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.31-14.07.16:781][274]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.31-14.07.48:579][965]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MeleeHitbox2" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Blueprints/BP_MeleeHitbox2.uasset" SILENT=true
+[2017.12.31-14.07.48:629][965]LogSavePackage: Save=13.39ms
+[2017.12.31-14.07.48:629][965]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/BP_MeleeHitbox23670C6F8484E1BF68EA3A6B6BE3ED2CA.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Blueprints/BP_MeleeHitbox2.uasset'
+[2017.12.31-14.07.48:636][965]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Blueprints/BP_MeleeHitbox2.uasset
+[2017.12.31-14.07.50:542][182]BlueprintLog: New page: Compile BP_MeleeHitbox2
+[2017.12.31-14.07.53:167][468]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.31-14.07.53:190][468]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.31-14.07.53:191][468]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.31-14.07.53:191][468]PIE: New page: PIE session: 2DSideScrollerExampleMap (31 Dec 2017 14:07:53)
+[2017.12.31-14.07.53:191][468]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.12.31-14.07.53:194][468]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002520s)
+[2017.12.31-14.07.53:195][468]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.12.31-14.07.53:195][468]LogPlayLevel: PIE: World Init took: (0.000807s)
+[2017.12.31-14.07.53:195][468]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003822s)
+[2017.12.31-14.07.53:215][468]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.31-14.07.53:221][468]LogInit: FAudioDevice initialized.
+[2017.12.31-14.07.53:252][468]LogLoad: Game class is 'BangGameMode'
+[2017.12.31-14.07.53:254][468]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.12.31-14.07.53
+[2017.12.31-14.07.53:255][468]LogWorld: Bringing up level for play took: 0.001821
+[2017.12.31-14.07.53:256][468]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.296
+[2017.12.31-14.07.53:256][468]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.31-14.07.58:139][ 48]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.31-14.07.58:173][ 48]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.31-14.07.59:039][147]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.31-14.07.59:062][147]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.31-14.07.59:062][147]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.31-14.07.59:063][147]PIE: New page: PIE session: 2DSideScrollerExampleMap (31 Dec 2017 14:07:59)
+[2017.12.31-14.07.59:063][147]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.12.31-14.07.59:065][147]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002609s)
+[2017.12.31-14.07.59:066][147]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.12.31-14.07.59:066][147]LogPlayLevel: PIE: World Init took: (0.000684s)
+[2017.12.31-14.07.59:066][147]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003779s)
+[2017.12.31-14.07.59:086][147]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.31-14.07.59:092][147]LogInit: FAudioDevice initialized.
+[2017.12.31-14.07.59:126][147]LogLoad: Game class is 'BangGameMode'
+[2017.12.31-14.07.59:128][147]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.12.31-14.07.59
+[2017.12.31-14.07.59:128][147]LogWorld: Bringing up level for play took: 0.001762
+[2017.12.31-14.07.59:129][147]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.423
+[2017.12.31-14.07.59:130][147]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.31-14.08.41:400][728]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.12.31-14.08.43:071][860]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2017.12.31-14.09.49:182][245]LogEditorViewport: Clicking on Actor (LMB): BP_2DSideScrollerCharacter_C (BP_2DSideScrollerCharacter)
+[2017.12.31-14.09.50:553][324]LogEditorViewport: Clicking on Actor (LMB): BP_MeleeHitbox2_C (BP_MeleeHitbox2)
+[2017.12.31-14.10.39:703][  6]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (PaperSprite)
+[2017.12.31-14.10.41:522][172]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.31-14.10.41:560][172]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.31-14.11.03:649][702]LogActorComponent: ReregisterComponent: (/Engine/Transient.World_1:PersistentLevel.BP_MeleeHitbox2_C_5.CollBox) Not currently registered. Aborting.
+[2017.12.31-14.11.15:024][ 34]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MeleeHitbox2" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Blueprints/BP_MeleeHitbox2.uasset" SILENT=true
+[2017.12.31-14.11.15:077][ 34]LogSavePackage: Save=13.98ms
+[2017.12.31-14.11.15:077][ 34]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/BP_MeleeHitbox27C02F2CE4F5C31F2918B1B80571BCB89.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Blueprints/BP_MeleeHitbox2.uasset'
+[2017.12.31-14.11.15:083][ 34]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Blueprints/BP_MeleeHitbox2.uasset
+[2017.12.31-14.11.15:524][ 84]BlueprintLog: New page: Compile BP_MeleeHitbox2
+[2017.12.31-14.11.48:429][865]Candidate modules for hot reload:
+[2017.12.31-14.11.48:429][865]  Bang
+[2017.12.31-14.11.48:429][865]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe Bang -ModuleWithSuffix Bang 5654 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Bang.uproject" ]
+[2017.12.31-14.11.48:434][865]Warning: Starting HotReload took  0.0s.
+[2017.12.31-14.12.02:647][496]CompilerResultsLog: New page: Compilation - 31 Dec 2017 14:12:02
+[2017.12.31-14.12.02:647][496]CompilerResultsLog: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\Bang\Bang.Build.cs: warning: Module constructors should take a ReadOnlyTargetRules argument (rather than a TargetInfo argument) and pass it to the base class constructor from 4.15 onwards. Please update the method signature.
+[2017.12.31-14.12.02:647][496]CompilerResultsLog: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\Bang.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.12.31-14.12.02:647][496]CompilerResultsLog: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\BangEditor.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.12.31-14.12.02:647][496]CompilerResultsLog: Compiling game modules for hot reload
+[2017.12.31-14.12.02:647][496]CompilerResultsLog: Target is up to date
+[2017.12.31-14.12.02:647][496]CompilerResultsLog: Total build time: 13.92 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2017.12.31-14.12.02:647][496]LogMainFrame: MainFrame: Module compiling took 14.223 seconds
+[2017.12.31-14.12.02:896][496]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2392 classes and 506 folders.
+[2017.12.31-14.12.02:896][496]Display: HotReload took 14.5s.
+[2017.12.31-14.12.07:050][990]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.31-14.12.07:080][990]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.31-14.12.07:080][990]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.31-14.12.07:080][990]PIE: New page: PIE session: 2DSideScrollerExampleMap (31 Dec 2017 14:12:07)
+[2017.12.31-14.12.07:080][990]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.12.31-14.12.07:082][990]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002502s)
+[2017.12.31-14.12.07:083][990]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.12.31-14.12.07:083][990]LogPlayLevel: PIE: World Init took: (0.000676s)
+[2017.12.31-14.12.07:083][990]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003428s)
+[2017.12.31-14.12.07:120][990]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.31-14.12.07:127][990]LogInit: FAudioDevice initialized.
+[2017.12.31-14.12.07:159][990]LogLoad: Game class is 'BangGameMode'
+[2017.12.31-14.12.07:161][990]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.12.31-14.12.07
+[2017.12.31-14.12.07:161][990]LogWorld: Bringing up level for play took: 0.001684
+[2017.12.31-14.12.07:162][990]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.39
+[2017.12.31-14.12.07:162][990]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.31-14.12.07:859][ 70]LogTemp: Hit Detected
+[2017.12.31-14.12.07:859][ 70]LogTemp: I was hit
+[2017.12.31-14.12.09:458][261]LogTemp: Hit Detected
+[2017.12.31-14.12.09:458][261]LogTemp: I was hit
+[2017.12.31-14.12.22:289][786]LogCharacterMovement: BP_2DSideScrollerCharacter_4 is stuck and failed to move! Velocity: X=-119.47 Y=0.00 Z=0.00 Location: X=647.11 Y=1.00 Z=778.59 Normal: X=1.00 Y=0.00 Z=0.00 PenetrationDepth:1.729 Actor:BP_MeleeHitbox2_C_1 Component:PaperSprite BoneName:None (0 other events since notify)
+[2017.12.31-14.12.23:289][906]LogCharacterMovement: BP_2DSideScrollerCharacter_4 is stuck and failed to move! Velocity: X=-600.00 Y=0.00 Z=0.00 Location: X=647.11 Y=1.00 Z=778.59 Normal: X=1.00 Y=0.00 Z=0.00 PenetrationDepth:20.000 Actor:BP_MeleeHitbox2_C_1 Component:PaperSprite BoneName:None (85 other events since notify)
+[2017.12.31-14.12.28:734][552]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.31-14.12.28:771][552]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.31-14.13.35:674][531]LogSlate: Took 0.003152 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.12.31-14.13.44:729][558]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap' took 0.047
+[2017.12.31-14.13.44:779][558]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/BP_MeleeHitbox2] ([1] browsable assets)...
+[2017.12.31-14.13.44:779][558]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/BP_MeleeHitbox2]
+[2017.12.31-14.13.44:832][558]LogSavePackage: Save=15.65ms
+[2017.12.31-14.13.44:832][558]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/BP_MeleeHitbox2_Auto14FB403A0449861665AF1FF8DA45A912D.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/Autosaves/Game/Blueprints/BP_MeleeHitbox2_Auto1.uasset'
+[2017.12.31-14.13.44:837][558]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/Autosaves/Game/Blueprints/BP_MeleeHitbox2_Auto1.uasset
+[2017.12.31-14.13.44:838][558]LogFileHelpers: Auto-saving content packages took 0.078
+[2017.12.31-14.19.23:425][574]LogHotReload: New module detected: UE4Editor-Bang-239.dll
+[2017.12.31-14.19.24:103][577]LogHotReload: Starting Hot-Reload from IDE
+[2017.12.31-14.19.24:358][577]LogClass: Could not find existing class MeleeHitbox in package /Script/Bang for HotReload, assuming new class
+[2017.12.31-14.19.24:358][577]LogClass: Function OnHit is new.
+[2017.12.31-14.19.24:362][577]LogHotReload: Re-instancing BangCharacter after hot-reload.
+[2017.12.31-14.19.24:849][577]LogHotReload: Re-instancing MeleeHitbox after hot-reload.
+[2017.12.31-14.19.24:853][577]LogProperty: Warning: Serialized Class /Script/Engine.SphereComponent for a property of Class /Script/Engine.CapsuleComponent. Reference will be nullptred.
+    Property = ObjectProperty /Script/Bang.MeleeHitbox:CollisionComp
+    Item = SphereComponent /Engine/Transient.BP_MeleeHitbox2_C_2:CollBox
+[2017.12.31-14.19.24:951][577]LogContentBrowser: Native class hierarchy updated for 'Bang' in 0.0038 seconds. Added 4 classes and 2 folders.
+[2017.12.31-14.19.24:953][577]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2017.12.31-14.19.25:226][577]LogContentBrowser: Native class hierarchy populated in 0.0123 seconds. Added 2392 classes and 506 folders.
+[2017.12.31-14.19.25:231][577]Display: HotReload took  1.1s.
+[2017.12.31-14.20.44:211][469]BlueprintLog: New page: Compile BP_MeleeHitbox2
+[2017.12.31-14.20.45:653][592]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MeleeHitbox2" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Blueprints/BP_MeleeHitbox2.uasset" SILENT=true
+[2017.12.31-14.20.45:704][592]LogSavePackage: Save=14.06ms
+[2017.12.31-14.20.45:705][592]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/BP_MeleeHitbox202B308974B8AD2027735A3B79F6EE486.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Blueprints/BP_MeleeHitbox2.uasset'
+[2017.12.31-14.20.45:711][592]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Blueprints/BP_MeleeHitbox2.uasset
+[2017.12.31-14.26.10:006][908]LogHotReload: New module detected: UE4Editor-Bang-1766.dll
+[2017.12.31-14.26.11:016][912]LogHotReload: Starting Hot-Reload from IDE
+[2017.12.31-14.26.11:324][912]LogClass: Could not find existing class MeleeHitbox in package /Script/Bang for HotReload, assuming new class
+[2017.12.31-14.26.11:325][912]LogClass: Function OnHit is new.
+[2017.12.31-14.26.11:325][912]LogClass: Function OnOverlap is new.
+[2017.12.31-14.26.11:329][912]LogHotReload: Re-instancing BangCharacter after hot-reload.
+[2017.12.31-14.26.11:808][912]LogHotReload: Re-instancing MeleeHitbox after hot-reload.
+[2017.12.31-14.26.12:090][912]LogContentBrowser: Native class hierarchy updated for 'Bang' in 0.0037 seconds. Added 4 classes and 2 folders.
+[2017.12.31-14.26.12:093][912]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2017.12.31-14.26.12:361][912]LogContentBrowser: Native class hierarchy populated in 0.0116 seconds. Added 2392 classes and 506 folders.
+[2017.12.31-14.26.12:367][912]Display: HotReload took  1.4s.
+[2017.12.31-14.27.11:507][ 96]Candidate modules for hot reload:
+[2017.12.31-14.27.11:508][ 96]  Bang
+[2017.12.31-14.27.11:508][ 96]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/DotNET/UnrealBuildTool.exe Bang -ModuleWithSuffix Bang 3821 Win64 Development -editorrecompile -canskiplink "C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Bang.uproject" ]
+[2017.12.31-14.27.11:514][ 96]Warning: Starting HotReload took  0.0s.
+[2017.12.31-14.27.23:562][510]CompilerResultsLog: New page: Compilation - 31 Dec 2017 14:27:23
+[2017.12.31-14.27.23:562][510]CompilerResultsLog: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\Bang\Bang.Build.cs: warning: Module constructors should take a ReadOnlyTargetRules argument (rather than a TargetInfo argument) and pass it to the base class constructor from 4.15 onwards. Please update the method signature.
+[2017.12.31-14.27.23:563][510]CompilerResultsLog: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\Bang.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.12.31-14.27.23:563][510]CompilerResultsLog: C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\BangEditor.Target.cs: warning: SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+[2017.12.31-14.27.23:563][510]CompilerResultsLog: Compiling game modules for hot reload
+[2017.12.31-14.27.23:564][510]CompilerResultsLog: Target is up to date
+[2017.12.31-14.27.23:564][510]CompilerResultsLog: Total build time: 11.80 seconds (NoActionsToExecute executor: 0.00 seconds)
+[2017.12.31-14.27.23:564][510]LogMainFrame: MainFrame: Module compiling took 12.068 seconds
+[2017.12.31-14.27.23:832][510]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 2392 classes and 506 folders.
+[2017.12.31-14.27.23:832][510]Display: HotReload took 12.3s.
+[2017.12.31-14.27.40:168][470]LogTemp: Repeating last play command: Selected Viewport
+[2017.12.31-14.27.40:197][470]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.12.31-14.27.40:198][470]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.12.31-14.27.40:198][470]PIE: New page: PIE session: 2DSideScrollerExampleMap (31 Dec 2017 14:27:40)
+[2017.12.31-14.27.40:198][470]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2017.12.31-14.27.40:201][470]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002740s)
+[2017.12.31-14.27.40:202][470]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.12.31-14.27.40:202][470]LogPlayLevel: PIE: World Init took: (0.000874s)
+[2017.12.31-14.27.40:202][470]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.004123s)
+[2017.12.31-14.27.40:255][470]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.12.31-14.27.40:262][470]LogInit: FAudioDevice initialized.
+[2017.12.31-14.27.40:294][470]LogLoad: Game class is 'BangGameMode'
+[2017.12.31-14.27.40:296][470]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.12.31-14.27.40
+[2017.12.31-14.27.40:297][470]LogWorld: Bringing up level for play took: 0.001915
+[2017.12.31-14.27.40:298][470]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.745
+[2017.12.31-14.27.40:298][470]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
