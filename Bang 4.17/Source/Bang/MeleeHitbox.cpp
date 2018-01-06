@@ -14,15 +14,11 @@ AMeleeHitbox::AMeleeHitbox()
 	PrimaryActorTick.bCanEverTick = false;
 
 	// Use a sphere as a simple collision representation
-	///CollisionComp = CreateDefaultSubobject<UBoxComponent>(TEXT("CollBox"));
 	CollisionComp = CreateDefaultSubobject<UCapsuleComponent>(TEXT("CollBox"));
-	///CollisionComp->InitBoxExtent(FVector(100.0f, 100.0f, 100.0f));
 	CollisionComp->InitCapsuleSize(25.0f, 50.0f);
 	CollisionComp->BodyInstance.SetCollisionProfileName("Projectile");
-	//CollisionComp->ShapeColor = FColor::Red;
 
 	// set up a notification for when this component hits something blocking
-	CollisionComp->OnComponentHit.AddDynamic(this, &AMeleeHitbox::OnHit);
 	CollisionComp->OnComponentBeginOverlap.AddDynamic(this, &AMeleeHitbox::OnOverlap);
 
 	// Players can't walk on it
@@ -31,14 +27,6 @@ AMeleeHitbox::AMeleeHitbox()
 
 	// Set as root component
 	RootComponent = CollisionComp;
-
-	// Use a ProjectileMovementComponent to govern this projectile's movement
-	///ProjectileMovement = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("ProjectileComp"));
-	///ProjectileMovement->UpdatedComponent = CollisionComp;
-	///ProjectileMovement->InitialSpeed = 0.0f;
-	///ProjectileMovement->MaxSpeed = 3000.f;
-	///ProjectileMovement->bRotationFollowsVelocity = false;
-	///ProjectileMovement->bShouldBounce = false;
 
 	// Die after 0.1 seconds by default
 	InitialLifeSpan = 0.1f;
@@ -66,22 +54,30 @@ void AMeleeHitbox::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrim
 
 void AMeleeHitbox::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
-	UE_LOG(LogTemp, Log, TEXT("Overlap Detected"));
-
-	// Only add impulse and destroy projectile if we hit a physics
-	if ((OtherActor != NULL) && (OtherActor != this) && (OtherComp != NULL) && OtherComp->IsSimulatingPhysics())
+	if (OtherActor == GetOwner() || OtherActor == this)
 	{
-		OtherComp->AddImpulseAtLocation(GetVelocity() * 100.0f, GetActorLocation());
+		//UE_LOG(LogTemp, Log, TEXT("Overlaped owner"));
 	}
-
-	ABangCharacter* hitChar = Cast<ABangCharacter>(OtherActor);
-
-	if (hitChar)
+	else
 	{
-		hitChar->OnMeleeHit();
-	}
+		//UE_LOG(LogTemp, Log, TEXT("Overlap Detected: %s", OtherActor->GetName()));
+		UE_LOG(LogTemp, Log, TEXT("Overlap Detected: %s"), *OtherActor->GetName());
 
-	Destroy();
+		// Only add impulse and destroy projectile if we hit a physics
+		if ((OtherActor != NULL) && (OtherActor != this) && (OtherComp != NULL) && OtherComp->IsSimulatingPhysics())
+		{
+			OtherComp->AddImpulseAtLocation(GetVelocity() * 100.0f, GetActorLocation());
+		}
+
+		ABangCharacter* hitChar = Cast<ABangCharacter>(OtherActor);
+
+		if (hitChar)
+		{
+			hitChar->OnMeleeHit();
+		}
+
+		Destroy();
+	}
 }
 
 // Called when the game starts or when spawned

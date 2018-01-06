@@ -15,10 +15,6 @@ class BANG_API AMeleeHitbox : public AActor
 		UPROPERTY(VisibleDefaultsOnly, Category = Projectile)
 		///class UBoxComponent* CollisionComp;
 		class UCapsuleComponent* CollisionComp;
-
-	/** Projectile movement component */
-	///UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Movement, meta = (AllowPrivateAccess = "true"))
-	///class UProjectileMovementComponent* ProjectileMovement;
 	
 public:	
 	// Sets default values for this actor's properties
@@ -33,10 +29,7 @@ public:
 		void OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult);
 
 	/** Returns CollisionComp subobject **/
-	///FORCEINLINE class UBoxComponent* GetCollisionComp() const { return CollisionComp; }
 	FORCEINLINE class UCapsuleComponent* GetCollisionComp() const { return CollisionComp; }
-	/** Returns ProjectileMovement subobject **/
-	///FORCEINLINE class UProjectileMovementComponent* GetProjectileMovement() const { return ProjectileMovement; }
 
 protected:
 	// Called when the game starts or when spawned

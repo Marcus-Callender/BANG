@@ -65,12 +65,6 @@ ABangCharacter::ABangCharacter()
 	// behavior on the edge of a ledge versus inclines by setting this to true or false
 	GetCharacterMovement()->bUseFlatBaseForFloorChecks = true;
 
-	// 	TextComponent = CreateDefaultSubobject<UTextRenderComponent>(TEXT("IncarGear"));
-	// 	TextComponent->SetRelativeScale3D(FVector(3.0f, 3.0f, 3.0f));
-	// 	TextComponent->SetRelativeLocation(FVector(35.0f, 5.0f, 20.0f));
-	// 	TextComponent->SetRelativeRotation(FRotator(0.0f, 90.0f, 0.0f));
-	// 	TextComponent->SetupAttachment(RootComponent);
-
 	// Enable replication on the Sprite component so animations show up when networked
 	GetSprite()->SetIsReplicated(true);
 	bReplicates = true;
@@ -132,25 +126,6 @@ void ABangCharacter::CreateMeleeHitbox()
 			FRotator SpawnRotation = GetActorRotation();
 
 			AMeleeHitbox* hitbox = world->SpawnActor<AMeleeHitbox>(m_meleeHitbox, SpawnVector + FVector(m_meleeOffset, 0.0f, 0.0f) * (SpawnRotation == FRotator::ZeroRotator ? 1.0f : -1.0f), SpawnRotation, params);
-
-			///hitbox->GetRootPrimitiveComponent()->SetupAttachment(RootComponent);
-			///hitbox->SetRootComponent(GetCapsuleComponent());
-
-			if (hitbox)
-			{
-				hitbox->GetCollisionComp()->AttachToComponent(GetCapsuleComponent(), FAttachmentTransformRules::KeepWorldTransform, "HiboxJoin");
-			}
-
-			///UActorComponent* hitboxComp = Cast<UActorComponent>(hitbox->GetRootComponent());
-			///
-			///if (hitboxComp)
-			///{
-			///	///AddOwnedComponent(hitboxComp);
-			///	hitboxComp->GetCollisionComp()->AttachTo(GetCapsuleComponent());
-			///}
-
-			///hitbox->GetRootPrimitiveComponent()->SetRelativeLocation(FVector((SpawnRotation == FRotator::ZeroRotator ? m_meleeOffset : -m_meleeOffset, 0.0f, 0.0f)));
-			///hitbox->SetActorRelativeLocation((FVector(m_meleeOffset, 0.0f, 0.0f) * (SpawnRotation == FRotator::ZeroRotator ? 1.0f : -1.0f)));
 		}
 	}
 }

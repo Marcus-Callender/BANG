@@ -107,7 +107,7 @@ private:
 	float m_bulletOffset = 80.0f;
 
 	UPROPERTY()
-	float m_meleeOffset = 120.0f;
+	float m_meleeOffset = 220.0f;
 
 	void FireProjectile();
 	void CreateMeleeHitbox();

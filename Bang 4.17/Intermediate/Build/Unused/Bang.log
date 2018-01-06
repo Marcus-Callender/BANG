@@ -1,15 +1,17 @@
-﻿  Creating makefile for BangEditor (ini files are newer than UBTMakefile)
-C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\Bang\Bang.Build.cs : warning : Module constructors should take a ReadOnlyTargetRules argument (rather than a TargetInfo argument) and pass it to the base class constructor from 4.15 onwards. Please update the method signature.
+﻿C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\Bang\Bang.Build.cs : warning : Module constructors should take a ReadOnlyTargetRules argument (rather than a TargetInfo argument) and pass it to the base class constructor from 4.15 onwards. Please update the method signature.
 C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\Bang.Target.cs : warning : SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
 C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\BangEditor.Target.cs : warning : SetupBinaries() is deprecated in the 4.16 release. From the constructor in your .target.cs file, use ExtraModuleNames.Add("Foo") to add modules to your target, or set LaunchModuleName = "Foo" to override the name of the launch module for program targets.
+  Compiling game modules for hot reload
   Parsing headers for BangEditor
     Running UnrealHeaderTool "C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Bang.uproject" "C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\BangEditor\Development\BangEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BangEditor in 7.7525943 seconds
-  Performing 3 actions (4 in parallel)
+  Reflection code generated for BangEditor in 11.3258862 seconds
+  Performing 5 actions (4 in parallel)
+  MeleeHitbox.cpp
+  MeleeHitbox.gen.cpp
   BangCharacter.cpp
-  [2/3] Link UE4Editor-Bang.dll
-  [3/3] Link UE4Editor-Bang.lib
-     Creating library C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang.lib and object C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang.exp
-     Creating library C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang.suppressed.lib and object C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang.suppressed.exp
+  [4/5] Link UE4Editor-Bang-6072.dll
+  [5/5] Link UE4Editor-Bang-6072.lib
+     Creating library C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-6072.lib and object C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-6072.exp
+     Creating library C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-6072.suppressed.lib and object C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-6072.suppressed.exp
   Deploying BangEditor Win64 Development...
-  Total build time: 24.32 seconds (Local executor: 3.16 seconds)
+  Total build time: 140.91 seconds (Local executor: 118.30 seconds)
