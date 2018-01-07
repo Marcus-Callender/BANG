@@ -74,6 +74,7 @@ void AMeleeHitbox::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherA
 		if (hitChar)
 		{
 			hitChar->OnMeleeHit();
+			OtherComp->AddForce(FVector(1.0f, 0.0f, 0.0f));
 		}
 
 		Destroy();

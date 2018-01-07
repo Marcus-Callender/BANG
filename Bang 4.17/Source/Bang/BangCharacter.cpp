@@ -141,6 +141,7 @@ void ABangCharacter::CreateMeleeHitbox()
 			FRotator SpawnRotation = GetActorRotation();
 
 			AMeleeHitbox* hitbox = world->SpawnActor<AMeleeHitbox>(m_meleeHitbox, SpawnVector + FVector(m_meleeOffset, 0.0f, 0.0f) * (SpawnRotation == FRotator::ZeroRotator ? 1.0f : -1.0f), SpawnRotation, params);
+			hitbox->AttachRootComponentTo(RootComponent, NAME_None, EAttachLocation::KeepWorldPosition);
 		}
 	}
 }
