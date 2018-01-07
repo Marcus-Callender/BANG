@@ -329,3 +329,450 @@ LogInit: Object subsystem initialized
 [2018.01.07-16.41.55:897][356]LogTemp: Overlaped owner
 [2018.01.07-16.41.58:422][658]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
 [2018.01.07-16.41.58:454][658]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.01.07-16.45.35:836][283]LogHotReload: New module detected: UE4Editor-Bang-968.dll
+[2018.01.07-16.45.36:846][287]LogHotReload: Starting Hot-Reload from IDE
+[2018.01.07-16.45.37:073][287]LogHotReload: Re-instancing BangCharacter after hot-reload.
+[2018.01.07-16.45.37:421][287]LogContentBrowser: Native class hierarchy updated for 'Bang' in 0.0035 seconds. Added 4 classes and 2 folders.
+[2018.01.07-16.45.37:423][287]Display: HotReload successful (3 functions remapped  0 scriptstructs remapped)
+[2018.01.07-16.45.37:709][287]LogContentBrowser: Native class hierarchy populated in 0.0113 seconds. Added 2392 classes and 506 folders.
+[2018.01.07-16.45.37:715][287]Display: HotReload took  0.9s.
+[2018.01.07-16.45.42:722][302]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.07-16.45.42:770][302]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.01.07-16.45.42:770][302]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.07-16.45.42:770][302]PIE: New page: PIE session: 2DSideScrollerExampleMap (7 Jan 2018 16:45:42)
+[2018.01.07-16.45.42:770][302]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.01.07-16.45.42:773][302]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002934s)
+[2018.01.07-16.45.42:774][302]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.01.07-16.45.42:774][302]LogPlayLevel: PIE: World Init took: (0.000741s)
+[2018.01.07-16.45.42:774][302]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003991s)
+[2018.01.07-16.45.42:838][302]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.07-16.45.42:845][302]LogInit: FAudioDevice initialized.
+[2018.01.07-16.45.42:881][302]LogLoad: Game class is 'BangGameMode'
+[2018.01.07-16.45.42:883][302]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2018.01.07-16.45.42
+[2018.01.07-16.45.42:884][302]LogWorld: Bringing up level for play took: 0.001901
+[2018.01.07-16.45.42:884][302]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.345
+[2018.01.07-16.45.42:885][302]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.01.07-16.45.43:964][430]LogTemp: Overlaped owner
+[2018.01.07-16.45.44:438][487]LogTemp: Overlaped owner
+[2018.01.07-16.45.44:847][536]LogTemp: Overlaped owner
+[2018.01.07-16.45.45:305][591]LogTemp: Overlaped owner
+[2018.01.07-16.45.45:847][656]LogTemp: Overlaped owner
+[2018.01.07-16.45.46:281][708]LogTemp: Overlaped owner
+[2018.01.07-16.45.46:689][757]LogTemp: Overlaped owner
+[2018.01.07-16.45.47:151][812]LogTemp: Overlaped owner
+[2018.01.07-16.45.47:625][869]LogTemp: Overlaped owner
+[2018.01.07-16.45.48:075][923]LogTemp: Overlaped owner
+[2018.01.07-16.45.48:533][978]LogTemp: Overlaped owner
+[2018.01.07-16.45.49:008][ 35]LogTemp: Overlaped owner
+[2018.01.07-16.45.49:758][125]LogTemp: Overlaped owner
+[2018.01.07-16.45.50:158][173]LogTemp: Overlaped owner
+[2018.01.07-16.45.50:491][213]LogTemp: Overlaped owner
+[2018.01.07-16.45.50:858][257]LogTemp: Overlaped owner
+[2018.01.07-16.45.51:942][387]LogTemp: Overlaped owner
+[2018.01.07-16.45.52:242][423]LogTemp: Overlaped owner
+[2018.01.07-16.45.52:866][498]LogTemp: Overlaped owner
+[2018.01.07-16.45.53:658][593]LogTemp: Overlaped owner
+[2018.01.07-16.45.55:609][827]LogTemp: Overlaped owner
+[2018.01.07-16.45.56:176][895]LogTemp: Overlaped owner
+[2018.01.07-16.45.56:932][986]LogTemp: Hit Detected
+[2018.01.07-16.45.57:757][ 85]LogTemp: Hit Detected
+[2018.01.07-16.45.58:165][134]LogTemp: Hit Detected
+[2018.01.07-16.45.58:575][183]LogTemp: Hit Detected
+[2018.01.07-16.45.59:199][258]LogTemp: Hit Detected
+[2018.01.07-16.45.59:499][294]LogTemp: Hit Detected
+[2018.01.07-16.46.00:059][361]LogTemp: Overlaped owner
+[2018.01.07-16.46.01:200][498]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.01.07-16.46.01:231][498]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.01.07-16.50.44:200][918]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Marcus\Pictures\Bang\damage.png)
+[2018.01.07-16.50.44:242][918]LogTexture: Display: Building textures: damage (BGRA8, 743X149)
+[2018.01.07-16.50.44:271][918]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\Marcus\Pictures\Bang\hitback.png)
+[2018.01.07-16.50.44:274][918]LogTexture: Display: Building textures: hitback (BGRA8, 269X61)
+[2018.01.07-16.50.47:187][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/damage" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/damage.uasset" SILENT=true
+[2018.01.07-16.50.47:201][229]LogSavePackage: Save=11.30ms
+[2018.01.07-16.50.47:201][229]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage2DE186C044E36ADF3C66AA88FA81EAB8.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/damage.uasset'
+[2018.01.07-16.50.47:207][229]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/damage.uasset
+[2018.01.07-16.50.47:212][229]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/hitback" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/hitback.uasset" SILENT=true
+[2018.01.07-16.50.47:220][229]LogSavePackage: Save=5.56ms
+[2018.01.07-16.50.47:220][229]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/hitback7E0CB3FE43C594434B6C67A97EA8AB77.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/hitback.uasset'
+[2018.01.07-16.50.47:226][229]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/hitback.uasset
+[2018.01.07-16.50.53:871][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/damage" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/damage.uasset" SILENT=true
+[2018.01.07-16.50.53:969][982]LogSavePackage: Save=61.47ms
+[2018.01.07-16.50.53:969][982]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damageFD58AB054E26378D42E548B14B19CD21.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/damage.uasset'
+[2018.01.07-16.50.53:975][982]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/damage.uasset
+[2018.01.07-16.50.53:980][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/hitback" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/hitback.uasset" SILENT=true
+[2018.01.07-16.50.54:014][982]LogSavePackage: Save=3.81ms
+[2018.01.07-16.50.54:014][982]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/hitbackCE4C0F2B4D0514349F52FEBDD90539A6.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/hitback.uasset'
+[2018.01.07-16.50.54:019][982]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/hitback.uasset
+[2018.01.07-16.50.56:577][266]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0031 seconds. Added 1 classes and 2 folders.
+[2018.01.07-16.51.17:199][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/hitback" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback.uasset" SILENT=true
+[2018.01.07-16.51.17:205][658]LogSavePackage: Save=4.32ms
+[2018.01.07-16.51.17:206][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/hitback1640EB0C4D626E64E735B3BA651A4F3B.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback.uasset'
+[2018.01.07-16.51.17:213][658]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback.uasset
+[2018.01.07-16.51.17:218][658]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage.uasset" SILENT=true
+[2018.01.07-16.51.17:226][658]LogSavePackage: Save=5.48ms
+[2018.01.07-16.51.17:226][658]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage08DAC52F443D61DD1FA9AA8CEF5806B3.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage.uasset'
+[2018.01.07-16.51.17:232][658]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage.uasset
+[2018.01.07-16.51.28:467][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/hitback_Sprite_0" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_0.uasset" SILENT=true
+[2018.01.07-16.51.28:476][914]LogSavePackage: Save=6.03ms
+[2018.01.07-16.51.28:476][914]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/hitback_Sprite_03038846B491F6219BA38A9877B0B72E4.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_0.uasset'
+[2018.01.07-16.51.28:482][914]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_0.uasset
+[2018.01.07-16.51.28:493][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/hitback_Sprite_1" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_1.uasset" SILENT=true
+[2018.01.07-16.51.28:501][914]LogSavePackage: Save=6.00ms
+[2018.01.07-16.51.28:502][914]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/hitback_Sprite_1E003895A4323B342B958AF8F1789FF18.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_1.uasset'
+[2018.01.07-16.51.28:507][914]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_1.uasset
+[2018.01.07-16.51.28:518][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/hitback_Sprite_2" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_2.uasset" SILENT=true
+[2018.01.07-16.51.28:527][914]LogSavePackage: Save=6.14ms
+[2018.01.07-16.51.28:527][914]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/hitback_Sprite_231D4E89041310A3190211D82CE90046E.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_2.uasset'
+[2018.01.07-16.51.28:532][914]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_2.uasset
+[2018.01.07-16.51.28:543][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/hitback_Sprite_3" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_3.uasset" SILENT=true
+[2018.01.07-16.51.28:552][914]LogSavePackage: Save=6.22ms
+[2018.01.07-16.51.28:552][914]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/hitback_Sprite_368C16F234FC3C0232F252A8FAB3B5322.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_3.uasset'
+[2018.01.07-16.51.28:559][914]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_3.uasset
+[2018.01.07-16.51.28:570][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/hitback_Sprite_4" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_4.uasset" SILENT=true
+[2018.01.07-16.51.28:579][914]LogSavePackage: Save=6.40ms
+[2018.01.07-16.51.28:579][914]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/hitback_Sprite_42047D8474DFDBA6188F72BB1AD241A46.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_4.uasset'
+[2018.01.07-16.51.28:587][914]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_4.uasset
+[2018.01.07-16.51.28:599][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/hitback_Sprite_5" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_5.uasset" SILENT=true
+[2018.01.07-16.51.28:608][914]LogSavePackage: Save=6.09ms
+[2018.01.07-16.51.28:608][914]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/hitback_Sprite_5CDA6E82D44FF3C1D6F1DA8B2C02163AC.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_5.uasset'
+[2018.01.07-16.51.28:615][914]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_5.uasset
+[2018.01.07-16.51.41:046][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_0" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_0.uasset" SILENT=true
+[2018.01.07-16.51.41:055][270]LogSavePackage: Save=6.15ms
+[2018.01.07-16.51.41:055][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_0956B4517454A914D6DF0F1B49D4D4786.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_0.uasset'
+[2018.01.07-16.51.41:061][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_0.uasset
+[2018.01.07-16.51.41:072][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_1" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_1.uasset" SILENT=true
+[2018.01.07-16.51.41:081][270]LogSavePackage: Save=6.20ms
+[2018.01.07-16.51.41:081][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_17132784A4421AFE8D49544B595872061.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_1.uasset'
+[2018.01.07-16.51.41:086][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_1.uasset
+[2018.01.07-16.51.41:096][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_2" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_2.uasset" SILENT=true
+[2018.01.07-16.51.41:106][270]LogSavePackage: Save=6.30ms
+[2018.01.07-16.51.41:106][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_234C300AC4DC4EAB83556189F91FD1A17.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_2.uasset'
+[2018.01.07-16.51.41:111][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_2.uasset
+[2018.01.07-16.51.41:121][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_3" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_3.uasset" SILENT=true
+[2018.01.07-16.51.41:130][270]LogSavePackage: Save=6.24ms
+[2018.01.07-16.51.41:130][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_38C15E32A4E72AA96E951009433FA917B.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_3.uasset'
+[2018.01.07-16.51.41:138][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_3.uasset
+[2018.01.07-16.51.41:148][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_4" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_4.uasset" SILENT=true
+[2018.01.07-16.51.41:157][270]LogSavePackage: Save=6.28ms
+[2018.01.07-16.51.41:157][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_487C13F834C1069BFF9F511AAF1936BC9.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_4.uasset'
+[2018.01.07-16.51.41:164][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_4.uasset
+[2018.01.07-16.51.41:174][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_5" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_5.uasset" SILENT=true
+[2018.01.07-16.51.41:183][270]LogSavePackage: Save=6.08ms
+[2018.01.07-16.51.41:183][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_5351526A94BEE5887550B8D9FE32639ED.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_5.uasset'
+[2018.01.07-16.51.41:188][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_5.uasset
+[2018.01.07-16.51.41:198][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_6" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_6.uasset" SILENT=true
+[2018.01.07-16.51.41:206][270]LogSavePackage: Save=5.61ms
+[2018.01.07-16.51.41:206][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_6B3A28CD3420A489DD4C5E9974CCB4B59.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_6.uasset'
+[2018.01.07-16.51.41:211][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_6.uasset
+[2018.01.07-16.51.41:220][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_7" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_7.uasset" SILENT=true
+[2018.01.07-16.51.41:228][270]LogSavePackage: Save=5.75ms
+[2018.01.07-16.51.41:228][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_7B616D31349F55CCE7A764E9FAA78F287.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_7.uasset'
+[2018.01.07-16.51.41:234][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_7.uasset
+[2018.01.07-16.51.41:243][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_8" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_8.uasset" SILENT=true
+[2018.01.07-16.51.41:251][270]LogSavePackage: Save=5.63ms
+[2018.01.07-16.51.41:251][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_851EA7FEA4F78BF89C3A9B9BBED4C373A.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_8.uasset'
+[2018.01.07-16.51.41:256][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_8.uasset
+[2018.01.07-16.51.41:266][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_9" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_9.uasset" SILENT=true
+[2018.01.07-16.51.41:274][270]LogSavePackage: Save=5.60ms
+[2018.01.07-16.51.41:274][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_9573E44014FED4CE23819B2AEDAF0AE1A.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_9.uasset'
+[2018.01.07-16.51.41:279][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_9.uasset
+[2018.01.07-16.51.41:288][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_10" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_10.uasset" SILENT=true
+[2018.01.07-16.51.41:297][270]LogSavePackage: Save=5.78ms
+[2018.01.07-16.51.41:297][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_10525E0D0249D68F5D4DCA7EBD29B0251B.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_10.uasset'
+[2018.01.07-16.51.41:302][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_10.uasset
+[2018.01.07-16.51.41:311][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_11" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_11.uasset" SILENT=true
+[2018.01.07-16.51.41:320][270]LogSavePackage: Save=5.77ms
+[2018.01.07-16.51.41:320][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_11B53F77FC4F6FDE89A803A28936BE2468.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_11.uasset'
+[2018.01.07-16.51.41:325][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_11.uasset
+[2018.01.07-16.51.41:334][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_12" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_12.uasset" SILENT=true
+[2018.01.07-16.51.41:342][270]LogSavePackage: Save=5.73ms
+[2018.01.07-16.51.41:342][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_12C20E0C894267BAAAE327BEBD2F1A0F6A.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_12.uasset'
+[2018.01.07-16.51.41:347][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_12.uasset
+[2018.01.07-16.51.41:356][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_13" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_13.uasset" SILENT=true
+[2018.01.07-16.51.41:365][270]LogSavePackage: Save=5.80ms
+[2018.01.07-16.51.41:365][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_13A0B7B6AB485A72EADA38BEBDF26019F0.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_13.uasset'
+[2018.01.07-16.51.41:370][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_13.uasset
+[2018.01.07-16.51.41:379][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_14" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_14.uasset" SILENT=true
+[2018.01.07-16.51.41:388][270]LogSavePackage: Save=6.01ms
+[2018.01.07-16.51.41:388][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_146118757C464C3226E3BFFE87DA837CCB.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_14.uasset'
+[2018.01.07-16.51.41:393][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_14.uasset
+[2018.01.07-16.51.41:403][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_15" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_15.uasset" SILENT=true
+[2018.01.07-16.51.41:411][270]LogSavePackage: Save=6.16ms
+[2018.01.07-16.51.41:412][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_151FBD627E487871BE1F9D5F8DBA28D4B3.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_15.uasset'
+[2018.01.07-16.51.41:418][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_15.uasset
+[2018.01.07-16.51.41:428][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_16" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_16.uasset" SILENT=true
+[2018.01.07-16.51.41:437][270]LogSavePackage: Save=6.17ms
+[2018.01.07-16.51.41:437][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_16C226828D451753909D11BFB34F0980DA.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_16.uasset'
+[2018.01.07-16.51.41:445][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_16.uasset
+[2018.01.07-16.51.41:455][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_17" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_17.uasset" SILENT=true
+[2018.01.07-16.51.41:464][270]LogSavePackage: Save=6.29ms
+[2018.01.07-16.51.41:464][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_17C7D1DF674C2C1AA81B0F69AB91D8D830.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_17.uasset'
+[2018.01.07-16.51.41:471][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_17.uasset
+[2018.01.07-16.51.41:481][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_18" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_18.uasset" SILENT=true
+[2018.01.07-16.51.41:489][270]LogSavePackage: Save=5.69ms
+[2018.01.07-16.51.41:489][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_18028DA9FF4F361483A6825EB6F23D936C.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_18.uasset'
+[2018.01.07-16.51.41:496][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_18.uasset
+[2018.01.07-16.51.41:506][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_19" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_19.uasset" SILENT=true
+[2018.01.07-16.51.41:515][270]LogSavePackage: Save=6.16ms
+[2018.01.07-16.51.41:515][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_19BE963EA84E8138203DEC8ABC82E33F66.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_19.uasset'
+[2018.01.07-16.51.41:523][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_19.uasset
+[2018.01.07-16.51.41:534][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_20" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_20.uasset" SILENT=true
+[2018.01.07-16.51.41:542][270]LogSavePackage: Save=5.81ms
+[2018.01.07-16.51.41:542][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_20C58FA88F4AEC946C04E8C1AB67936190.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_20.uasset'
+[2018.01.07-16.51.41:550][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_20.uasset
+[2018.01.07-16.51.41:560][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_21" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_21.uasset" SILENT=true
+[2018.01.07-16.51.41:569][270]LogSavePackage: Save=5.93ms
+[2018.01.07-16.51.41:569][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_21CA2BF463450E810D5F113DA45950530C.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_21.uasset'
+[2018.01.07-16.51.41:577][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_21.uasset
+[2018.01.07-16.51.41:587][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_22" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_22.uasset" SILENT=true
+[2018.01.07-16.51.41:596][270]LogSavePackage: Save=6.13ms
+[2018.01.07-16.51.41:596][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_22F01A4E2D4C6DBB0E1F14B993C2C546C4.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_22.uasset'
+[2018.01.07-16.51.41:603][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_22.uasset
+[2018.01.07-16.51.41:614][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_23" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_23.uasset" SILENT=true
+[2018.01.07-16.51.41:623][270]LogSavePackage: Save=6.30ms
+[2018.01.07-16.51.41:623][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_237DBC5427405E32EEE01C97B1F20BF4DE.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_23.uasset'
+[2018.01.07-16.51.41:630][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_23.uasset
+[2018.01.07-16.51.41:641][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_24" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_24.uasset" SILENT=true
+[2018.01.07-16.51.41:649][270]LogSavePackage: Save=6.03ms
+[2018.01.07-16.51.41:650][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_2409CD0DB446C48DB6F5414F9347E9FA76.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_24.uasset'
+[2018.01.07-16.51.41:655][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_24.uasset
+[2018.01.07-16.51.41:665][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_25" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_25.uasset" SILENT=true
+[2018.01.07-16.51.41:674][270]LogSavePackage: Save=5.89ms
+[2018.01.07-16.51.41:674][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_251294771E435E8DBD328BE3B47C895749.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_25.uasset'
+[2018.01.07-16.51.41:679][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_25.uasset
+[2018.01.07-16.51.41:689][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_26" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_26.uasset" SILENT=true
+[2018.01.07-16.51.41:698][270]LogSavePackage: Save=6.05ms
+[2018.01.07-16.51.41:698][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_265711CDDE476083396B3832B082DDCDF5.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_26.uasset'
+[2018.01.07-16.51.41:703][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_26.uasset
+[2018.01.07-16.51.41:714][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_27" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_27.uasset" SILENT=true
+[2018.01.07-16.51.41:722][270]LogSavePackage: Save=5.78ms
+[2018.01.07-16.51.41:723][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_2770FB9E7445652D3A86AFE2B7A5176773.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_27.uasset'
+[2018.01.07-16.51.41:728][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_27.uasset
+[2018.01.07-16.51.41:738][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_28" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_28.uasset" SILENT=true
+[2018.01.07-16.51.41:746][270]LogSavePackage: Save=5.80ms
+[2018.01.07-16.51.41:746][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_28116FD03C4A4C8C005E7386B36FC1D112.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_28.uasset'
+[2018.01.07-16.51.41:751][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_28.uasset
+[2018.01.07-16.51.41:762][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_29" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_29.uasset" SILENT=true
+[2018.01.07-16.51.41:770][270]LogSavePackage: Save=5.97ms
+[2018.01.07-16.51.41:770][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_29444475A643535D26D965288C33BDA70D.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_29.uasset'
+[2018.01.07-16.51.41:775][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_29.uasset
+[2018.01.07-16.51.41:786][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_30" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_30.uasset" SILENT=true
+[2018.01.07-16.51.41:795][270]LogSavePackage: Save=5.90ms
+[2018.01.07-16.51.41:795][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_30C41CD6594BEA29464DBE4CB18A291A26.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_30.uasset'
+[2018.01.07-16.51.41:800][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_30.uasset
+[2018.01.07-16.51.41:811][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_31" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_31.uasset" SILENT=true
+[2018.01.07-16.51.41:820][270]LogSavePackage: Save=6.08ms
+[2018.01.07-16.51.41:820][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_310C51B55A43AE9C9A0D38D0B4DAC6DEFD.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_31.uasset'
+[2018.01.07-16.51.41:825][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_31.uasset
+[2018.01.07-16.51.41:836][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_32" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_32.uasset" SILENT=true
+[2018.01.07-16.51.41:873][270]LogSavePackage: Save=6.10ms
+[2018.01.07-16.51.41:873][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_3275F2D65E4AAC78E896C6B8BF86B75D3D.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_32.uasset'
+[2018.01.07-16.51.41:878][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_32.uasset
+[2018.01.07-16.51.41:890][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_33" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_33.uasset" SILENT=true
+[2018.01.07-16.51.41:898][270]LogSavePackage: Save=6.01ms
+[2018.01.07-16.51.41:898][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_333B42073F404B7E745F6E579FA19AB101.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_33.uasset'
+[2018.01.07-16.51.41:904][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_33.uasset
+[2018.01.07-16.51.41:915][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_34" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_34.uasset" SILENT=true
+[2018.01.07-16.51.41:923][270]LogSavePackage: Save=5.94ms
+[2018.01.07-16.51.41:923][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_34C11B75BB44EC590F80E4B69D87B0BDA1.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_34.uasset'
+[2018.01.07-16.51.41:928][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_34.uasset
+[2018.01.07-16.51.41:939][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_35" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_35.uasset" SILENT=true
+[2018.01.07-16.51.41:947][270]LogSavePackage: Save=6.08ms
+[2018.01.07-16.51.41:948][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_35FD9226C040768266798D88BAC1D2E81A.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_35.uasset'
+[2018.01.07-16.51.41:953][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_35.uasset
+[2018.01.07-16.51.41:963][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_36" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_36.uasset" SILENT=true
+[2018.01.07-16.51.41:972][270]LogSavePackage: Save=6.15ms
+[2018.01.07-16.51.41:972][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_3627C9A19A473359BADF83309D667B1701.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_36.uasset'
+[2018.01.07-16.51.41:977][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_36.uasset
+[2018.01.07-16.51.41:988][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_37" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_37.uasset" SILENT=true
+[2018.01.07-16.51.41:997][270]LogSavePackage: Save=6.13ms
+[2018.01.07-16.51.41:997][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_3762CA86C041C11E0D5A521C935B814799.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_37.uasset'
+[2018.01.07-16.51.42:002][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_37.uasset
+[2018.01.07-16.51.42:012][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_38" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_38.uasset" SILENT=true
+[2018.01.07-16.51.42:021][270]LogSavePackage: Save=5.76ms
+[2018.01.07-16.51.42:021][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_381B17550F4F7247A7FD340BB9EBCD7453.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_38.uasset'
+[2018.01.07-16.51.42:026][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_38.uasset
+[2018.01.07-16.51.42:036][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_39" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_39.uasset" SILENT=true
+[2018.01.07-16.51.42:045][270]LogSavePackage: Save=5.80ms
+[2018.01.07-16.51.42:045][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_39ADF8A3DB44CAC2BDC7A5AB91A4AFAB00.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_39.uasset'
+[2018.01.07-16.51.42:050][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_39.uasset
+[2018.01.07-16.51.42:060][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_40" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_40.uasset" SILENT=true
+[2018.01.07-16.51.42:069][270]LogSavePackage: Save=5.96ms
+[2018.01.07-16.51.42:069][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_40413489524741B99F6091DDAAA2E019C7.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_40.uasset'
+[2018.01.07-16.51.42:075][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_40.uasset
+[2018.01.07-16.51.42:084][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_41" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_41.uasset" SILENT=true
+[2018.01.07-16.51.42:093][270]LogSavePackage: Save=5.78ms
+[2018.01.07-16.51.42:093][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_41DCBEBFC740BC95E8822FF58C6A18951D.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_41.uasset'
+[2018.01.07-16.51.42:098][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_41.uasset
+[2018.01.07-16.51.42:109][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_42" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_42.uasset" SILENT=true
+[2018.01.07-16.51.42:117][270]LogSavePackage: Save=5.71ms
+[2018.01.07-16.51.42:117][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_42F02E0E1D40CFD451AAC8D7A44621A579.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_42.uasset'
+[2018.01.07-16.51.42:122][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_42.uasset
+[2018.01.07-16.51.42:132][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_43" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_43.uasset" SILENT=true
+[2018.01.07-16.51.42:141][270]LogSavePackage: Save=5.82ms
+[2018.01.07-16.51.42:141][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_438D352FF74A6978DCAEE5A489FB17213D.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_43.uasset'
+[2018.01.07-16.51.42:146][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_43.uasset
+[2018.01.07-16.51.42:156][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_44" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_44.uasset" SILENT=true
+[2018.01.07-16.51.42:165][270]LogSavePackage: Save=5.83ms
+[2018.01.07-16.51.42:165][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_44C7E94CB64CD4B0B9A410249E394E4E67.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_44.uasset'
+[2018.01.07-16.51.42:170][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_44.uasset
+[2018.01.07-16.51.42:181][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_45" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_45.uasset" SILENT=true
+[2018.01.07-16.51.42:189][270]LogSavePackage: Save=5.90ms
+[2018.01.07-16.51.42:189][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_459D3BC8DA43E81F3DEEA50A9B2E6D3BD5.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_45.uasset'
+[2018.01.07-16.51.42:194][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_45.uasset
+[2018.01.07-16.51.42:204][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_46" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_46.uasset" SILENT=true
+[2018.01.07-16.51.42:213][270]LogSavePackage: Save=6.05ms
+[2018.01.07-16.51.42:213][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_466F687AB5454010C7712779B783E662E9.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_46.uasset'
+[2018.01.07-16.51.42:218][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_46.uasset
+[2018.01.07-16.51.42:229][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_47" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_47.uasset" SILENT=true
+[2018.01.07-16.51.42:238][270]LogSavePackage: Save=6.64ms
+[2018.01.07-16.51.42:238][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_47A13F6844461433137AB06FB2C659C63F.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_47.uasset'
+[2018.01.07-16.51.42:244][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_47.uasset
+[2018.01.07-16.51.42:254][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_48" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_48.uasset" SILENT=true
+[2018.01.07-16.51.42:264][270]LogSavePackage: Save=6.46ms
+[2018.01.07-16.51.42:264][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_483FFF483748934E3B0F63E08B43D1DBA1.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_48.uasset'
+[2018.01.07-16.51.42:270][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_48.uasset
+[2018.01.07-16.51.42:280][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_49" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_49.uasset" SILENT=true
+[2018.01.07-16.51.42:290][270]LogSavePackage: Save=6.62ms
+[2018.01.07-16.51.42:290][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_494D2770FB4244E3975F313B82DB45869F.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_49.uasset'
+[2018.01.07-16.51.42:295][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_49.uasset
+[2018.01.07-16.51.42:306][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_50" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_50.uasset" SILENT=true
+[2018.01.07-16.51.42:315][270]LogSavePackage: Save=6.14ms
+[2018.01.07-16.51.42:315][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_50D7C868114B7D12EDEC9BE9AFB45432E0.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_50.uasset'
+[2018.01.07-16.51.42:320][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_50.uasset
+[2018.01.07-16.51.42:330][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_51" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_51.uasset" SILENT=true
+[2018.01.07-16.51.42:340][270]LogSavePackage: Save=6.43ms
+[2018.01.07-16.51.42:340][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_51CAA9742C411694005860E0AA9D125588.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_51.uasset'
+[2018.01.07-16.51.42:345][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_51.uasset
+[2018.01.07-16.51.42:355][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_52" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_52.uasset" SILENT=true
+[2018.01.07-16.51.42:364][270]LogSavePackage: Save=6.06ms
+[2018.01.07-16.51.42:364][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_5286E4FACA46CB062FD2A595A3864F4BE8.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_52.uasset'
+[2018.01.07-16.51.42:369][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_52.uasset
+[2018.01.07-16.51.42:379][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_53" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_53.uasset" SILENT=true
+[2018.01.07-16.51.42:388][270]LogSavePackage: Save=6.01ms
+[2018.01.07-16.51.42:388][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_534E65608648D84455B72CC68549175B75.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_53.uasset'
+[2018.01.07-16.51.42:393][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_53.uasset
+[2018.01.07-16.51.42:404][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_54" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_54.uasset" SILENT=true
+[2018.01.07-16.51.42:412][270]LogSavePackage: Save=6.11ms
+[2018.01.07-16.51.42:412][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_54A4F94DFF4D80DAD81EAC3FAF2DD41483.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_54.uasset'
+[2018.01.07-16.51.42:417][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_54.uasset
+[2018.01.07-16.51.42:428][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_55" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_55.uasset" SILENT=true
+[2018.01.07-16.51.42:436][270]LogSavePackage: Save=5.97ms
+[2018.01.07-16.51.42:436][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_55E1CB2A194DB3788FCCC060AE4B07D3DB.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_55.uasset'
+[2018.01.07-16.51.42:442][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_55.uasset
+[2018.01.07-16.51.42:452][270]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/damage_Sprite_56" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_56.uasset" SILENT=true
+[2018.01.07-16.51.42:461][270]LogSavePackage: Save=6.13ms
+[2018.01.07-16.51.42:461][270]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/damage_Sprite_56F52BC09F45BB2C148757198E70E08A87.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_56.uasset'
+[2018.01.07-16.51.42:466][270]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/damage_Sprite_56.uasset
+[2018.01.07-16.51.55:082][741]LogMetaData: Removing '/Game/Blueprints/BP_MeleeHitbox.BP_MeleeHitbox:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/BP_MeleeHitbox2.PackageMetaData'
+[2018.01.07-16.51.55:082][741]LogMetaData: Removing '/Game/Blueprints/BP_MeleeHitbox.BP_MeleeHitbox_C' ref from Metadata '/Game/Blueprints/BP_MeleeHitbox2.PackageMetaData'
+[2018.01.07-16.51.55:082][741]LogMetaData: Removing '/Game/Blueprints/BP_MeleeHitbox.BP_MeleeHitbox:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprints/BP_MeleeHitbox2.PackageMetaData'
+[2018.01.07-16.51.55:082][741]LogMetaData: Removing '/Game/Blueprints/BP_MeleeHitbox.BP_MeleeHitbox:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/BP_MeleeHitbox2.PackageMetaData'
+[2018.01.07-16.51.55:083][741]LogMetaData: Removing '/Game/Blueprints/BP_MeleeHitbox.BP_MeleeHitbox:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Blueprints/BP_MeleeHitbox2.PackageMetaData'
+[2018.01.07-16.51.55:083][741]LogMetaData: Removing '/Game/Blueprints/BP_MeleeHitbox.SKEL_BP_MeleeHitbox_C' ref from Metadata '/Game/Blueprints/BP_MeleeHitbox2.PackageMetaData'
+[2018.01.07-16.51.55:102][741]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_MeleeHitbox" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Blueprints/BP_MeleeHitbox.uasset" SILENT=true
+[2018.01.07-16.51.55:121][741]LogSavePackage: Save=16.30ms
+[2018.01.07-16.51.55:121][741]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/BP_MeleeHitbox10D837294E6D604D4A8F47B36CF18AEA.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Blueprints/BP_MeleeHitbox.uasset'
+[2018.01.07-16.51.55:127][741]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Blueprints/BP_MeleeHitbox.uasset
+[2018.01.07-16.51.55:370][741]LogSavePackage: Save=26.91ms
+[2018.01.07-16.51.55:370][741]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/BP_2DSideScrollerCharacterDFD90DE04A68B1D46524CEAC30954B88.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/2DSideScrollerCPP/Blueprints/BP_2DSideScrollerCharacter.uasset'
+[2018.01.07-16.51.55:376][741]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/2DSideScrollerCPP/Blueprints/BP_2DSideScrollerCharacter.uasset
+[2018.01.07-16.52.53:823][148]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/hitbac" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitbac.uasset" SILENT=true
+[2018.01.07-16.52.53:830][148]LogSavePackage: Save=5.16ms
+[2018.01.07-16.52.53:830][148]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/hitbac61283F83422258BEFE50B8B8E257BDA1.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitbac.uasset'
+[2018.01.07-16.52.53:836][148]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitbac.uasset
+[2018.01.07-16.53.06:431][630]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/hitbackAnim" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitbackAnim.uasset" SILENT=true
+[2018.01.07-16.53.06:439][630]LogSavePackage: Save=5.53ms
+[2018.01.07-16.53.06:439][630]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/hitbackAnim32104B04464608EB92ADE09C9D9CE8C2.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitbackAnim.uasset'
+[2018.01.07-16.53.06:445][630]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitbackAnim.uasset
+[2018.01.07-16.53.07:493][726]LogRenderer: Reallocating scene render targets to support 1528x940 Format 10 NumSamples 1 (Frame:1).
+[2018.01.07-16.53.15:477][634]LogRenderer: Reallocating scene render targets to support 1528x960 Format 10 NumSamples 1 (Frame:1).
+[2018.01.07-16.53.41:464][591]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/hitback_Sprite_0" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_0.uasset" SILENT=true
+[2018.01.07-16.53.41:506][591]LogSavePackage: Save=6.76ms
+[2018.01.07-16.53.41:506][591]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/hitback_Sprite_05CAE2AE046F4B4C7B5A6038BC9F1FD56.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_0.uasset'
+[2018.01.07-16.53.41:512][591]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_0.uasset
+[2018.01.07-16.54.10:657][720]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/hitback_Sprite_1" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_1.uasset" SILENT=true
+[2018.01.07-16.54.10:701][720]LogSavePackage: Save=6.69ms
+[2018.01.07-16.54.10:702][720]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/hitback_Sprite_19B8266834843EF1C3AFC5B9BC3BBD6BD.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_1.uasset'
+[2018.01.07-16.54.10:708][720]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_1.uasset
+[2018.01.07-16.54.58:571][830]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/hitback_Sprite_2" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_2.uasset" SILENT=true
+[2018.01.07-16.54.58:617][830]LogSavePackage: Save=6.68ms
+[2018.01.07-16.54.58:617][830]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/hitback_Sprite_26DCC7AB642B0E6C565EF33A931CCF96E.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_2.uasset'
+[2018.01.07-16.54.58:624][830]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_2.uasset
+[2018.01.07-16.57.37:657][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/hitback_Sprite_1" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_1.uasset" SILENT=true
+[2018.01.07-16.57.37:700][194]LogSavePackage: Save=6.52ms
+[2018.01.07-16.57.37:700][194]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/hitback_Sprite_12A7497EB4E72E893EF9297ACD444A7B5.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_1.uasset'
+[2018.01.07-16.57.37:706][194]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_1.uasset
+[2018.01.07-16.57.54:076][ 63]Cmd: TRANSACTION UNDO
+[2018.01.07-16.57.54:076][ 63]LogEditorTransaction: Undo Edit X
+[2018.01.07-16.57.54:088][ 63]LogSlate: Took 0.000309 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.07-16.57.56:218][284]Cmd: TRANSACTION REDO
+[2018.01.07-16.57.56:218][284]LogEditorTransaction: Redo Edit X
+[2018.01.07-16.58.04:716][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/hitback_Sprite_1" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_1.uasset" SILENT=true
+[2018.01.07-16.58.04:753][160]LogSavePackage: Save=6.90ms
+[2018.01.07-16.58.04:753][160]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/hitback_Sprite_1110268494AB9AF2C30BACDB503B0EF81.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_1.uasset'
+[2018.01.07-16.58.04:760][160]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_1.uasset
+[2018.01.07-16.58.21:203][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/hitback_Sprite_2" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_2.uasset" SILENT=true
+[2018.01.07-16.58.21:239][979]LogSavePackage: Save=6.30ms
+[2018.01.07-16.58.21:239][979]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/hitback_Sprite_254AD12F246903ED5CDD6709CF7754E1D.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_2.uasset'
+[2018.01.07-16.58.21:245][979]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_2.uasset
+[2018.01.07-16.58.39:292][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/hitback_Sprite_2" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_2.uasset" SILENT=true
+[2018.01.07-16.58.39:329][ 27]LogSavePackage: Save=6.64ms
+[2018.01.07-16.58.39:329][ 27]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/hitback_Sprite_28C11B9304FB20D5FA3D5E5A384758E17.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_2.uasset'
+[2018.01.07-16.58.39:338][ 27]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_2.uasset
+[2018.01.07-16.59.04:456][923]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/hitbackAnim" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitbackAnim.uasset" SILENT=true
+[2018.01.07-16.59.04:491][923]LogSavePackage: Save=2.65ms
+[2018.01.07-16.59.04:491][923]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/hitbackAnim0E4224EB4474F85D645077964DEEBED3.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitbackAnim.uasset'
+[2018.01.07-16.59.04:494][923]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitbackAnim.uasset
+[2018.01.07-16.59.34:079][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/hitback_Sprite_2" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_2.uasset" SILENT=true
+[2018.01.07-16.59.34:117][192]LogSavePackage: Save=6.90ms
+[2018.01.07-16.59.34:117][192]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/hitback_Sprite_2986AE4A6477087900989C094568E4B5B.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_2.uasset'
+[2018.01.07-16.59.34:124][192]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_2.uasset
+[2018.01.07-16.59.34:877][249]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/hitback_Sprite_3" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_3.uasset" SILENT=true
+[2018.01.07-16.59.34:913][249]LogSavePackage: Save=6.33ms
+[2018.01.07-16.59.34:913][249]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/hitback_Sprite_35A3B6EB44609C9EE8679499217A373AC.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_3.uasset'
+[2018.01.07-16.59.34:919][249]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_3.uasset
+[2018.01.07-16.59.56:191][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/hitback_Sprite_2" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_2.uasset" SILENT=true
+[2018.01.07-16.59.56:235][673]LogSavePackage: Save=7.14ms
+[2018.01.07-16.59.56:235][673]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/hitback_Sprite_24F43EED24119DBBB9536E49071DD470A.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_2.uasset'
+[2018.01.07-16.59.56:241][673]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_2.uasset
+[2018.01.07-17.00.03:896][532]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/hitback_Sprite_2" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_2.uasset" SILENT=true
+[2018.01.07-17.00.03:935][532]LogSavePackage: Save=6.94ms
+[2018.01.07-17.00.03:935][532]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/hitback_Sprite_24EE739E84E40AE14855B28B2FCF4DC91.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_2.uasset'
+[2018.01.07-17.00.03:941][532]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_2.uasset
+[2018.01.07-17.00.15:440][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/hitback_Sprite_2" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_2.uasset" SILENT=true
+[2018.01.07-17.00.15:477][837]LogSavePackage: Save=6.93ms
+[2018.01.07-17.00.15:477][837]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/hitback_Sprite_213486663441FE70A0A42319F23E6F256.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_2.uasset'
+[2018.01.07-17.00.15:483][837]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_2.uasset
+[2018.01.07-17.00.24:955][894]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/hitback_Sprite_2" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_2.uasset" SILENT=true
+[2018.01.07-17.00.24:992][894]LogSavePackage: Save=6.99ms
+[2018.01.07-17.00.24:992][894]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/hitback_Sprite_2D832DC354570106F889E0295F93F8A78.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_2.uasset'
+[2018.01.07-17.00.24:998][894]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_2.uasset
+[2018.01.07-17.00.56:480][465]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/hitback_Sprite_3" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_3.uasset" SILENT=true
+[2018.01.07-17.00.56:517][465]LogSavePackage: Save=6.84ms
+[2018.01.07-17.00.56:517][465]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/hitback_Sprite_343B5CA5A425DF8FE4D346784B070E697.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_3.uasset'
+[2018.01.07-17.00.56:523][465]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_3.uasset
+[2018.01.07-17.02.28:032][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/hitback_Sprite_4" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_4.uasset" SILENT=true
+[2018.01.07-17.02.28:077][160]LogSavePackage: Save=6.67ms
+[2018.01.07-17.02.28:077][160]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/hitback_Sprite_4F13CF68F4D49BD3FA47808B7C351D3BD.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_4.uasset'
+[2018.01.07-17.02.28:083][160]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_4.uasset
+[2018.01.07-17.13.23:565][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/hitback_Sprite_1" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_1.uasset" SILENT=true
+[2018.01.07-17.13.23:610][570]LogSavePackage: Save=7.43ms
+[2018.01.07-17.13.23:610][570]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/hitback_Sprite_1BB5F881A4DEA7AE601AE4892162C2FAE.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_1.uasset'
+[2018.01.07-17.13.23:617][570]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_1.uasset
+[2018.01.07-17.13.23:627][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/hitback_Sprite_2" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_2.uasset" SILENT=true
+[2018.01.07-17.13.23:669][570]LogSavePackage: Save=7.85ms
+[2018.01.07-17.13.23:669][570]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/hitback_Sprite_29107C959452C97BDDA7630812ADDE976.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_2.uasset'
+[2018.01.07-17.13.23:675][570]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_2.uasset
+[2018.01.07-17.13.23:686][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/hitback_Sprite_3" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_3.uasset" SILENT=true
+[2018.01.07-17.13.23:725][570]LogSavePackage: Save=6.83ms
+[2018.01.07-17.13.23:725][570]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/hitback_Sprite_373F0785843B8D62E72CF168F0FB2D1F1.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_3.uasset'
+[2018.01.07-17.13.23:731][570]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_3.uasset
+[2018.01.07-17.13.23:740][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/hitback_Sprite_4" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_4.uasset" SILENT=true
+[2018.01.07-17.13.23:776][570]LogSavePackage: Save=6.72ms
+[2018.01.07-17.13.23:776][570]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/hitback_Sprite_445B692964BC7249556C79BAF179683AC.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_4.uasset'
+[2018.01.07-17.13.23:782][570]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_4.uasset
+[2018.01.07-17.13.23:792][570]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Bang/FullBody/hitback_Sprite_5" FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_5.uasset" SILENT=true
+[2018.01.07-17.13.23:831][570]LogSavePackage: Save=6.73ms
+[2018.01.07-17.13.23:831][570]LogSavePackage: Moving '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/hitback_Sprite_5BF343EB240185DBCBA4F7690A4D5A277.tmp' to '../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_5.uasset'
+[2018.01.07-17.13.23:836][570]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Bang/FullBody/hitback_Sprite_5.uasset
