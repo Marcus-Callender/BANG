@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeBang_init() {}
 			ReturnPackage = CastChecked<UPackage>(StaticFindObjectFast(UPackage::StaticClass(), nullptr, FName(TEXT("/Script/Bang")), false, false));
 			ReturnPackage->SetPackageFlags(PKG_CompiledIn | 0x00000000);
 			FGuid Guid;
-			Guid.A = 0x6C314678;
+			Guid.A = 0x28310B0D;
 			Guid.B = 0x904C1022;
 			Guid.C = 0x00000000;
 			Guid.D = 0x00000000;

@@ -55,6 +55,10 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
 	class UPaperFlipbook* IdleAnimationLegs;
 
+	// The animation to play while idle (standing still)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
+	class UPaperFlipbook* JumpingAnimationLegs;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
 	class UPaperFlipbookComponent* m_torsoFlipbook;
 
@@ -98,6 +102,9 @@ public:
 
 	void OnProjectileHit();
 	void OnMeleeHit();
+	void OnJump();
+
+	virtual void Landed(const FHitResult& Hit) override;
 
 private:
 	UPROPERTY()
@@ -108,6 +115,9 @@ private:
 
 	UPROPERTY()
 	float m_meleeOffset = 220.0f;
+
+	UPROPERTY()
+	bool m_jumping = false;
 
 	void FireProjectile();
 	void CreateMeleeHitbox();

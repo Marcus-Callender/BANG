@@ -4,14 +4,12 @@ C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Source\BangEditor.Target.cs : wa
   Compiling game modules for hot reload
   Parsing headers for BangEditor
     Running UnrealHeaderTool "C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Bang.uproject" "C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\BangEditor\Development\BangEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for BangEditor in 11.3258862 seconds
-  Performing 5 actions (4 in parallel)
-  MeleeHitbox.cpp
-  MeleeHitbox.gen.cpp
+  Reflection code generated for BangEditor in 7.8738643 seconds
+  Performing 3 actions (4 in parallel)
   BangCharacter.cpp
-  [4/5] Link UE4Editor-Bang-6072.dll
-  [5/5] Link UE4Editor-Bang-6072.lib
-     Creating library C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-6072.lib and object C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-6072.exp
-     Creating library C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-6072.suppressed.lib and object C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-6072.suppressed.exp
+  [2/3] Link UE4Editor-Bang-5576.dll
+  [3/3] Link UE4Editor-Bang-5576.lib
+     Creating library C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-5576.lib and object C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-5576.exp
+     Creating library C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-5576.suppressed.lib and object C:\Users\Marcus\Documents\GitHub\BANG\Bang 4.17\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-Bang-5576.suppressed.exp
   Deploying BangEditor Win64 Development...
-  Total build time: 140.91 seconds (Local executor: 118.30 seconds)
+  Total build time: 25.08 seconds (Local executor: 6.88 seconds)

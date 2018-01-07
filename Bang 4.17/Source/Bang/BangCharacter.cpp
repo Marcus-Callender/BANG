@@ -25,6 +25,7 @@ ABangCharacter::ABangCharacter()
 	// Set the size of our collision capsule.
 	GetCapsuleComponent()->SetCapsuleHalfHeight(96.0f);
 	GetCapsuleComponent()->SetCapsuleRadius(40.0f);
+	GetCapsuleComponent()->SetSimulatePhysics(false);
 
 	// Create a camera boom attached to the root (capsule)
 	CameraBoom = CreateDefaultSubobject<USpringArmComponent>(TEXT("CameraBoom"));
@@ -85,6 +86,20 @@ void ABangCharacter::OnProjectileHit()
 void ABangCharacter::OnMeleeHit()
 {
 	UE_LOG(LogTemp, Log, TEXT("I was ouch"));
+}
+
+void ABangCharacter::OnJump()
+{
+	m_jumping = true;
+
+	Jump();
+}
+
+void ABangCharacter::Landed(const FHitResult & Hit)
+{
+	Super::OnLanded(Hit);
+
+	m_jumping = false;
 }
 
 void ABangCharacter::FireProjectile()
@@ -148,10 +163,20 @@ void ABangCharacter::UpdateAnimation()
 		}
 	}
 
-	UPaperFlipbook* DesiredAnimationLegs = (PlayerSpeedSqr > 0.0f) ? RunningAnimationLegs : IdleAnimationLegs;
-	if (m_legsFlipbook->GetFlipbook() != DesiredAnimationLegs)
+	if (m_jumping)
 	{
-		m_legsFlipbook->SetFlipbook(DesiredAnimationLegs);
+		if (m_legsFlipbook->GetFlipbook() != JumpingAnimationLegs)
+		{
+			m_legsFlipbook->SetFlipbook(JumpingAnimationLegs);
+		}
+	}
+	else
+	{
+		UPaperFlipbook* DesiredAnimationLegs = (PlayerSpeedSqr > 0.0f) ? RunningAnimationLegs : IdleAnimationLegs;
+		if (m_legsFlipbook->GetFlipbook() != DesiredAnimationLegs)
+		{
+			m_legsFlipbook->SetFlipbook(DesiredAnimationLegs);
+		}
 	}
 }
 
@@ -172,7 +197,7 @@ void ABangCharacter::Tick(float DeltaSeconds)
 void ABangCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent)
 {
 	// Note: the 'Jump' action and the 'MoveRight' axis are bound to actual keys/buttons/sticks in DefaultInput.ini (editable from Project Settings..Input)
-	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ACharacter::Jump);
+	PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ABangCharacter::OnJump);
 	PlayerInputComponent->BindAction("Jump", IE_Released, this, &ACharacter::StopJumping);
 	PlayerInputComponent->BindAxis("MoveRight", this, &ABangCharacter::MoveRight);
 
