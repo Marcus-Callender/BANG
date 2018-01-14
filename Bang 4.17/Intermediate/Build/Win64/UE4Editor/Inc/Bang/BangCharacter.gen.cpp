@@ -48,6 +48,8 @@ void EmptyLinkFunctionForGeneratedCodeBangCharacter() {}
 				OuterClass->ClassFlags |= (EClassFlags)0x20800080u;
 
 
+				CPP_BOOL_PROPERTY_BITMASK_STRUCT(m_wasHit, ABangCharacter);
+				UProperty* NewProp_m_wasHit = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("m_wasHit"), RF_Public|RF_Transient|RF_MarkAsNative) UBoolProperty(FObjectInitializer(), EC_CppProperty, CPP_BOOL_PROPERTY_OFFSET(m_wasHit, ABangCharacter), 0x0040000000000000, CPP_BOOL_PROPERTY_BITMASK(m_wasHit, ABangCharacter), sizeof(bool), true);
 				CPP_BOOL_PROPERTY_BITMASK_STRUCT(m_jumping, ABangCharacter);
 				UProperty* NewProp_m_jumping = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("m_jumping"), RF_Public|RF_Transient|RF_MarkAsNative) UBoolProperty(FObjectInitializer(), EC_CppProperty, CPP_BOOL_PROPERTY_OFFSET(m_jumping, ABangCharacter), 0x0040000000000000, CPP_BOOL_PROPERTY_BITMASK(m_jumping, ABangCharacter), sizeof(bool), true);
 				UProperty* NewProp_m_meleeOffset = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("m_meleeOffset"), RF_Public|RF_Transient|RF_MarkAsNative) UFloatProperty(CPP_PROPERTY_BASE(m_meleeOffset, ABangCharacter), 0x0040000000000000);
@@ -60,6 +62,7 @@ void EmptyLinkFunctionForGeneratedCodeBangCharacter() {}
 				UProperty* NewProp_JumpingAnimationLegs = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("JumpingAnimationLegs"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(JumpingAnimationLegs, ABangCharacter), 0x0020080000000005, Z_Construct_UClass_UPaperFlipbook_NoRegister());
 				UProperty* NewProp_IdleAnimationLegs = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("IdleAnimationLegs"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(IdleAnimationLegs, ABangCharacter), 0x0020080000000005, Z_Construct_UClass_UPaperFlipbook_NoRegister());
 				UProperty* NewProp_RunningAnimationLegs = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("RunningAnimationLegs"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(RunningAnimationLegs, ABangCharacter), 0x0020080000000005, Z_Construct_UClass_UPaperFlipbook_NoRegister());
+				UProperty* NewProp_WasHitAnim = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("WasHitAnim"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(WasHitAnim, ABangCharacter), 0x0020080000000005, Z_Construct_UClass_UPaperFlipbook_NoRegister());
 				UProperty* NewProp_MeleeAttackAnim = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("MeleeAttackAnim"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(MeleeAttackAnim, ABangCharacter), 0x0020080000000005, Z_Construct_UClass_UPaperFlipbook_NoRegister());
 				UProperty* NewProp_RangedAttackAnim = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("RangedAttackAnim"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(RangedAttackAnim, ABangCharacter), 0x0020080000000005, Z_Construct_UClass_UPaperFlipbook_NoRegister());
 				UProperty* NewProp_IdleAnimation = new(EC_InternalUseOnlyConstructor, OuterClass, TEXT("IdleAnimation"), RF_Public|RF_Transient|RF_MarkAsNative) UObjectProperty(CPP_PROPERTY_BASE(IdleAnimation, ABangCharacter), 0x0020080000000005, Z_Construct_UClass_UPaperFlipbook_NoRegister());
@@ -75,6 +78,7 @@ void EmptyLinkFunctionForGeneratedCodeBangCharacter() {}
 				MetaData->SetValue(OuterClass, TEXT("HideCategories"), TEXT("Navigation"));
 				MetaData->SetValue(OuterClass, TEXT("IncludePath"), TEXT("BangCharacter.h"));
 				MetaData->SetValue(OuterClass, TEXT("ModuleRelativePath"), TEXT("BangCharacter.h"));
+				MetaData->SetValue(NewProp_m_wasHit, TEXT("ModuleRelativePath"), TEXT("BangCharacter.h"));
 				MetaData->SetValue(NewProp_m_jumping, TEXT("ModuleRelativePath"), TEXT("BangCharacter.h"));
 				MetaData->SetValue(NewProp_m_meleeOffset, TEXT("ModuleRelativePath"), TEXT("BangCharacter.h"));
 				MetaData->SetValue(NewProp_m_bulletOffset, TEXT("ModuleRelativePath"), TEXT("BangCharacter.h"));
@@ -98,6 +102,9 @@ void EmptyLinkFunctionForGeneratedCodeBangCharacter() {}
 				MetaData->SetValue(NewProp_RunningAnimationLegs, TEXT("Category"), TEXT("Animations"));
 				MetaData->SetValue(NewProp_RunningAnimationLegs, TEXT("ModuleRelativePath"), TEXT("BangCharacter.h"));
 				MetaData->SetValue(NewProp_RunningAnimationLegs, TEXT("ToolTip"), TEXT("The animation to play while running around"));
+				MetaData->SetValue(NewProp_WasHitAnim, TEXT("Category"), TEXT("Animations"));
+				MetaData->SetValue(NewProp_WasHitAnim, TEXT("ModuleRelativePath"), TEXT("BangCharacter.h"));
+				MetaData->SetValue(NewProp_WasHitAnim, TEXT("ToolTip"), TEXT("The animation to play for a melee attack"));
 				MetaData->SetValue(NewProp_MeleeAttackAnim, TEXT("Category"), TEXT("Animations"));
 				MetaData->SetValue(NewProp_MeleeAttackAnim, TEXT("ModuleRelativePath"), TEXT("BangCharacter.h"));
 				MetaData->SetValue(NewProp_MeleeAttackAnim, TEXT("ToolTip"), TEXT("The animation to play for a melee attack"));
@@ -126,7 +133,7 @@ void EmptyLinkFunctionForGeneratedCodeBangCharacter() {}
 		check(OuterClass->GetClass());
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ABangCharacter, 2079786424);
+	IMPLEMENT_CLASS(ABangCharacter, 1771626662);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ABangCharacter(Z_Construct_UClass_ABangCharacter, &ABangCharacter::StaticClass, TEXT("/Script/Bang"), TEXT("ABangCharacter"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ABangCharacter);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

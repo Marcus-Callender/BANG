@@ -37,7 +37,7 @@ APistolBulletActor::APistolBulletActor()
 
 void APistolBulletActor::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {
-	UE_LOG(LogTemp, Log, TEXT("Hit Detected"));
+	UE_LOG(LogTemp, Log, TEXT("Ranged Hit Detected"));
 
 	// Only add impulse and destroy projectile if we hit a physics
 	if ((OtherActor != NULL) && (OtherActor != this) && (OtherComp != NULL) && OtherComp->IsSimulatingPhysics())
@@ -49,7 +49,7 @@ void APistolBulletActor::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor,
 
 	if (hitChar)
 	{
-		hitChar->OnProjectileHit();
+		hitChar->OnProjectileHit(this->GetActorLocation());
 	}
 
 	Destroy();

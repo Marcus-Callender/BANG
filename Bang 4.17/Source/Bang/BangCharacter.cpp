@@ -78,21 +78,30 @@ ABangCharacter::ABangCharacter()
 	m_legsFlipbook->SetRelativeLocationAndRotation(FVector::ZeroVector, FQuat::Identity);
 }
 
-void ABangCharacter::OnProjectileHit()
+void ABangCharacter::OnProjectileHit(FVector pos)
 {
 	UE_LOG(LogTemp, Log, TEXT("I was hit"));
+
+	//GetCharacterMovement()->Velocity += FVector(pos.X > GetActorLocation().X ? 1.0f : -1.0f, 0.0f, 1.0f) * 2000.0f;
+	LaunchCharacter(FVector(pos.X > GetActorLocation().X ? -1.0f : 1.0f, 0.0f, 1.0f) * 1000.0f, false, false);
 }
 
-void ABangCharacter::OnMeleeHit()
+void ABangCharacter::OnMeleeHit(FVector pos)
 {
-	UE_LOG(LogTemp, Log, TEXT("I was ouch"));
+	UE_LOG(LogTemp, Log, TEXT("I was, ouch"));
+
+	//GetCharacterMovement()->Velocity += FVector(pos.X > GetActorLocation().X ? 1.0f : -1.0f, 0.0f, 1.0f) * 100.0f;
+	LaunchCharacter(FVector(pos.X > GetActorLocation().X ? -1.0f : 1.0f, 0.0f, 1.0f) * 1000.0f, false, false);
 }
 
 void ABangCharacter::OnJump()
 {
-	m_jumping = true;
+	if (!m_wasHit)
+	{
+		m_jumping = true;
 
-	Jump();
+		Jump();
+	}
 }
 
 void ABangCharacter::Landed(const FHitResult & Hit)
@@ -104,7 +113,7 @@ void ABangCharacter::Landed(const FHitResult & Hit)
 
 void ABangCharacter::FireProjectile()
 {
-	if (m_projectile != NULL)
+	if (m_projectile != NULL && !m_wasHit)
 	{
 		UWorld* const world = GetWorld();
 
@@ -119,14 +128,14 @@ void ABangCharacter::FireProjectile()
 
 			FRotator SpawnRotation = GetActorRotation();
 
-			world->SpawnActor<APistolBulletActor>(m_projectile, SpawnVector + (FVector(m_bulletOffset, 0.0f, 0.0f) * (SpawnRotation == FRotator::ZeroRotator ? 1.0f : -1.0f)) , SpawnRotation, params);
+			world->SpawnActor<APistolBulletActor>(m_projectile, SpawnVector + (FVector(m_bulletOffset, 0.0f, 0.0f) * (SpawnRotation == FRotator::ZeroRotator ? 1.0f : -1.0f)), SpawnRotation, params);
 		}
 	}
 }
 
 void ABangCharacter::CreateMeleeHitbox()
 {
-	if (m_meleeHitbox != NULL)
+	if (m_meleeHitbox != NULL && !m_wasHit)
 	{
 		UWorld* const world = GetWorld();
 
@@ -135,13 +144,14 @@ void ABangCharacter::CreateMeleeHitbox()
 			FActorSpawnParameters params;
 			params.Owner = this;
 			params.Instigator = Instigator;
-			params.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
+			params.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::DontSpawnIfColliding;
 
 			FVector SpawnVector = GetActorLocation();
 			FRotator SpawnRotation = GetActorRotation();
 
 			AMeleeHitbox* hitbox = world->SpawnActor<AMeleeHitbox>(m_meleeHitbox, SpawnVector + FVector(m_meleeOffset, 0.0f, 0.0f) * (SpawnRotation == FRotator::ZeroRotator ? 1.0f : -1.0f), SpawnRotation, params);
-			hitbox->AttachRootComponentTo(RootComponent, NAME_None, EAttachLocation::KeepWorldPosition);
+			
+			hitbox->AttachRootComponentToActor(this, TEXT("MeleeSocket"), EAttachLocation::KeepWorldPosition, false);
 		}
 	}
 }
@@ -211,7 +221,7 @@ void ABangCharacter::SetupPlayerInputComponent(class UInputComponent* PlayerInpu
 
 void ABangCharacter::RangedAttack()
 {
-	if (m_animationLockTime <= 0.0f)
+	if (m_animationLockTime <= 0.0f && !m_wasHit)
 	{
 		FireProjectile();
 		m_torsoFlipbook->SetFlipbook(RangedAttackAnim);
@@ -221,7 +231,7 @@ void ABangCharacter::RangedAttack()
 
 void ABangCharacter::MeleeAttack()
 {
-	if (m_animationLockTime <= 0.0f)
+	if (m_animationLockTime <= 0.0f && !m_wasHit)
 	{
 		CreateMeleeHitbox();
 		m_torsoFlipbook->SetFlipbook(MeleeAttackAnim);
@@ -231,10 +241,13 @@ void ABangCharacter::MeleeAttack()
 
 void ABangCharacter::MoveRight(float Value)
 {
-	/*UpdateChar();*/
+	if (!m_wasHit)
+	{
+		/*UpdateChar();*/
 
-	// Apply the input to the character motion
-	AddMovementInput(FVector(1.0f, 0.0f, 0.0f), Value);
+		// Apply the input to the character motion
+		AddMovementInput(FVector(1.0f, 0.0f, 0.0f), Value);
+	}
 }
 
 void ABangCharacter::TouchStarted(const ETouchIndex::Type FingerIndex, const FVector Location)

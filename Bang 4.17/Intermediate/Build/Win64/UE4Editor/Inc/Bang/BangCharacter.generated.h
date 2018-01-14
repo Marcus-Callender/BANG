@@ -70,6 +70,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABangCharacter); \
 	FORCEINLINE static uint32 __PPO__IdleAnimation() { return STRUCT_OFFSET(ABangCharacter, IdleAnimation); } \
 	FORCEINLINE static uint32 __PPO__RangedAttackAnim() { return STRUCT_OFFSET(ABangCharacter, RangedAttackAnim); } \
 	FORCEINLINE static uint32 __PPO__MeleeAttackAnim() { return STRUCT_OFFSET(ABangCharacter, MeleeAttackAnim); } \
+	FORCEINLINE static uint32 __PPO__WasHitAnim() { return STRUCT_OFFSET(ABangCharacter, WasHitAnim); } \
 	FORCEINLINE static uint32 __PPO__RunningAnimationLegs() { return STRUCT_OFFSET(ABangCharacter, RunningAnimationLegs); } \
 	FORCEINLINE static uint32 __PPO__IdleAnimationLegs() { return STRUCT_OFFSET(ABangCharacter, IdleAnimationLegs); } \
 	FORCEINLINE static uint32 __PPO__JumpingAnimationLegs() { return STRUCT_OFFSET(ABangCharacter, JumpingAnimationLegs); } \
@@ -80,7 +81,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ABangCharacter); \
 	FORCEINLINE static uint32 __PPO__m_animationLockTime() { return STRUCT_OFFSET(ABangCharacter, m_animationLockTime); } \
 	FORCEINLINE static uint32 __PPO__m_bulletOffset() { return STRUCT_OFFSET(ABangCharacter, m_bulletOffset); } \
 	FORCEINLINE static uint32 __PPO__m_meleeOffset() { return STRUCT_OFFSET(ABangCharacter, m_meleeOffset); } \
-	FORCEINLINE static uint32 __PPO__m_jumping() { return STRUCT_OFFSET(ABangCharacter, m_jumping); }
+	FORCEINLINE static uint32 __PPO__m_jumping() { return STRUCT_OFFSET(ABangCharacter, m_jumping); } \
+	FORCEINLINE static uint32 __PPO__m_wasHit() { return STRUCT_OFFSET(ABangCharacter, m_wasHit); }
 
 
 #define Bang_4_17_Source_Bang_BangCharacter_h_17_PROLOG

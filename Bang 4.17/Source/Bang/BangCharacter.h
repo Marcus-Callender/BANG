@@ -47,6 +47,10 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
 	class UPaperFlipbook* MeleeAttackAnim;
 
+	// The animation to play for a melee attack
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
+		class UPaperFlipbook* WasHitAnim;
+
 	// The animation to play while running around
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Animations)
 	class UPaperFlipbook* RunningAnimationLegs;
@@ -100,8 +104,8 @@ public:
 	/** Returns CameraBoom subobject **/
 	FORCEINLINE class USpringArmComponent* GetCameraBoom() const { return CameraBoom; }
 
-	void OnProjectileHit();
-	void OnMeleeHit();
+	void OnProjectileHit(FVector pos);
+	void OnMeleeHit(FVector pos);
 	void OnJump();
 
 	virtual void Landed(const FHitResult& Hit) override;
@@ -118,6 +122,9 @@ private:
 
 	UPROPERTY()
 	bool m_jumping = false;
+
+	UPROPERTY()
+	bool m_wasHit = false;
 
 	void FireProjectile();
 	void CreateMeleeHitbox();

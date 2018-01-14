@@ -10,28 +10,14 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 class UPrimitiveComponent;
 class AActor;
-struct FHitResult;
 struct FVector;
+struct FHitResult;
 #ifdef BANG_MeleeHitbox_generated_h
 #error "MeleeHitbox.generated.h already included, missing '#pragma once' in MeleeHitbox.h"
 #endif
 #define BANG_MeleeHitbox_generated_h
 
 #define Bang_4_17_Source_Bang_MeleeHitbox_h_12_RPC_WRAPPERS \
- \
-	DECLARE_FUNCTION(execOnOverlap) \
-	{ \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComp); \
-		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
-		P_GET_PROPERTY(UIntProperty,Z_Param_OtherBodyIndex); \
-		P_GET_UBOOL(Z_Param_bFromSweep); \
-		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_SweepResult); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		this->OnOverlap(Z_Param_OverlappedComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult); \
-		P_NATIVE_END; \
-	} \
  \
 	DECLARE_FUNCTION(execOnHit) \
 	{ \
@@ -48,20 +34,6 @@ struct FVector;
 
 
 #define Bang_4_17_Source_Bang_MeleeHitbox_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execOnOverlap) \
-	{ \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OverlappedComp); \
-		P_GET_OBJECT(AActor,Z_Param_OtherActor); \
-		P_GET_OBJECT(UPrimitiveComponent,Z_Param_OtherComp); \
-		P_GET_PROPERTY(UIntProperty,Z_Param_OtherBodyIndex); \
-		P_GET_UBOOL(Z_Param_bFromSweep); \
-		P_GET_STRUCT_REF(FHitResult,Z_Param_Out_SweepResult); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		this->OnOverlap(Z_Param_OverlappedComp,Z_Param_OtherActor,Z_Param_OtherComp,Z_Param_OtherBodyIndex,Z_Param_bFromSweep,Z_Param_Out_SweepResult); \
-		P_NATIVE_END; \
-	} \
  \
 	DECLARE_FUNCTION(execOnHit) \
 	{ \
@@ -122,7 +94,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMeleeHitbox); \
 
 
 #define Bang_4_17_Source_Bang_MeleeHitbox_h_12_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__CollisionComp() { return STRUCT_OFFSET(AMeleeHitbox, CollisionComp); }
+	FORCEINLINE static uint32 __PPO__CollisionComp() { return STRUCT_OFFSET(AMeleeHitbox, CollisionComp); } \
+	FORCEINLINE static uint32 __PPO__ProjectileMovement() { return STRUCT_OFFSET(AMeleeHitbox, ProjectileMovement); }
 
 
 #define Bang_4_17_Source_Bang_MeleeHitbox_h_9_PROLOG
