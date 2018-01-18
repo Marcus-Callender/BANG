@@ -17,15 +17,15 @@
 	"BuildProducts" :
 	[
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-Bang-9121.dll",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-Bang-4321.dll",
 			"Type" : "DynamicLibrary"
 		},
 		{
-			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-Bang-9121.pdb",
+			"Path" : "$(ProjectDir)/Binaries/Win64/UE4Editor-Bang-4321.pdb",
 			"Type" : "SymbolFile"
 		},
 		{
-			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-Bang-9121.lib",
+			"Path" : "$(ProjectDir)/Intermediate/Build/Win64/UE4Editor/Development/UE4Editor-Bang-4321.lib",
 			"Type" : "ImportLibrary"
 		},
 		{

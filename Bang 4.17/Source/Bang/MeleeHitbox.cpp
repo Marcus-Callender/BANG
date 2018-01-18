@@ -19,8 +19,8 @@ AMeleeHitbox::AMeleeHitbox()
 	CollisionComp->BodyInstance.SetCollisionProfileName("Projectile");
 
 	// set up a notification for when this component hits something blocking
-	///CollisionComp->OnComponentBeginOverlap.AddDynamic(this, &AMeleeHitbox::OnOverlap);
-	CollisionComp->OnComponentHit.AddDynamic(this, &AMeleeHitbox::OnHit);
+	CollisionComp->OnComponentBeginOverlap.AddDynamic(this, &AMeleeHitbox::OnOverlap);
+	///CollisionComp->OnComponentHit.AddDynamic(this, &AMeleeHitbox::OnHit);
 
 	// Players can't walk on it
 	CollisionComp->SetWalkableSlopeOverride(FWalkableSlopeOverride(WalkableSlope_Unwalkable, 0.f));
@@ -39,7 +39,7 @@ AMeleeHitbox::AMeleeHitbox()
 	InitialLifeSpan = 0.1f;
 }
 
-void AMeleeHitbox::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
+/*void AMeleeHitbox::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {
 	UE_LOG(LogTemp, Log, TEXT("Melee Hit Detected"));
 
@@ -57,9 +57,9 @@ void AMeleeHitbox::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrim
 	}
 
 	Destroy();
-}
+}*/
 
-/*void AMeleeHitbox::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
+void AMeleeHitbox::OnOverlap(UPrimitiveComponent* OverlappedComp, AActor* OtherActor, UPrimitiveComponent* OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult& SweepResult)
 {
 	UE_LOG(LogTemp, Log, TEXT("Melee Hit Detected"));
 
@@ -103,5 +103,5 @@ void AMeleeHitbox::OnHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UPrim
 
 		Destroy();
 	}
-}*/
+}
 

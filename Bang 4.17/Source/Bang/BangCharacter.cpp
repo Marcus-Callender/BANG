@@ -144,7 +144,7 @@ void ABangCharacter::CreateMeleeHitbox()
 			FActorSpawnParameters params;
 			params.Owner = this;
 			params.Instigator = Instigator;
-			params.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::DontSpawnIfColliding;
+			params.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AdjustIfPossibleButAlwaysSpawn;
 
 			FVector SpawnVector = GetActorLocation();
 			FRotator SpawnRotation = GetActorRotation();
