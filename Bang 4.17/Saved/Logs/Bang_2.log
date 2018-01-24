@@ -1,4 +1,4 @@
-﻿Log file open, 01/14/18 13:20:46
+﻿Log file open, 01/18/18 12:10:53
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,9 +7,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Bang
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-34551216) SRandInit(-34551216).
+LogInit: Display: RandInit(-1373724309) SRandInit(-1373724309).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.294853
+LogStats: Stats thread started at 0.969763
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -111,182 +111,179 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.01.14-13.20.49:802][  0]LogInit: Selected Device Profile: [Windows]
-[2018.01.14-13.20.49:802][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.01.14-13.20.49:833][  0]LogInit: Computer: MARCUSPC
-[2018.01.14-13.20.49:834][  0]LogInit: User: Marcus
-[2018.01.14-13.20.49:834][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.01.14-13.20.49:834][  0]LogInit: High frequency timer resolution =2.929685 MHz
-[2018.01.14-13.20.49:835][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2018.01.14-13.20.49:836][  0]LogMemory: Platform Memory Stats for Windows
-[2018.01.14-13.20.49:836][  0]LogMemory: Process Physical Memory: 280.54 MB used, 280.54 MB peak
-[2018.01.14-13.20.49:837][  0]LogMemory: Process Virtual Memory: 276.13 MB used, 276.13 MB peak
-[2018.01.14-13.20.49:837][  0]LogMemory: Physical Memory: 6115.84 MB used,  10220.59 MB free, 16336.43 MB total
-[2018.01.14-13.20.49:838][  0]LogMemory: Virtual Memory: 708.38 MB used,  10220.59 MB free, 134217728.00 MB total
-[2018.01.14-13.20.50:752][  0]LogInit: Using OS detected language (en-US).
-[2018.01.14-13.20.50:752][  0]LogInit: Using OS detected locale (en-GB).
-[2018.01.14-13.20.50:802][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.01.14-13.20.51:809][  0]LogD3D11RHI: D3D11 adapters:
-[2018.01.14-13.20.51:925][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
-[2018.01.14-13.20.51:925][  0]LogD3D11RHI:       1977/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.01.14-13.20.51:988][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.01.14-13.20.51:988][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.01.14-13.20.51:989][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.01.14-13.20.51:994][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.01.14-13.20.51:994][  0]LogD3D11RHI:     GPU DeviceId: 0x1c81 (for the marketing name, search the web for "GPU Device Id")
-[2018.01.14-13.20.51:994][  0]LogWindows: EnumDisplayDevices:
-[2018.01.14-13.20.51:995][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050' (P:1 D:1)
-[2018.01.14-13.20.51:995][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050' (P:0 D:1)
-[2018.01.14-13.20.51:995][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
-[2018.01.14-13.20.51:995][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
-[2018.01.14-13.20.51:995][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.01.14-13.20.51:995][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
-[2018.01.14-13.20.51:995][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.01.14-13.20.51:995][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.01.14-13.20.51:995][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2018.01.14-13.20.52:027][  0]LogD3D11RHI: Async texture creation enabled
-[2018.01.14-13.20.52:043][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.01.14-13.20.52:045][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Intermediate/Shaders/WorkingDirectory/10080/).
-[2018.01.14-13.20.52:045][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Marcus/AppData/Local/Temp/UnrealShaderWorkingDir/51BCA6E0404077A56E2F2B80BDA9FA76/'.
-[2018.01.14-13.20.52:046][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.01.14-13.20.53:323][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.01.14-13.20.53:498][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.01.14-13.20.53:672][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.01.14-13.20.53:849][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.01.14-13.20.54:032][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.01.14-13.20.54:211][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.01.14-13.20.54:390][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.01.14-13.20.54:568][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.01.14-13.20.54:740][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.01.14-13.20.54:922][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.01.14-13.20.55:105][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.01.14-13.20.55:285][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.01.14-13.20.55:465][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.01.14-13.20.55:646][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.01.14-13.20.55:827][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.01.14-13.20.56:201][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.01.14-13.20.56:201][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.01.14-13.20.56:378][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.01.14-13.20.56:693][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.01.14-13.20.56:806][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.01.14-13.20.56:995][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.01.14-13.20.57:184][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.01.14-13.20.57:369][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.01.14-13.20.57:557][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.01.14-13.20.57:557][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.01.14-13.20.59:628][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.01.14-13.20.59:706][  0]LogDerivedDataCache: Loaded boot cache 0.08s 93MB C:/Users/Marcus/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2018.01.14-13.20.59:707][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Marcus/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
-[2018.01.14-13.20.59:707][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.01.14-13.20.59:707][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.01.14-13.20.59:708][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.01.14-13.20.59:708][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.01.14-13.20.59:723][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.01.14-13.20.59:736][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Marcus/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.01.14-13.20.59:746][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.01.14-13.20.59:746][  0]LogSlate: Using Freetype 2.6.0
-[2018.01.14-13.20.59:770][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.01.14-13.20.59:770][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.01.14-13.21.00:091][  0]LogAssetRegistry: FAssetRegistry took 0.0282 seconds to start up
-[2018.01.14-13.21.00:320][  0]LogInit: Selected Device Profile: [Windows]
-[2018.01.14-13.21.00:497][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2018.01.14-13.21.01:516][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.01.14-13.21.01:690][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.01.14-13.21.01:690][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.01.14-13.21.01:691][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.01.14-13.21.01:691][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.01.14-13.21.01:691][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.01.14-13.21.02:196][  0]LogNetVersion: Bang , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1517552222)
-[2018.01.14-13.21.02:644][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.064841 seconds
-[2018.01.14-13.21.02:649][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
-[2018.01.14-13.21.02:649][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
-[2018.01.14-13.21.02:649][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.01.14-13.21.02:937][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.01.14-13.21.10:236][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.01.14-13.21.10:365][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.01.14-13.21.12:961][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.01.14-13.21.14:325][  0]SourceControl: Source control is disabled
-[2018.01.14-13.21.14:325][  0]SourceControl: Source control is disabled
-[2018.01.14-13.21.14:523][  0]SourceControl: Source control is disabled
-[2018.01.14-13.21.14:717][  0]SourceControl: Source control is disabled
-[2018.01.14-13.21.17:199][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.01.14-13.21.18:225][  0]LogOcInput: OculusInput pre-init called
-[2018.01.14-13.21.19:179][  0]LogEngine: Initializing Engine...
-[2018.01.14-13.21.19:181][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.01.14-13.21.19:408][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.01.14-13.21.19:408][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.01.14-13.21.19:936][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.01.14-13.21.19:952][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.01.14-13.21.19:977][  0]LogInit: FAudioDevice initialized.
-[2018.01.14-13.21.20:337][  0]LogDerivedDataCache: Saved boot cache 0.36s 93MB C:/Users/Marcus/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
-[2018.01.14-13.21.20:345][  0]LogInit: Texture streaming: Enabled
-[2018.01.14-13.21.20:895][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.01.14-13.21.21:766][  0]LogInit: Transaction tracking system initialized
-[2018.01.14-13.21.23:100][  0]BlueprintLog: New page: Editor Load
-[2018.01.14-13.21.27:179][  0]LocalizationService: Localization service is disabled
-[2018.01.14-13.21.30:101][  0]LogConsoleResponse: Display: 
-[2018.01.14-13.21.30:450][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.01.14-13.21.30:451][  0]LogCook: Display: Mobile HDR setting 1
-[2018.01.14-13.21.30:451][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.01.14-13.21.30:568][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/' took 0.02s
-[2018.01.14-13.21.34:829][  0]SourceControl: Source control is disabled
-[2018.01.14-13.21.34:830][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.01.14-13.21.34:830][  0]LightingResults: New page: Lighting Build
-[2018.01.14-13.21.35:006][  0]MapCheck: New page: Map Check
-[2018.01.14-13.21.35:007][  0]LightingResults: New page: Lighting Build
-[2018.01.14-13.21.35:457][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
-[2018.01.14-13.21.35:462][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.01.14-13.21.35:475][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.01.14-13.21.35:625][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 150.486ms to complete.
-[2018.01.14-13.21.35:627][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.797
-[2018.01.14-13.21.35:685][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.01.14-13.21.36:055][  0]LogCollectionManager: Loaded 0 collections in 0.002360 seconds
-[2018.01.14-13.21.36:271][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/Collections/' took 0.01s
-[2018.01.14-13.21.36:271][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Developers/Marcus/Collections/' took 0.01s
-[2018.01.14-13.21.36:271][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Collections/' took 0.01s
-[2018.01.14-13.21.36:271][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.01.14-13.21.36:282][  0]LogContentBrowser: Native class hierarchy populated in 0.0108 seconds. Added 2391 classes and 504 folders.
-[2018.01.14-13.21.36:554][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0035 seconds. Added 0 classes and 0 folders.
-[2018.01.14-13.21.36:735][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0036 seconds. Added 0 classes and 0 folders.
-[2018.01.14-13.21.37:789][  0]LogSlate: Took 0.000281 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.01.14-13.21.37:796][  0]LogSlate: Took 0.000232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.01.14-13.21.37:808][  0]LogSlate: Took 0.000224 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.01.14-13.21.37:906][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Bang
-[2018.01.14-13.21.37:906][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
-[2018.01.14-13.21.37:906][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
-[2018.01.14-13.21.37:906][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
-[2018.01.14-13.21.37:906][  0]LogTemp: BranchPath = MARCUSPC/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = MARCUSPC/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
-[2018.01.14-13.21.37:906][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Marcus\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2018.01.14-13.21.37:906][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2018.01.14-13.21.38:171][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0033 seconds. Added 1 classes and 2 folders.
-[2018.01.14-13.21.38:171][  0]LogLoad: (Engine Initialization) Total time: 53.94 seconds
-[2018.01.14-13.21.38:172][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.01.14-13.21.38:172][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2018.01.14-13.21.38:172][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2018.01.14-13.21.38:205][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.01.14-13.21.38:237][  0]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.01.14-13.21.38:324][  1]LogAssetRegistry: Asset discovery search completed in 38.2564 seconds
-[2018.01.14-13.21.38:326][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.01.14-13.21.38:326][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000115 seconds (updated 0 objects)
-[2018.01.14-13.21.43:649][616]LogTemp: Repeating last play command: Selected Viewport
-[2018.01.14-13.21.43:702][616]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
-[2018.01.14-13.21.43:703][616]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.01.14-13.21.43:703][616]PIE: New page: PIE session: 2DSideScrollerExampleMap (14 Jan 2018 13:21:43)
-[2018.01.14-13.21.43:704][616]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
-[2018.01.14-13.21.43:707][616]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002900s)
-[2018.01.14-13.21.43:708][616]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
-[2018.01.14-13.21.43:708][616]LogPlayLevel: PIE: World Init took: (0.000887s)
-[2018.01.14-13.21.43:708][616]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.004909s)
-[2018.01.14-13.21.43:722][616]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
-[2018.01.14-13.21.43:730][616]LogInit: FAudioDevice initialized.
-[2018.01.14-13.21.43:777][616]LogLoad: Game class is 'BangGameMode'
-[2018.01.14-13.21.43:780][616]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2018.01.14-13.21.43
-[2018.01.14-13.21.43:781][616]LogWorld: Bringing up level for play took: 0.002182
-[2018.01.14-13.21.43:990][616]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0038 seconds. Added 11 classes and 0 folders.
-[2018.01.14-13.21.43:991][616]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap -0.198
-[2018.01.14-13.21.43:991][616]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
-[2018.01.14-13.21.57:310][663]LogTemp: Overlaped owner
-[2018.01.14-13.22.18:127][758]LogTemp: Overlaped owner
-[2018.01.14-13.22.19:188][766]LogTemp: Overlaped owner
-[2018.01.14-13.22.19:621][814]LogTemp: Overlaped owner
-[2018.01.14-13.22.19:980][857]LogTemp: Overlaped owner
+[2018.01.18-12.10.57:190][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.18-12.10.57:190][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.18-12.10.57:203][  0]LogInit: Computer: MARCUSPC
+[2018.01.18-12.10.57:203][  0]LogInit: User: Marcus
+[2018.01.18-12.10.57:203][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.18-12.10.57:203][  0]LogInit: High frequency timer resolution =2.929691 MHz
+[2018.01.18-12.10.57:204][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.01.18-12.10.57:204][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.18-12.10.57:204][  0]LogMemory: Process Physical Memory: 280.68 MB used, 280.68 MB peak
+[2018.01.18-12.10.57:204][  0]LogMemory: Process Virtual Memory: 276.14 MB used, 276.14 MB peak
+[2018.01.18-12.10.57:205][  0]LogMemory: Physical Memory: 7621.73 MB used,  8714.70 MB free, 16336.43 MB total
+[2018.01.18-12.10.57:205][  0]LogMemory: Virtual Memory: 708.39 MB used,  8714.70 MB free, 134217728.00 MB total
+[2018.01.18-12.10.58:142][  0]LogInit: Using OS detected language (en-US).
+[2018.01.18-12.10.58:142][  0]LogInit: Using OS detected locale (en-GB).
+[2018.01.18-12.10.58:150][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.01.18-12.10.59:204][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.18-12.10.59:566][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050' (Feature Level 11_0)
+[2018.01.18-12.10.59:566][  0]LogD3D11RHI:       1977/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.01.18-12.10.59:705][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.18-12.10.59:705][  0]LogD3D11RHI:       0/0/8168 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.18-12.10.59:705][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.18-12.10.59:712][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.18-12.10.59:713][  0]LogD3D11RHI:     GPU DeviceId: 0x1c81 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.18-12.10.59:713][  0]LogWindows: EnumDisplayDevices:
+[2018.01.18-12.10.59:713][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1050' (P:1 D:1)
+[2018.01.18-12.10.59:713][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1050' (P:0 D:1)
+[2018.01.18-12.10.59:713][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2018.01.18-12.10.59:713][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050' (P:0 D:0)
+[2018.01.18-12.10.59:713][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.18-12.10.59:714][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050
+[2018.01.18-12.10.59:714][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.18-12.10.59:714][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.18-12.10.59:714][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.18-12.10.59:751][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.18-12.10.59:795][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.01.18-12.10.59:798][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Intermediate/Shaders/WorkingDirectory/10404/).
+[2018.01.18-12.10.59:798][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Marcus/AppData/Local/Temp/UnrealShaderWorkingDir/804938DF4B84053A99E4EFA93EC56E7A/'.
+[2018.01.18-12.10.59:798][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.01.18-12.11.01:342][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.18-12.11.01:541][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.01.18-12.11.01:735][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.18-12.11.01:931][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.01.18-12.11.02:121][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.01.18-12.11.02:311][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.18-12.11.02:499][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.18-12.11.02:691][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.18-12.11.02:874][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.01.18-12.11.03:066][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.01.18-12.11.03:247][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.18-12.11.03:430][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.18-12.11.03:611][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.18-12.11.03:797][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.18-12.11.03:980][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.18-12.11.04:339][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.18-12.11.04:340][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.18-12.11.04:510][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.01.18-12.11.04:809][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.01.18-12.11.04:919][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.01.18-12.11.05:104][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.18-12.11.05:288][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.18-12.11.05:472][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.18-12.11.05:655][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.01.18-12.11.05:655][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.01.18-12.11.07:849][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.01.18-12.11.07:947][  0]LogDerivedDataCache: Loaded boot cache 0.10s 93MB C:/Users/Marcus/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.01.18-12.11.07:947][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Marcus/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2018.01.18-12.11.07:947][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.18-12.11.07:947][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.18-12.11.07:947][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.18-12.11.07:947][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.18-12.11.07:962][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.18-12.11.07:976][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Marcus/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.18-12.11.07:986][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.18-12.11.07:987][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.18-12.11.07:988][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.18-12.11.07:988][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.18-12.11.08:338][  0]LogAssetRegistry: FAssetRegistry took 0.0285 seconds to start up
+[2018.01.18-12.11.08:578][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.18-12.11.09:867][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.18-12.11.10:048][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.18-12.11.10:048][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.18-12.11.10:048][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.01.18-12.11.10:048][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.01.18-12.11.10:048][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.01.18-12.11.10:100][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.18-12.11.10:712][  0]LogNetVersion: Bang , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1517552222)
+[2018.01.18-12.11.11:193][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.068373 seconds
+[2018.01.18-12.11.11:200][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2018.01.18-12.11.11:200][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2018.01.18-12.11.11:200][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.18-12.11.11:503][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.18-12.11.19:020][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.18-12.11.19:155][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.18-12.11.22:172][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.18-12.11.23:578][  0]SourceControl: Source control is disabled
+[2018.01.18-12.11.23:578][  0]SourceControl: Source control is disabled
+[2018.01.18-12.11.23:779][  0]SourceControl: Source control is disabled
+[2018.01.18-12.11.23:986][  0]SourceControl: Source control is disabled
+[2018.01.18-12.11.26:389][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.18-12.11.27:385][  0]LogOcInput: OculusInput pre-init called
+[2018.01.18-12.11.28:339][  0]LogEngine: Initializing Engine...
+[2018.01.18-12.11.28:341][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.18-12.11.28:570][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.18-12.11.28:570][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.18-12.11.29:110][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.18-12.11.29:123][  0]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.18-12.11.29:145][  0]LogInit: FAudioDevice initialized.
+[2018.01.18-12.11.29:306][  0]LogDerivedDataCache: Saved boot cache 0.16s 93MB C:/Users/Marcus/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2018.01.18-12.11.29:318][  0]LogInit: Texture streaming: Enabled
+[2018.01.18-12.11.29:851][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.18-12.11.30:751][  0]LogInit: Transaction tracking system initialized
+[2018.01.18-12.11.32:107][  0]BlueprintLog: New page: Editor Load
+[2018.01.18-12.11.36:067][  0]LocalizationService: Localization service is disabled
+[2018.01.18-12.11.38:976][  0]LogConsoleResponse: Display: 
+[2018.01.18-12.11.39:292][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.18-12.11.39:292][  0]LogCook: Display: Mobile HDR setting 1
+[2018.01.18-12.11.39:292][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.01.18-12.11.39:412][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/' took 0.02s
+[2018.01.18-12.11.43:686][  0]SourceControl: Source control is disabled
+[2018.01.18-12.11.43:686][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.18-12.11.43:687][  0]LightingResults: New page: Lighting Build
+[2018.01.18-12.11.43:862][  0]MapCheck: New page: Map Check
+[2018.01.18-12.11.43:862][  0]LightingResults: New page: Lighting Build
+[2018.01.18-12.11.44:185][  0]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.01.18-12.11.44:189][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.18-12.11.44:205][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.18-12.11.44:354][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 148.388ms to complete.
+[2018.01.18-12.11.44:354][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.667
+[2018.01.18-12.11.44:420][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.01.18-12.11.44:782][  0]LogCollectionManager: Loaded 0 collections in 0.002575 seconds
+[2018.01.18-12.11.45:004][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Saved/Collections/' took 0.01s
+[2018.01.18-12.11.45:004][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Developers/Marcus/Collections/' took 0.01s
+[2018.01.18-12.11.45:004][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Marcus/Documents/GitHub/BANG/Bang 4.17/Content/Collections/' took 0.01s
+[2018.01.18-12.11.45:005][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.01.18-12.11.45:016][  0]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 2391 classes and 504 folders.
+[2018.01.18-12.11.45:293][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0031 seconds. Added 0 classes and 0 folders.
+[2018.01.18-12.11.45:380][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0033 seconds. Added 0 classes and 0 folders.
+[2018.01.18-12.11.46:608][  0]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.18-12.11.46:614][  0]LogSlate: Took 0.000537 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.18-12.11.46:619][  0]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.18-12.11.46:766][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Bang
+[2018.01.18-12.11.46:766][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.01.18-12.11.46:766][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.17
+[2018.01.18-12.11.46:766][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.17\Engine\Binaries\DotNET\IOS
+[2018.01.18-12.11.46:766][  0]LogTemp: BranchPath = MARCUSPC/C/Program Files/Epic Games/UE_4.17/Engine/Binaries --- GameBranchPath = MARCUSPC/C/Program Files/Epic Games/UE_4.17/Engine/Binaries
+[2018.01.18-12.11.46:766][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Marcus\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.01.18-12.11.46:766][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2018.01.18-12.11.47:069][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0036 seconds. Added 1 classes and 2 folders.
+[2018.01.18-12.11.47:070][  0]LogLoad: (Engine Initialization) Total time: 56.22 seconds
+[2018.01.18-12.11.47:071][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.01.18-12.11.47:071][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2018.01.18-12.11.47:071][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2018.01.18-12.11.47:104][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.18-12.11.47:137][  0]LogSlate: Took 0.000282 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.18-12.11.47:214][  1]LogAssetRegistry: Asset discovery search completed in 38.8998 seconds
+[2018.01.18-12.11.47:217][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.01.18-12.11.47:217][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000148 seconds (updated 0 objects)
+[2018.01.18-12.11.55:854][ 14]LogTemp: Repeating last play command: Selected Viewport
+[2018.01.18-12.11.55:904][ 14]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.01.18-12.11.55:905][ 14]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.18-12.11.55:907][ 14]PIE: New page: PIE session: 2DSideScrollerExampleMap (18 Jan 2018 12:11:55)
+[2018.01.18-12.11.55:907][ 14]LogPlayLevel: Creating play world package: /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap
+[2018.01.18-12.11.55:910][ 14]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002818s)
+[2018.01.18-12.11.55:913][ 14]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2018.01.18-12.11.55:914][ 14]LogPlayLevel: PIE: World Init took: (0.001799s)
+[2018.01.18-12.11.55:916][ 14]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.008614s)
+[2018.01.18-12.11.55:928][ 14]LogInit: XAudio2 using 'Digital Audio (S/PDIF) (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.18-12.11.55:936][ 14]LogInit: FAudioDevice initialized.
+[2018.01.18-12.11.55:982][ 14]LogLoad: Game class is 'BangGameMode'
+[2018.01.18-12.11.55:985][ 14]LogWorld: Bringing World /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2018.01.18-12.11.55
+[2018.01.18-12.11.55:986][ 14]LogWorld: Bringing up level for play took: 0.002242
+[2018.01.18-12.11.56:167][ 14]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0032 seconds. Added 11 classes and 0 folders.
+[2018.01.18-12.11.56:168][ 14]PIE: Play in editor start time for /Game/2DSideScrollerCPP/Maps/UEDPIE_0_2DSideScrollerExampleMap 0.112
+[2018.01.18-12.11.56:169][ 14]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerCPP/Maps/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2018.01.18-12.11.57:709][192]LogTemp: Ranged Hit Detected
+[2018.01.18-12.11.57:709][192]LogTemp: I was hit
