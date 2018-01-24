@@ -144,14 +144,17 @@ void ABangCharacter::CreateMeleeHitbox()
 			FActorSpawnParameters params;
 			params.Owner = this;
 			params.Instigator = Instigator;
-			params.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::DontSpawnIfColliding;
+			params.SpawnCollisionHandlingOverride = ESpawnActorCollisionHandlingMethod::AlwaysSpawn;
 
 			FVector SpawnVector = GetActorLocation();
 			FRotator SpawnRotation = GetActorRotation();
 
 			AMeleeHitbox* hitbox = world->SpawnActor<AMeleeHitbox>(m_meleeHitbox, SpawnVector + FVector(m_meleeOffset, 0.0f, 0.0f) * (SpawnRotation == FRotator::ZeroRotator ? 1.0f : -1.0f), SpawnRotation, params);
 			
-			hitbox->AttachRootComponentToActor(this, TEXT("MeleeSocket"), EAttachLocation::KeepWorldPosition, false);
+			if (hitbox)
+			{
+				hitbox->AttachRootComponentToActor(this, TEXT("MeleeSocket"), EAttachLocation::KeepWorldPosition, false);
+			}
 		}
 	}
 }

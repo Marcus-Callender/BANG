@@ -1,73 +1,70 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <None Include="..\..\Bang.uproject" />
-    <Filter Include="Source">
-      <UniqueIdentifier>{94870231-E6EB-4D49-A703-3C7FDDA47258}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\Bang.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <None Include="..\..\Source\BangEditor.Target.cs">
-      <Filter>Source</Filter>
-    </None>
-    <Filter Include="Config">
-      <UniqueIdentifier>{0CED6AB1-99DD-4E14-B7D5-B09E80C36D8C}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Config\DefaultEditor.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultEngine.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultGame.ini">
-      <Filter>Config</Filter>
-    </None>
-    <None Include="..\..\Config\DefaultInput.ini">
-      <Filter>Config</Filter>
-    </None>
-    <Filter Include="Source\Bang">
-      <UniqueIdentifier>{932F530C-430A-40B7-A8E9-F6E3F7E00196}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Source\Bang\Bang.Build.cs">
-      <Filter>Source\Bang</Filter>
-    </None>
-    <ClCompile Include="..\..\Source\Bang\Bang.cpp">
-      <Filter>Source\Bang</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Bang\Bang.h">
-      <Filter>Source\Bang</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Bang\BangCharacter.cpp">
-      <Filter>Source\Bang</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Bang\BangCharacter.h">
-      <Filter>Source\Bang</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Source\Bang\BangGameMode.cpp">
-      <Filter>Source\Bang</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\Bang\BangGameMode.h">
-      <Filter>Source\Bang</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\Bang\PistolBulletActor.h">
-      <Filter>Source\Bang</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Bang\MeleeHitbox.h">
-      <Filter>Source\Bang</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\Bang\PistolBulletActor.cpp">
-      <Filter>Source\Bang</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Bang\MeleeHitbox.cpp">
-      <Filter>Source\Bang</Filter>
-    </ClCompile>
-  </ItemGroup>
+	<ItemGroup>
+		<None Include="..\..\Bang.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{251A7CD8-F375-4298-8874-645FCF58006C}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Bang.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\BangEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{13CB6FF8-67B2-4226-AC8F-F4112FA603FA}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\Bang">
+			<UniqueIdentifier>{CD21B024-0629-4B8F-83A9-50D0F3E32456}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Bang\Bang.Build.cs">
+			<Filter>Source\Bang</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Bang\Bang.cpp">
+			<Filter>Source\Bang</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Bang\Bang.h">
+			<Filter>Source\Bang</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Bang\BangCharacter.cpp">
+			<Filter>Source\Bang</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Bang\BangCharacter.h">
+			<Filter>Source\Bang</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Bang\BangGameMode.cpp">
+			<Filter>Source\Bang</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Bang\BangGameMode.h">
+			<Filter>Source\Bang</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Bang\MeleeHitbox.cpp">
+			<Filter>Source\Bang</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Bang\MeleeHitbox.h">
+			<Filter>Source\Bang</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Bang\PistolBulletActor.cpp">
+			<Filter>Source\Bang</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Bang\PistolBulletActor.h">
+			<Filter>Source\Bang</Filter>
+		</ClInclude >
+	</ItemGroup>
 </Project>
